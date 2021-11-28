@@ -4,6 +4,10 @@
     "name": "Bulbasaur",
     "type1": "Grass",
     "type2": "Poison",
+    "weak1": "Fire",
+    "weak2": "Psychic",
+    "weak3": "Flying",
+    "weak4": "Ice",
     "total": 318,
     "hp": 45,
     "attack": 49,
@@ -13,7 +17,9 @@
     "speed": 45,
     "generation": 1,
     "legendary": false,
-    "image": "Bulbasaur.png"
+    "image": "Bulbasaur.png",
+    "evo1": "Ivysaur.png",
+    "evo2": "Venusaur.png"
   },
   {
     "id": 2,

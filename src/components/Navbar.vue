@@ -14,9 +14,6 @@
       </button>
       <div class="collapse navbar-collapse" id="navbar">
         <div class="navbar-nav">
-          <router-link :to="{ name: 'Intro' }" class="nav-link"
-            >Introduction</router-link
-          >
           <router-link :to="{ name: 'Main' }" class="nav-link"
             >Main</router-link
           >
@@ -28,7 +25,7 @@
 
 <script>
 export default {
-  name: "Navbar",
+  name: 'Navbar',
   props: {
     expandSize: String,
     links: Array

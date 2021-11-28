@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/REPLACE_ME/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/vue-pokedex/" : "/",
   pluginOptions: {
     s3Deploy: {
       registry: undefined,
@@ -13,12 +13,12 @@ module.exports = {
       staticErrorPage: "index.html",
       assetPath: "dist",
       assetMatch: "**",
-      deployPath: "/REPLACE_ME/",
+      deployPath: "/vue-pokedex/",
       acl: "public-read",
       pwa: false,
       enableCloudfront: true,
       cloudfrontId: "E25V8K87R8LY63",
-      cloudfrontMatchers: "/REPLACE_ME",
+      cloudfrontMatchers: "/vue-pokedex",
       pluginVersion: "4.0.0-rc3",
       uploadConcurrency: 5
     }

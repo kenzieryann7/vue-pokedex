@@ -243,10 +243,14 @@
               <br />
               <div class="mb-3">
                 <div class="fw-bold mb-2">Weaknesses</div>
+                <span v-if="!selectedPokemon?.weak1"
+                  >No weakness recorded.</span
+                >
                 <!-- WEAKNESS 1 -->
                 <h5>
                   <span
-                    class="badge bg-lg me-2"
+                    v-if="selectedPokemon?.weak1"
+                    class="badge bg-lg m-1"
                     :class="{
                       normal: selectedPokemon?.weak1 == 'Normal',
                       fire: selectedPokemon?.weak1 == 'Fire',
@@ -272,7 +276,8 @@
 
                   <!-- WEAKNESS 2 -->
                   <span
-                    class="badge me-2"
+                    v-if="selectedPokemon?.weak2"
+                    class="badge m-1"
                     :class="{
                       normal: selectedPokemon?.weak2 == 'Normal',
                       fire: selectedPokemon?.weak2 == 'Fire',
@@ -297,7 +302,8 @@
                   >
                   <!-- WEAKNESS 3 -->
                   <span
-                    class="badge me-2"
+                    v-if="selectedPokemon?.weak3"
+                    class="badge m-1"
                     :class="{
                       normal: selectedPokemon?.weak3 == 'Normal',
                       fire: selectedPokemon?.weak3 == 'Fire',
@@ -322,7 +328,8 @@
                   >
                   <!-- WEAKNESS 4 -->
                   <span
-                    class="badge"
+                    v-if="selectedPokemon?.weak4"
+                    class="badge m-1"
                     :class="{
                       normal: selectedPokemon?.weak4 == 'Normal',
                       fire: selectedPokemon?.weak4 == 'Fire',
@@ -344,6 +351,84 @@
                       fairy: selectedPokemon?.weak4 == 'Fairy'
                     }"
                     >{{ selectedPokemon?.weak4 }}</span
+                  >
+                  <!-- WEAKNESS 5 -->
+                  <span
+                    v-if="selectedPokemon?.weak5"
+                    class="badge m-1"
+                    :class="{
+                      normal: selectedPokemon?.weak5 == 'Normal',
+                      fire: selectedPokemon?.weak5 == 'Fire',
+                      water: selectedPokemon?.weak5 == 'Water',
+                      grass: selectedPokemon?.weak5 == 'Grass',
+                      electric: selectedPokemon?.weak5 == 'Electric',
+                      ice: selectedPokemon?.weak5 == 'Ice',
+                      fighting: selectedPokemon?.weak5 == 'Fighting',
+                      poison: selectedPokemon?.weak5 == 'Poison',
+                      ground: selectedPokemon?.weak5 == 'Ground',
+                      flying: selectedPokemon?.weak5 == 'Flying',
+                      psychic: selectedPokemon?.weak5 == 'Psychic',
+                      bug: selectedPokemon?.weak5 == 'Bug',
+                      rock: selectedPokemon?.weak5 == 'Rock',
+                      ghost: selectedPokemon?.weak5 == 'Ghost',
+                      dragon: selectedPokemon?.weak5 == 'Dragon',
+                      dark: selectedPokemon?.weak5 == 'Dark',
+                      steel: selectedPokemon?.weak5 == 'Steel',
+                      fairy: selectedPokemon?.weak5 == 'Fairy'
+                    }"
+                    >{{ selectedPokemon?.weak5 }}</span
+                  >
+                  <!-- WEAKNESS 6 -->
+                  <span
+                    v-if="selectedPokemon?.weak6"
+                    class="badge m-1"
+                    :class="{
+                      normal: selectedPokemon?.weak6 == 'Normal',
+                      fire: selectedPokemon?.weak6 == 'Fire',
+                      water: selectedPokemon?.weak6 == 'Water',
+                      grass: selectedPokemon?.weak6 == 'Grass',
+                      electric: selectedPokemon?.weak6 == 'Electric',
+                      ice: selectedPokemon?.weak6 == 'Ice',
+                      fighting: selectedPokemon?.weak6 == 'Fighting',
+                      poison: selectedPokemon?.weak6 == 'Poison',
+                      ground: selectedPokemon?.weak6 == 'Ground',
+                      flying: selectedPokemon?.weak6 == 'Flying',
+                      psychic: selectedPokemon?.weak6 == 'Psychic',
+                      bug: selectedPokemon?.weak6 == 'Bug',
+                      rock: selectedPokemon?.weak6 == 'Rock',
+                      ghost: selectedPokemon?.weak6 == 'Ghost',
+                      dragon: selectedPokemon?.weak6 == 'Dragon',
+                      dark: selectedPokemon?.weak6 == 'Dark',
+                      steel: selectedPokemon?.weak6 == 'Steel',
+                      fairy: selectedPokemon?.weak6 == 'Fairy'
+                    }"
+                    >{{ selectedPokemon?.weak6 }}</span
+                  >
+                  <!-- WEAKNESS 7 -->
+                  <span
+                    v-if="selectedPokemon?.weak7"
+                    class="badge m-1"
+                    :class="{
+                      normal: selectedPokemon?.weak7 == 'Normal',
+                      fire: selectedPokemon?.weak7 == 'Fire',
+                      water: selectedPokemon?.weak7 == 'Water',
+                      grass: selectedPokemon?.weak7 == 'Grass',
+                      electric: selectedPokemon?.weak7 == 'Electric',
+                      ice: selectedPokemon?.weak7 == 'Ice',
+                      fighting: selectedPokemon?.weak7 == 'Fighting',
+                      poison: selectedPokemon?.weak7 == 'Poison',
+                      ground: selectedPokemon?.weak7 == 'Ground',
+                      flying: selectedPokemon?.weak7 == 'Flying',
+                      psychic: selectedPokemon?.weak7 == 'Psychic',
+                      bug: selectedPokemon?.weak7 == 'Bug',
+                      rock: selectedPokemon?.weak7 == 'Rock',
+                      ghost: selectedPokemon?.weak7 == 'Ghost',
+                      dragon: selectedPokemon?.weak7 == 'Dragon',
+                      dark: selectedPokemon?.weak7 == 'Dark',
+                      steel: selectedPokemon?.weak7 == 'Steel',
+                      fairy: selectedPokemon?.weak7 == 'Fairy'
+                    }"
+                    >{{ selectedPokemon?.weak7 }}</span
                   >
                 </h5>
               </div>

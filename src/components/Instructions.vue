@@ -1,6 +1,6 @@
 <template>
   <div class="alert alert-bg shadow" role="alert">
-    A simple primary alert—check it out!
+    This Pokédex shows Generation 1 Pokémon
   </div>
 </template>
 

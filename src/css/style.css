@@ -1,28 +1,137 @@
 #app {
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  font-weight:400;
+  font-weight: 400;
+}
+
+body {
+  background: #3d7dca;
 }
 
 .fw3 {
-  font-weight:300;
+  font-weight: 300;
 }
 
 .fw4 {
-  font-weight:400;
+  font-weight: 400;
 }
 
 .fw6 {
-  font-weight:600;
+  font-weight: 600;
 }
 
 .fw7 {
-  font-weight:700;
+  font-weight: 700;
 }
 
 .boxshadow {
-    box-shadow: rgba(0, 0, 0, 0.05) 1px 4px 1px;
+  box-shadow: rgba(0, 0, 0, 0.05) 1px 4px 1px;
+}
+
+.modal-bg {
+  background-color: #003a70;
+  color: white;
+}
+
+.bg-poke-light {
+  background-color: #ffcb05;
+}
+
+.poke-btn {
+  background-color: #003a70;
+  color: white;
+}
+
+.poke-btn:hover {
+  background-color: #ffcb05;
+  color: black;
+  border: 1px solid #003a70;
+}
+
+.poke-btn2 {
+  background-color: #ffcb05;
+  color: black;
+}
+
+.poke-btn2:hover {
+  background-color: #e4b600;
+  color: black;
+  border: 1px solid white;
+}
+
+/* TYPE COLORS */
+.normal {
+  background-color: #a8a77a;
+  color: white;
+}
+.fire {
+  background-color: #ee8130;
+  color: white;
+}
+.water {
+  background-color: #6390f0;
+  color: white;
+}
+.grass {
+  background-color: #7ac74c;
+  color: white;
+}
+.electric {
+  background-color: #f7d02c;
+  color: white;
+}
+.ice {
+  background-color: #96d9d6;
+  color: white;
+}
+.fighting {
+  background-color: #c22e28;
+  color: white;
+}
+.poison {
+  background-color: #a33ea1;
+  color: white;
+}
+.ground {
+  background-color: #e2bf65;
+  color: white;
+}
+.flying {
+  background-color: #a98ff3;
+  color: white;
+}
+.psychic {
+  background-color: #f95587;
+  color: white;
+}
+.bug {
+  background-color: #a6b91a;
+  color: white;
+}
+.rock {
+  background-color: #b6a136;
+  color: white;
+}
+.ghost {
+  background-color: #735797;
+  color: white;
+}
+.dragon {
+  background-color: #6f35fc;
+  color: white;
+}
+.dark {
+  background-color: #705746;
+  color: white;
+}
+.steel {
+  background-color: #b7b7ce;
+  color: white;
+}
+.fairy {
+  background-color: #d685ad;
+  color: white;
 }

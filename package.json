@@ -1,15 +1,11 @@
 {
-  "name": "vue3-bootstrap5-boilerplate",
+  "name": "vue-pokedex",
   "version": "1.0.0",
   "private": true,
   "contributors": [
     {
-      "name": "Nick Breslin",
-      "email": "nick.breslin@oregonstate.edu"
-    },
-    {
-      "name": "Ian Band",
-      "email": "contact@ian.band"
+      "name": "Makenzie Noggle",
+      "email": "makenzienoggle@gmail.com"
     }
   ],
   "license": "UNLICENSED",

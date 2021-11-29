@@ -187,34 +187,54 @@
             </div>
             <div class="col">
               <table
-                class="table table-sm bg-light table-striped text-start border border-dark border-2 m-0 shadow"
+                class="table table-sm bg-light table-striped border border-dark border-2 m-0 shadow text-start"
               >
-                <thead class="bg-dark text-white">
+                <thead class="bg-dark text-white ">
                   <tr>
                     <th scope="col">Quick Info</th>
                     <th scope="col"></th>
                   </tr>
                 </thead>
-                <tbody class="">
+                <tbody>
                   <tr>
                     <td>Height</td>
-                    <td>{{ selectedPokemon?.hp }}</td>
+                    <td>
+                      <span v-if="selectedPokemon?.height">
+                        {{ selectedPokemon?.height }}</span
+                      >
+                    </td>
                   </tr>
                   <tr>
                     <td>Weight</td>
-                    <td>{{ selectedPokemon?.attack }}</td>
+                    <td>
+                      <span v-if="selectedPokemon?.weight">
+                        {{ selectedPokemon?.weight }}</span
+                      >
+                    </td>
                   </tr>
                   <tr>
                     <td>Category</td>
-                    <td>{{ selectedPokemon?.defense }}</td>
+                    <td>
+                      <span v-if="selectedPokemon?.category">
+                        {{ selectedPokemon?.category }}</span
+                      >
+                    </td>
                   </tr>
                   <tr>
                     <td>Abilities</td>
-                    <td>{{ selectedPokemon?.spAttack }}</td>
+                    <td>
+                      <span v-if="selectedPokemon?.abilities">
+                        {{ selectedPokemon?.abilities }}</span
+                      >
+                    </td>
                   </tr>
                   <tr>
                     <td>Gender</td>
-                    <td>{{ selectedPokemon?.spDefense }}</td>
+                    <td>
+                      <span v-if="selectedPokemon?.gender">{{
+                        selectedPokemon?.gender
+                      }}</span>
+                    </td>
                   </tr>
                 </tbody>
               </table>

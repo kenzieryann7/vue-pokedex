@@ -18,7 +18,9 @@
                 autocomplete="off"
                 checked
               />
-              <label class="btn btn-outline-primary" for="btnradio1">A-Z</label>
+              <label class="btn btn-outline-primary" for="btnradio1"
+                ><i class="bi bi-sort-alpha-down h4"></i
+              ></label>
 
               <input
                 type="radio"
@@ -27,7 +29,9 @@
                 id="btnradio2"
                 autocomplete="off"
               />
-              <label class="btn btn-outline-primary" for="btnradio2">Z-A</label>
+              <label class="btn btn-outline-primary" for="btnradio2"
+                ><i class="bi bi-sort-alpha-up h4"></i
+              ></label>
 
               <input
                 type="radio"

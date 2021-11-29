@@ -188,8 +188,7 @@
             </div>
             <div class="col text-start">
               <div>
-                <span class="fw-bold">Type</span>
-                <br />
+                <div class="fw-bold mb-2">Type</div>
                 <h5>
                   <span
                     class="badge me-2"
@@ -243,8 +242,7 @@
               </div>
               <br />
               <div class="mb-3">
-                <span class="fw-bold">Weaknesses</span>
-                <br />
+                <div class="fw-bold mb-2">Weaknesses</div>
                 <!-- WEAKNESS 1 -->
                 <h5>
                   <span
@@ -350,25 +348,39 @@
                 </h5>
               </div>
               <div>
-                <span class="fw-bold">Evolution</span>
-                <br />
-                <img
-                  v-if="selectedPokemon?.image"
-                  class="img-fluid evo-img"
-                  :src="require('@/assets/poke-imgs/' + selectedPokemon?.image)"
-                />
-                <i class="bi bi-arrow-right h1 ms-2 me-2"></i>
+                <div class="fw-bold mb-2">Evolutions</div>
+                <span v-if="!selectedPokemon?.evo1"
+                  >This Pokémon does not evolve.</span
+                >
                 <img
                   v-if="selectedPokemon?.evo1"
                   class="img-fluid evo-img"
                   :src="require('@/assets/poke-imgs/' + selectedPokemon?.evo1)"
                 />
-                <i class="bi bi-arrow-right h1 ms-2 me-2"></i>
-                <img
-                  v-if="selectedPokemon?.evo2"
-                  class="img-fluid evo-img"
-                  :src="require('@/assets/poke-imgs/' + selectedPokemon?.evo2)"
-                />
+                <span v-if="selectedPokemon?.evo2">
+                  <i class="bi bi-arrow-right h1 ms-2 me-2"></i>
+                  <img
+                    class="img-fluid evo-img"
+                    :src="
+                      require('@/assets/poke-imgs/' + selectedPokemon?.evo2)
+                    "
+                /></span>
+                <span v-if="selectedPokemon?.evo3">
+                  <i class="bi bi-arrow-right h1 ms-2 me-2"></i>
+                  <img
+                    class="img-fluid evo-img"
+                    :src="
+                      require('@/assets/poke-imgs/' + selectedPokemon?.evo3)
+                    "
+                /></span>
+                <span v-if="selectedPokemon?.evo4">
+                  <i class="bi bi-arrow-right h1 ms-2 me-2"></i>
+                  <img
+                    class="img-fluid evo-img"
+                    :src="
+                      require('@/assets/poke-imgs/' + selectedPokemon?.evo4)
+                    "
+                /></span>
               </div>
             </div>
           </div>
@@ -422,6 +434,6 @@ export default {
   height: 210px;
 }
 .evo-img {
-  width: 80px;
+  width: 85px;
 }
 </style>

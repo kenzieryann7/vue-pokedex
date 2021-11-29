@@ -69,26 +69,6 @@
     "evo3": "Venusaur.png"
   },
   {
-    "id": 3,
-    "name": "Mega Venusaur",
-    "type1": "Grass",
-    "type2": "Poison",
-    "weak1": "Fire",
-    "weak2": "Psychic",
-    "weak3": "Flying",
-    "weak4": "Ice",
-    "total": 625,
-    "hp": 80,
-    "attack": 100,
-    "defense": 123,
-    "spAttack": 122,
-    "spDefense": 120,
-    "speed": 80,
-    "generation": 1,
-    "legendary": false,
-    "image": "Venusaur-Mega.png"
-  },
-  {
     "id": 4,
     "name": "Charmander",
     "type1": "Fire",
@@ -155,44 +135,6 @@
     "evo3": "Charizard.png"
   },
   {
-    "id": 6,
-    "name": "Mega Charizard X",
-    "type1": "Fire",
-    "type2": "Dragon",
-    "weak1": "Water",
-    "weak2": "Ground",
-    "weak3": "Rock",
-    "total": 634,
-    "hp": 78,
-    "attack": 130,
-    "defense": 111,
-    "spAttack": 130,
-    "spDefense": 85,
-    "speed": 100,
-    "generation": 1,
-    "legendary": false,
-    "image": "Charizard-Mega_X.png"
-  },
-  {
-    "id": 6,
-    "name": "Mega Charizard Y",
-    "type1": "Fire",
-    "type2": "Flying",
-    "weak1": "Water",
-    "weak2": "Ground",
-    "weak3": "Rock",
-    "total": 634,
-    "hp": 78,
-    "attack": 104,
-    "defense": 78,
-    "spAttack": 159,
-    "spDefense": 115,
-    "speed": 100,
-    "generation": 1,
-    "legendary": false,
-    "image": "Charizard-Mega_Y.png"
-  },
-  {
     "id": 7,
     "name": "Squirtle",
     "type1": "Water",
@@ -254,22 +196,6 @@
     "evo1": "Squirtle.png",
     "evo2": "Wartortle.png",
     "evo3": "Blastoise.png"
-  },
-  {
-    "id": 9,
-    "name": "Mega Blastoise",
-    "type1": "Water",
-    "type2": "",
-    "total": 630,
-    "hp": 79,
-    "attack": 103,
-    "defense": 120,
-    "spAttack": 135,
-    "spDefense": 115,
-    "speed": 78,
-    "generation": 1,
-    "legendary": false,
-    "image": "Blastoise-Mega.png"
   },
   {
     "id": 10,
@@ -409,22 +335,6 @@
     "evo3": "Beedrill.png"
   },
   {
-    "id": 15,
-    "name": "Mega Beedrill",
-    "type1": "Bug",
-    "type2": "Poison",
-    "total": 495,
-    "hp": 65,
-    "attack": 150,
-    "defense": 40,
-    "spAttack": 15,
-    "spDefense": 80,
-    "speed": 145,
-    "generation": 1,
-    "legendary": false,
-    "image": "Beedrill-Mega.png"
-  },
-  {
     "id": 16,
     "name": "Pidgey",
     "type1": "Normal",
@@ -489,22 +399,6 @@
     "evo1": "Pidgey.png",
     "evo2": "Pidgeotto.png",
     "evo3": "Pidgeot.png"
-  },
-  {
-    "id": 18,
-    "name": "Mega Pidgeot",
-    "type1": "Normal",
-    "type2": "Flying",
-    "total": 579,
-    "hp": 83,
-    "attack": 80,
-    "defense": 80,
-    "spAttack": 135,
-    "spDefense": 80,
-    "speed": 121,
-    "generation": 1,
-    "legendary": false,
-    "image": "Pidgeot-Mega.png"
   },
   {
     "id": 19,
@@ -1500,22 +1394,6 @@
     "evo3": "Alakazam.png"
   },
   {
-    "id": 65,
-    "name": "Mega Alakazam",
-    "type1": "Psychic",
-    "type2": "",
-    "total": 590,
-    "hp": 55,
-    "attack": 50,
-    "defense": 65,
-    "spAttack": 175,
-    "spDefense": 95,
-    "speed": 150,
-    "generation": 1,
-    "legendary": false,
-    "image": "Alakazam-Mega.png"
-  },
-  {
     "id": 66,
     "name": "Machop",
     "type1": "Fighting",
@@ -1856,22 +1734,6 @@
     "evo2": "Slowbro.png"
   },
   {
-    "id": 80,
-    "name": "Mega Slowbro",
-    "type1": "Water",
-    "type2": "Psychic",
-    "total": 590,
-    "hp": 95,
-    "attack": 75,
-    "defense": 180,
-    "spAttack": 130,
-    "spDefense": 80,
-    "speed": 30,
-    "generation": 1,
-    "legendary": false,
-    "image": "Slowbro-Mega.png"
-  },
-  {
     "id": 81,
     "name": "Magnemite",
     "type1": "Electric",
@@ -2164,22 +2026,6 @@
     "evo1": "Gastly.png",
     "evo2": "Haunter.png",
     "evo3": "Gengar.png"
-  },
-  {
-    "id": 94,
-    "name": "Mega Gengar",
-    "type1": "Ghost",
-    "type2": "Poison",
-    "total": 600,
-    "hp": 60,
-    "attack": 65,
-    "defense": 80,
-    "spAttack": 170,
-    "spDefense": 95,
-    "speed": 130,
-    "generation": 1,
-    "legendary": false,
-    "image": "Gengar-Mega.png"
   },
   {
     "id": 95,
@@ -2618,22 +2464,6 @@
     "image": "Kangaskhan.png"
   },
   {
-    "id": 115,
-    "name": "Mega Kangaskhan",
-    "type1": "Normal",
-    "type2": "",
-    "total": 590,
-    "hp": 105,
-    "attack": 125,
-    "defense": 100,
-    "spAttack": 60,
-    "spDefense": 100,
-    "speed": 100,
-    "generation": 1,
-    "legendary": false,
-    "image": "Kangaskhan-Mega.png"
-  },
-  {
     "id": 116,
     "name": "Horsea",
     "type1": "Water",
@@ -2874,22 +2704,6 @@
     "image": "Pinsir.png"
   },
   {
-    "id": 127,
-    "name": "Mega Pinsir",
-    "type1": "Bug",
-    "type2": "Flying",
-    "total": 600,
-    "hp": 65,
-    "attack": 155,
-    "defense": 120,
-    "spAttack": 65,
-    "spDefense": 90,
-    "speed": 105,
-    "generation": 1,
-    "legendary": false,
-    "image": "Pinsir-Mega.png"
-  },
-  {
     "id": 128,
     "name": "Tauros",
     "type1": "Normal",
@@ -2945,22 +2759,6 @@
     "image": "Gyarados.png",
     "evo1": "Magikarp.png",
     "evo2": "Gyarados.png"
-  },
-  {
-    "id": 130,
-    "name": "Mega Gyarados",
-    "type1": "Water",
-    "type2": "Dark",
-    "total": 640,
-    "hp": 95,
-    "attack": 155,
-    "defense": 109,
-    "spAttack": 70,
-    "spDefense": 130,
-    "speed": 81,
-    "generation": 1,
-    "legendary": false,
-    "image": "Gyarados-Mega.png"
   },
   {
     "id": 131,
@@ -3213,22 +3011,6 @@
     "image": "Aerodactyl.png"
   },
   {
-    "id": 142,
-    "name": "Mega Aerodactyl",
-    "type1": "Rock",
-    "type2": "Flying",
-    "total": 615,
-    "hp": 80,
-    "attack": 135,
-    "defense": 85,
-    "spAttack": 70,
-    "spDefense": 95,
-    "speed": 150,
-    "generation": 1,
-    "legendary": false,
-    "image": "Aerodactyl-Mega.png"
-  },
-  {
     "id": 143,
     "name": "Snorlax",
     "type1": "Normal",
@@ -3387,38 +3169,6 @@
     "generation": 1,
     "legendary": true,
     "image": "Mewtwo.png"
-  },
-  {
-    "id": 150,
-    "name": "Mega Mewtwo X",
-    "type1": "Psychic",
-    "type2": "Fighting",
-    "total": 780,
-    "hp": 106,
-    "attack": 190,
-    "defense": 100,
-    "spAttack": 154,
-    "spDefense": 100,
-    "speed": 130,
-    "generation": 1,
-    "legendary": true,
-    "image": "Mewtwo-Mega_X.png"
-  },
-  {
-    "id": 150,
-    "name": "Mega Mewtwo Y",
-    "type1": "Psychic",
-    "type2": "",
-    "total": 780,
-    "hp": 106,
-    "attack": 150,
-    "defense": 70,
-    "spAttack": 194,
-    "spDefense": 120,
-    "speed": 140,
-    "generation": 1,
-    "legendary": true,
-    "image": "Mewtwo-Mega_Y.png"
   },
   {
     "id": 151,

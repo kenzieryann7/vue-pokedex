@@ -4869,5 +4869,1088 @@
         "image": "Persian.png"
       }
     ]
+  },
+  {
+    "id": 54,
+    "name": "Psyduck",
+    "description": "Psyduck is constantly beset by headaches. If the Pokémon lets its strange power erupt, apparently the pain subsides for a while.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "43.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Duck"
+      },
+      {
+        "label": "Abilities",
+        "info": "Damp, Cloud Nine"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 50
+      },
+      {
+        "label": "Attack",
+        "amount": 52
+      },
+      {
+        "label": "Defense",
+        "amount": 48
+      },
+      {
+        "label": "Special Attack",
+        "amount": 65
+      },
+      {
+        "label": "Special Defense",
+        "amount": 50
+      },
+      {
+        "label": "Speed",
+        "amount": 55
+      },
+      {
+        "label": "Total",
+        "amount": 320
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Psyduck.png",
+    "evos": [
+      {
+        "pokeNum": "#054",
+        "name": "Psyduck",
+        "image": "Psyduck.png"
+      },
+      {
+        "pokeNum": "#055",
+        "name": "Golduck",
+        "image": "Golduck.png"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Golduck",
+    "description": "This Pokémon lives in gently flowing rivers. It paddles through the water with its long limbs, putting its graceful swimming skills on display.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "168.9 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Duck"
+      },
+      {
+        "label": "Abilities",
+        "info": "Damp, Cloud Nine"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 80
+      },
+      {
+        "label": "Attack",
+        "amount": 82
+      },
+      {
+        "label": "Defense",
+        "amount": 78
+      },
+      {
+        "label": "Special Attack",
+        "amount": 95
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 85
+      },
+      {
+        "label": "Total",
+        "amount": 500
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Golduck.png",
+    "evos": [
+      {
+        "pokeNum": "#054",
+        "name": "Psyduck",
+        "image": "Psyduck.png"
+      },
+      {
+        "pokeNum": "#055",
+        "name": "Golduck",
+        "image": "Golduck.png"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Mankey",
+    "description": "An agile Pokémon that lives in trees. It angers easily and will not hesitate to attack anything.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 08\""
+      },
+      {
+        "label": "Weight",
+        "info": "61.7 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Pig Monkey"
+      },
+      {
+        "label": "Abilities",
+        "info": "Vital Spirit, Anger Point"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Fairy"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 40
+      },
+      {
+        "label": "Attack",
+        "amount": 80
+      },
+      {
+        "label": "Defense",
+        "amount": 35
+      },
+      {
+        "label": "Special Attack",
+        "amount": 35
+      },
+      {
+        "label": "Special Defense",
+        "amount": 45
+      },
+      {
+        "label": "Speed",
+        "amount": 70
+      },
+      {
+        "label": "Total",
+        "amount": 305
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Mankey.png",
+    "evos": [
+      {
+        "pokeNum": "#056",
+        "name": "Mankey",
+        "image": "Mankey.png"
+      },
+      {
+        "pokeNum": "#057",
+        "name": "Primeape",
+        "image": "Primeape.png"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Primeape",
+    "description": "It stops being angry only when nobody else is around. To view this moment is very difficult.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "70.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Pig Monkey"
+      },
+      {
+        "label": "Abilities",
+        "info": "Vital Spirit, Anger Point"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Fairy"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 105
+      },
+      {
+        "label": "Defense",
+        "amount": 60
+      },
+      {
+        "label": "Special Attack",
+        "amount": 60
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 95
+      },
+      {
+        "label": "Total",
+        "amount": 455
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Primeape.png",
+    "evos": [
+      {
+        "pokeNum": "#056",
+        "name": "Mankey",
+        "image": "Mankey.png"
+      },
+      {
+        "pokeNum": "#057",
+        "name": "Primeape",
+        "image": "Primeape.png"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Growlithe",
+    "description": "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "41.9 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Puppy"
+      },
+      {
+        "label": "Abilities",
+        "info": "Intimidate, Flash Fire"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fire"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 55
+      },
+      {
+        "label": "Attack",
+        "amount": 70
+      },
+      {
+        "label": "Defense",
+        "amount": 45
+      },
+      {
+        "label": "Special Attack",
+        "amount": 70
+      },
+      {
+        "label": "Special Defense",
+        "amount": 50
+      },
+      {
+        "label": "Speed",
+        "amount": 60
+      },
+      {
+        "label": "Total",
+        "amount": 350
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Growlithe.png",
+    "evos": [
+      {
+        "pokeNum": "#058",
+        "name": "Growlithe",
+        "image": "Growlithe.png"
+      },
+      {
+        "pokeNum": "#059",
+        "name": "Arcanine",
+        "image": "Arcanine.png"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Arcanine",
+    "description": "The sight of it running over 6,200 miles in a single day and night has captivated many people.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "41.9 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Puppy"
+      },
+      {
+        "label": "Abilities",
+        "info": "Intimidate, Flash Fire"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fire"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 90
+      },
+      {
+        "label": "Attack",
+        "amount": 110
+      },
+      {
+        "label": "Defense",
+        "amount": 80
+      },
+      {
+        "label": "Special Attack",
+        "amount": 100
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 95
+      },
+      {
+        "label": "Total",
+        "amount": 555
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Arcanine.png",
+    "evos": [
+      {
+        "pokeNum": "#058",
+        "name": "Growlithe",
+        "image": "Growlithe.png"
+      },
+      {
+        "pokeNum": "#059",
+        "name": "Arcanine",
+        "image": "Arcanine.png"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Poliwag",
+    "description": "For Poliwag, swimming is easier than walking. The swirl pattern on its belly is actually part of the Pokémon’s innards showing through the skin.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "27.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Tadpole"
+      },
+      {
+        "label": "Abilities",
+        "info": "Damp, Water Absorb"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 40
+      },
+      {
+        "label": "Attack",
+        "amount": 50
+      },
+      {
+        "label": "Defense",
+        "amount": 40
+      },
+      {
+        "label": "Special Attack",
+        "amount": 40
+      },
+      {
+        "label": "Special Defense",
+        "amount": 40
+      },
+      {
+        "label": "Speed",
+        "amount": 90
+      },
+      {
+        "label": "Total",
+        "amount": 300
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Poliwag.png",
+    "evos": [
+      {
+        "pokeNum": "#060",
+        "name": "Poliwag",
+        "image": "Poliwag.png"
+      },
+      {
+        "pokeNum": "#061",
+        "name": "Poliwhirl",
+        "image": "Poliwhirl.png"
+      },
+      {
+        "pokeNum": "#062",
+        "name": "Poliwrath",
+        "image": "Poliwrath.png"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Poliwhirl",
+    "description": "Staring at the swirl on its belly causes drowsiness. This trait of Poliwhirl’s has been used in place of lullabies to get children to go to sleep.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "44.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Tadpole"
+      },
+      {
+        "label": "Abilities",
+        "info": "Damp, Water Absorb"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 65
+      },
+      {
+        "label": "Defense",
+        "amount": 65
+      },
+      {
+        "label": "Special Attack",
+        "amount": 50
+      },
+      {
+        "label": "Special Defense",
+        "amount": 50
+      },
+      {
+        "label": "Speed",
+        "amount": 90
+      },
+      {
+        "label": "Total",
+        "amount": 385
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Poliwhirl.png",
+    "evos": [
+      {
+        "pokeNum": "#060",
+        "name": "Poliwag",
+        "image": "Poliwag.png"
+      },
+      {
+        "pokeNum": "#061",
+        "name": "Poliwhirl",
+        "image": "Poliwhirl.png"
+      },
+      {
+        "pokeNum": "#062",
+        "name": "Poliwrath",
+        "image": "Poliwrath.png"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Poliwrath",
+    "description": "Its body is solid muscle. When swimming through cold seas, Poliwrath uses its impressive arms to smash through drift ice and plow forward.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "119.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Tadpole"
+      },
+      {
+        "label": "Abilities",
+        "info": "Damp, Water Absorb"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Fighting"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fairy"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 90
+      },
+      {
+        "label": "Attack",
+        "amount": 95
+      },
+      {
+        "label": "Defense",
+        "amount": 95
+      },
+      {
+        "label": "Special Attack",
+        "amount": 70
+      },
+      {
+        "label": "Special Defense",
+        "amount": 90
+      },
+      {
+        "label": "Speed",
+        "amount": 70
+      },
+      {
+        "label": "Total",
+        "amount": 510
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Poliwrath.png",
+    "evos": [
+      {
+        "pokeNum": "#060",
+        "name": "Poliwag",
+        "image": "Poliwag.png"
+      },
+      {
+        "pokeNum": "#061",
+        "name": "Poliwhirl",
+        "image": "Poliwhirl.png"
+      },
+      {
+        "pokeNum": "#062",
+        "name": "Poliwrath",
+        "image": "Poliwrath.png"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "description": "This Pokémon uses its psychic powers while it sleeps. The contents of Abra’s dreams affect the powers that the Pokémon wields.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "43.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Psi"
+      },
+      {
+        "label": "Abilities",
+        "info": "Inner Focus, Synchronize"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Psychic"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 25
+      },
+      {
+        "label": "Attack",
+        "amount": 20
+      },
+      {
+        "label": "Defense",
+        "amount": 15
+      },
+      {
+        "label": "Special Attack",
+        "amount": 105
+      },
+      {
+        "label": "Special Defense",
+        "amount": 55
+      },
+      {
+        "label": "Speed",
+        "amount": 90
+      },
+      {
+        "label": "Total",
+        "amount": 310
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Abra.png",
+    "evos": [
+      {
+        "pokeNum": "#063",
+        "name": "Abra",
+        "image": "Abra.png"
+      },
+      {
+        "pokeNum": "#064",
+        "name": "Kadabra",
+        "image": "Kadabra.png"
+      },
+      {
+        "pokeNum": "#065",
+        "name": "Alakazam",
+        "image": "Alakazam.png"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Kadabra",
+    "description": "Using its psychic power, Kadabra levitates as it sleeps. It uses its springy tail as a pillow.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "124.6 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Psi"
+      },
+      {
+        "label": "Abilities",
+        "info": "Inner Focus, Synchronize"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Psychic"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 40
+      },
+      {
+        "label": "Attack",
+        "amount": 35
+      },
+      {
+        "label": "Defense",
+        "amount": 30
+      },
+      {
+        "label": "Special Attack",
+        "amount": 120
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 105
+      },
+      {
+        "label": "Total",
+        "amount": 400
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Kadabra.png",
+    "evos": [
+      {
+        "pokeNum": "#063",
+        "name": "Abra",
+        "image": "Abra.png"
+      },
+      {
+        "pokeNum": "#064",
+        "name": "Kadabra",
+        "image": "Kadabra.png"
+      },
+      {
+        "pokeNum": "#065",
+        "name": "Alakazam",
+        "image": "Alakazam.png"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Alakazam",
+    "description": "This Pokémon uses its psychic powers while it sleeps. The contents of Abra’s dreams affect the powers that the Pokémon wields.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "43.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Psi"
+      },
+      {
+        "label": "Abilities",
+        "info": "Inner Focus, Synchronize"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Psychic"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 55
+      },
+      {
+        "label": "Attack",
+        "amount": 50
+      },
+      {
+        "label": "Defense",
+        "amount": 45
+      },
+      {
+        "label": "Special Attack",
+        "amount": 135
+      },
+      {
+        "label": "Special Defense",
+        "amount": 95
+      },
+      {
+        "label": "Speed",
+        "amount": 120
+      },
+      {
+        "label": "Total",
+        "amount": 500
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Alakazam.png",
+    "evos": [
+      {
+        "pokeNum": "#063",
+        "name": "Abra",
+        "image": "Abra.png"
+      },
+      {
+        "pokeNum": "#064",
+        "name": "Kadabra",
+        "image": "Kadabra.png"
+      },
+      {
+        "pokeNum": "#065",
+        "name": "Alakazam",
+        "image": "Alakazam.png"
+      }
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 <template>
-  <div class="card mb-2">
-    <div class="card-body">
+  <div class="card bg-dark text-white mb-2">
+    <div class="card-body p-2">
       <!-- ************ FILTER NAV ************ -->
       <div class="row">
         <div class="col text-start">
@@ -17,7 +17,7 @@
               autocomplete="off"
               @click="getSortType('ascName')"
             />
-            <label class="btn btn-outline-primary" for="btnradio1"
+            <label class="btn btn-outline-light" for="btnradio1"
               ><i class="bi bi-sort-alpha-down h4"></i
             ></label>
 
@@ -29,7 +29,7 @@
               autocomplete="off"
               @click="getSortType('descName')"
             />
-            <label class="btn btn-outline-primary" for="btnradio2"
+            <label class="btn btn-outline-light" for="btnradio2"
               ><i class="bi bi-sort-alpha-up h4"></i
             ></label>
 
@@ -42,7 +42,7 @@
               @click="getSortType('ascID')"
               checked
             />
-            <label class="btn btn-outline-primary" for="btnradio3"
+            <label class="btn btn-outline-light" for="btnradio3"
               ><i class="bi bi-sort-numeric-down h4"></i
             ></label>
 
@@ -55,7 +55,7 @@
               title="Sort ID in Descending Order"
               @click="getSortType('descID')"
             />
-            <label class="btn btn-outline-primary" for="btnradio4"
+            <label class="btn btn-outline-light" for="btnradio4"
               ><i class="bi bi-sort-numeric-up h4"></i
             ></label>
           </div>
@@ -63,10 +63,10 @@
         <div class="col-4">
           <form class="d-flex">
             <input
-              class="form-control me-2"
+              class="form-control"
               type="text"
               v-model="search"
-              placeholder="Search..."
+              placeholder="Search a Pokémon..."
               aria-label="Search"
             />
           </form>

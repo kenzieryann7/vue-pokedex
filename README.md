@@ -1,6 +1,6 @@
 # Pokédex Database
 
-Disclaimer: I created this database as a way to practice my coding skills.
+**_Disclaimer: I created this database as a way to practice my coding skills._**
 
 ### A Pokédex site using Vue and Bootstrap 5.
 

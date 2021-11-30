@@ -20,8 +20,8 @@
         "info": "Overgrow"
       },
       {
-        "label": "Height",
-        "info": "Male & Female"
+        "label": "Gender",
+        "info": "MF"
       }
     ],
     "type": [

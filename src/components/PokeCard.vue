@@ -176,7 +176,12 @@
                   <tr v-for="info in selectedPokemon?.info" :key="info">
                     <td>{{ info.label }}</td>
                     <td>
-                      {{ info.info }}
+                      <span v-if="info.label != 'Gender'">{{ info.info }}</span>
+                      <span v-if="info.label == 'Gender'">
+                        <span v-if="info.info == 'M'"><Male /></span>
+                        <span v-if="info.info == 'F'"><Female /></span>
+                        <span v-if="info.info == 'MF'"><BothSexes /></span>
+                      </span>
                     </td>
                   </tr>
                 </tbody>
@@ -302,10 +307,18 @@
 </template>
 
 <script>
+import Male from '@/components/MaleSVG.vue';
+import Female from '@/components/FemaleSVG.vue';
+import BothSexes from '@/components/BothMFSVG.vue';
 import pokeData from '@/data/test.json';
 export default {
   name: 'PokeCard',
   props: {},
+  components: {
+    Male,
+    Female,
+    BothSexes
+  },
   data: () => {
     return {
       pokeData: pokeData,

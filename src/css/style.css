@@ -41,28 +41,36 @@ body {
 }
 
 .poke-btn {
-  background-color: #003a70;
-  color: white;
+  background-color: #ffcb05;
+  color: black;
+  font-weight: bold;
 }
 
 .poke-btn:hover {
   background-color: #ffcb05;
   color: black;
-  border: 1px solid #003a70;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+  transform: scale(1.1);
 }
 
-.poke-btn2 {
-  background-color: #ffcb05;
-  color: black;
+.card-bg {
+  background-color: rgb(173, 215, 216);
+}
+.footer-bg {
+  background-color: rgb(168, 168, 168);
+}
+.text-muted {
+  color: rgb(185, 185, 185) !important;
+}
+/*************** BADGE CSS ***************/
+
+/* TYPE/WEAK BADGE SIZE */
+badgesize {
+  font-size: 17px;
 }
 
-.poke-btn2:hover {
-  background-color: #e4b600;
-  color: black;
-  border: 1px solid white;
-}
-
-/* TYPE COLORS */
+/* TYPE BADGE COLORS */
 .normal {
   background-color: #a8a77a;
   color: white;

@@ -1,6 +1,7 @@
 <template>
   <div class="card mb-2">
     <div class="card-body">
+      <!-- ************ FILTER NAV ************ -->
       <div class="row">
         <div class="col text-start">
           <div
@@ -73,6 +74,9 @@
       </div>
     </div>
   </div>
+  <!-- ************ FILTER NAV END ************ -->
+
+  <!-- ************ POKECARD ************ -->
   <div class="row">
     <div class="col-3" v-for="poke in filteredList" :key="poke.id">
       <div
@@ -82,60 +86,78 @@
           'border border-dark border-2': poke.legendary == false
         }"
       >
-        <div class="card-body">
+        <div class="card-body card-bg">
+          <!-- *** POKE IMAGE *** -->
           <img
             v-if="poke?.image"
             class="img-fluid card-img"
             :src="require('@/assets/poke-imgs/' + poke?.image)"
           />
-          <div class="text-start">
-            <div class="fw-bold">
-              {{ poke.name }}
-              <span class="text-muted">#{{ formatId(poke.id) }}</span>
-            </div>
-            <span
-              class="badge me-2"
-              v-for="type in poke.type"
-              :key="type"
-              :class="{
-                normal: type.label == 'Normal',
-                fire: type.label == 'Fire',
-                water: type.label == 'Water',
-                grass: type.label == 'Grass',
-                electric: type.label == 'Electric',
-                ice: type.label == 'Ice',
-                fighting: type.label == 'Fighting',
-                poison: type.label == 'Poison',
-                ground: type.label == 'Ground',
-                flying: type.label == 'Flying',
-                psychic: type.label == 'Psychic',
-                bug: type.label == 'Bug',
-                rock: type.label == 'Rock',
-                ghost: type.label == 'Ghost',
-                dragon: type.label == 'Dragon',
-                dark: type.label == 'Dark',
-                steel: type.label == 'Steel',
-                fairy: type.label == 'Fairy'
-              }"
-              >{{ type.label }}</span
-            >
-          </div>
         </div>
-        <div class="card-footer text-end">
-          <button
-            type="button"
-            class="btn btn-sm poke-btn"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-            @click="getSelectedPokemon(poke)"
-          >
-            View
-          </button>
+        <div class="card-footer bg-dark text-white">
+          <div class="row">
+            <div class="col text-start fw-bold align-self-center">
+              <!-- *** NAME *** -->
+              <span class="poke-name"
+                >{{ poke.name }}
+                <span class="me-1" v-if="poke?.image == 'NidoranF.png'">
+                  <Female
+                /></span>
+                <span class="me-1" v-if="poke?.image == 'NidoranM.png'">
+                  <Male
+                /></span>
+                <span class="text-muted">#{{ formatId(poke.id) }}</span></span
+              >
+              <br />
+              <!-- *** TYPE BADGE *** -->
+              <badgesize>
+                <span
+                  class="badge me-2"
+                  v-for="type in poke.type"
+                  :key="type"
+                  :class="{
+                    normal: type.label == 'Normal',
+                    fire: type.label == 'Fire',
+                    water: type.label == 'Water',
+                    grass: type.label == 'Grass',
+                    electric: type.label == 'Electric',
+                    ice: type.label == 'Ice',
+                    fighting: type.label == 'Fighting',
+                    poison: type.label == 'Poison',
+                    ground: type.label == 'Ground',
+                    flying: type.label == 'Flying',
+                    psychic: type.label == 'Psychic',
+                    bug: type.label == 'Bug',
+                    rock: type.label == 'Rock',
+                    ghost: type.label == 'Ghost',
+                    dragon: type.label == 'Dragon',
+                    dark: type.label == 'Dark',
+                    steel: type.label == 'Steel',
+                    fairy: type.label == 'Fairy'
+                  }"
+                  >{{ type.label }}</span
+                >
+              </badgesize>
+            </div>
+            <div class="col-4 text-end align-self-center">
+              <button
+                type="button"
+                class="btn btn-sm poke-btn "
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                @click="getSelectedPokemon(poke)"
+              >
+                View
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Modal -->
+  <!-- ************ POKECARD END ************ -->
+
+  <!-- ************ MODAL ************ -->
   <div
     class="modal fade"
     id="exampleModal"
@@ -154,29 +176,31 @@
         <div class="modal-content">
           <div class="modal-header bg-dark text-white">
             <h4 class="modal-title fw-bold" id="exampleModalLabel">
+              {{ selectedPokemon?.name }}
               <span
-                v-if="
-                  selectedPokemon?.image != 'NidoranF.png' ||
-                    selectedPokemon?.image != 'NidoranM.png'
-                "
-                >{{ selectedPokemon?.name }}</span
+                class="me-1"
+                v-if="selectedPokemon?.image == 'NidoranF.png'"
               >
-              <span v-if="selectedPokemon?.image == 'NidoranF.png'"
-                >{{ selectedPokemon?.name }}<Female
+                <Female
               /></span>
-              <span v-if="selectedPokemon?.image == 'NidoranM.png'"
-                >{{ selectedPokemon?.name }}<Male
+              <span
+                class="me-1"
+                v-if="selectedPokemon?.image == 'NidoranM.png'"
+              >
+                <Male
               /></span>
-              <span class="text-muted"
+              <span class="text-muted ms-2"
                 >#{{ formatId(selectedPokemon?.id) }}</span
               >
             </h4>
             <button
               type="button"
-              class="btn-close"
+              class="btn poke-btn"
               data-bs-dismiss="modal"
               aria-label="Close"
-            ></button>
+            >
+              X
+            </button>
           </div>
           <div class="modal-body modal-bg">
             <div class="row mb-3">
@@ -337,7 +361,7 @@
             </div>
           </div>
           <div class="modal-footer bg-dark">
-            <button type="button" class="btn poke-btn2" data-bs-dismiss="modal">
+            <button type="button" class="btn poke-btn" data-bs-dismiss="modal">
               Close
             </button>
           </div>
@@ -345,6 +369,7 @@
       </div>
     </div>
   </div>
+  <!-- ************ MODAL END ************ -->
 </template>
 
 <script>
@@ -459,10 +484,17 @@ export default {
   width: 250px;
 }
 .card-img {
-  height: 220px;
+  height: 250px;
 }
 .evo-img {
   width: 120px;
+}
+.evo-img:hover {
+  width: 120px;
   cursor: pointer;
+  transform: scale(1.15);
+}
+.poke-name {
+  font-size: 18px;
 }
 </style>

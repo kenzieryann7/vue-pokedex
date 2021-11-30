@@ -2855,5 +2855,2019 @@
         "image": "Nidoqueen.png"
       }
     ]
+  },
+  {
+    "id": 32,
+    "name": "Nidoran",
+    "description": "The horn on a male Nidoran’s forehead contains a powerful poison. This is a very cautious Pokémon, always straining its large ears.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 08\""
+      },
+      {
+        "label": "Weight",
+        "info": "19.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Poison Pin"
+      },
+      {
+        "label": "Abilities",
+        "info": "Poison Point, Rivalry"
+      },
+      {
+        "label": "Gender",
+        "info": "M"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 46
+      },
+      {
+        "label": "Attack",
+        "amount": 57
+      },
+      {
+        "label": "Defense",
+        "amount": 40
+      },
+      {
+        "label": "Special Attack",
+        "amount": 40
+      },
+      {
+        "label": "Special Defense",
+        "amount": 40
+      },
+      {
+        "label": "Speed",
+        "amount": 50
+      },
+      {
+        "label": "Total",
+        "amount": 273
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "NidoranM.png",
+    "evos": [
+      {
+        "pokeNum": "#032",
+        "name": "Nidoran",
+        "image": "NidoranM.png"
+      },
+      {
+        "pokeNum": "#033",
+        "name": "Nidorino",
+        "image": "Nidorino.png"
+      },
+      {
+        "pokeNum": "#034",
+        "name": "Nidoking",
+        "image": "Nidoking.png"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "description": "With a horn that’s harder than diamond, this Pokémon goes around shattering boulders as it searches for a moon stone.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "43.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Poison Pin"
+      },
+      {
+        "label": "Abilities",
+        "info": "Poison Point, Rivalry"
+      },
+      {
+        "label": "Gender",
+        "info": "M"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 61
+      },
+      {
+        "label": "Attack",
+        "amount": 72
+      },
+      {
+        "label": "Defense",
+        "amount": 57
+      },
+      {
+        "label": "Special Attack",
+        "amount": 55
+      },
+      {
+        "label": "Special Defense",
+        "amount": 55
+      },
+      {
+        "label": "Speed",
+        "amount": 65
+      },
+      {
+        "label": "Total",
+        "amount": 365
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Nidorino.png",
+    "evos": [
+      {
+        "pokeNum": "#032",
+        "name": "Nidoran",
+        "image": "NidoranM.png"
+      },
+      {
+        "pokeNum": "#033",
+        "name": "Nidorino",
+        "image": "Nidorino.png"
+      },
+      {
+        "pokeNum": "#034",
+        "name": "Nidoking",
+        "image": "Nidoking.png"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "description": "When it goes on a rampage, it’s impossible to control. But in the presence of a Nidoqueen it’s lived with for a long time, Nidoking calms down.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "136.7 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Drill"
+      },
+      {
+        "label": "Abilities",
+        "info": "Poison Point, Rivalry"
+      },
+      {
+        "label": "Gender",
+        "info": "M"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 81
+      },
+      {
+        "label": "Attack",
+        "amount": 102
+      },
+      {
+        "label": "Defense",
+        "amount": 77
+      },
+      {
+        "label": "Special Attack",
+        "amount": 85
+      },
+      {
+        "label": "Special Defense",
+        "amount": 75
+      },
+      {
+        "label": "Speed",
+        "amount": 85
+      },
+      {
+        "label": "Total",
+        "amount": 505
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Nidoking.png",
+    "evos": [
+      {
+        "pokeNum": "#032",
+        "name": "Nidoran",
+        "image": "NidoranM.png"
+      },
+      {
+        "pokeNum": "#033",
+        "name": "Nidorino",
+        "image": "Nidorino.png"
+      },
+      {
+        "pokeNum": "#034",
+        "name": "Nidoking",
+        "image": "Nidoking.png"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Clefairy",
+    "description": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "16.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Fairy"
+      },
+      {
+        "label": "Abilities",
+        "info": "Cute Charm, Magic Guard"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fairy"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 70
+      },
+      {
+        "label": "Attack",
+        "amount": 45
+      },
+      {
+        "label": "Defense",
+        "amount": 48
+      },
+      {
+        "label": "Special Attack",
+        "amount": 60
+      },
+      {
+        "label": "Special Defense",
+        "amount": 65
+      },
+      {
+        "label": "Speed",
+        "amount": 35
+      },
+      {
+        "label": "Total",
+        "amount": 323
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Clefairy.png",
+    "evos": [
+      {
+        "pokeNum": "#035",
+        "name": "Clefairy",
+        "image": "Clefairy.png"
+      },
+      {
+        "pokeNum": "#036",
+        "name": "Clefable",
+        "image": "Clefable.png"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "description": "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "88.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Fairy"
+      },
+      {
+        "label": "Abilities",
+        "info": "Cute Charm, Magic Guard"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fairy"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 95
+      },
+      {
+        "label": "Attack",
+        "amount": 70
+      },
+      {
+        "label": "Defense",
+        "amount": 73
+      },
+      {
+        "label": "Special Attack",
+        "amount": 95
+      },
+      {
+        "label": "Special Defense",
+        "amount": 90
+      },
+      {
+        "label": "Speed",
+        "amount": 60
+      },
+      {
+        "label": "Total",
+        "amount": 483
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Clefable.png",
+    "evos": [
+      {
+        "pokeNum": "#035",
+        "name": "Clefairy",
+        "image": "Clefairy.png"
+      },
+      {
+        "pokeNum": "#036",
+        "name": "Clefable",
+        "image": "Clefable.png"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "description": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "21.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Fox"
+      },
+      {
+        "label": "Abilities",
+        "info": "Flash Fire"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fire"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 38
+      },
+      {
+        "label": "Attack",
+        "amount": 41
+      },
+      {
+        "label": "Defense",
+        "amount": 40
+      },
+      {
+        "label": "Special Attack",
+        "amount": 50
+      },
+      {
+        "label": "Special Defense",
+        "amount": 65
+      },
+      {
+        "label": "Speed",
+        "amount": 65
+      },
+      {
+        "label": "Total",
+        "amount": 299
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Vulpix.png",
+    "evos": [
+      {
+        "pokeNum": "#037",
+        "name": "Vulpix",
+        "image": "Vulpix.png"
+      },
+      {
+        "pokeNum": "#038",
+        "name": "Ninetales",
+        "image": "Ninetales.png"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "description": "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "43.9 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Fox"
+      },
+      {
+        "label": "Abilities",
+        "info": "Flash Fire"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fire"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 73
+      },
+      {
+        "label": "Attack",
+        "amount": 76
+      },
+      {
+        "label": "Defense",
+        "amount": 75
+      },
+      {
+        "label": "Special Attack",
+        "amount": 81
+      },
+      {
+        "label": "Special Defense",
+        "amount": 100
+      },
+      {
+        "label": "Speed",
+        "amount": 100
+      },
+      {
+        "label": "Total",
+        "amount": 505
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Ninetales.png",
+    "evos": [
+      {
+        "pokeNum": "#037",
+        "name": "Vulpix",
+        "image": "Vulpix.png"
+      },
+      {
+        "pokeNum": "#038",
+        "name": "Ninetales",
+        "image": "Ninetales.png"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "description": "Jigglypuff has top-notch lung capacity, even by comparison to other Pokémon. It won’t stop singing its lullabies until its foes fall asleep.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 08\""
+      },
+      {
+        "label": "Weight",
+        "info": "12.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Balloon"
+      },
+      {
+        "label": "Abilities",
+        "info": "Cute Charm, Competitive"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      },
+      {
+        "label": "Fairy"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 115
+      },
+      {
+        "label": "Attack",
+        "amount": 45
+      },
+      {
+        "label": "Defense",
+        "amount": 20
+      },
+      {
+        "label": "Special Attack",
+        "amount": 45
+      },
+      {
+        "label": "Special Defense",
+        "amount": 25
+      },
+      {
+        "label": "Speed",
+        "amount": 20
+      },
+      {
+        "label": "Total",
+        "amount": 270
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Jigglypuff.png",
+    "evos": [
+      {
+        "pokeNum": "#039",
+        "name": "Jigglypuff",
+        "image": "Jigglypuff.png"
+      },
+      {
+        "pokeNum": "#040",
+        "name": "Wigglytuff",
+        "image": "Wigglytuff.png"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "description": "The more air it takes in, the more it inflates. If opponents catch it in a bad mood, it will inflate itself to an enormous size to intimidate them.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "26.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Balloon"
+      },
+      {
+        "label": "Abilities",
+        "info": "Cute Charm, Competitive"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      },
+      {
+        "label": "Fairy"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 140
+      },
+      {
+        "label": "Attack",
+        "amount": 70
+      },
+      {
+        "label": "Defense",
+        "amount": 45
+      },
+      {
+        "label": "Special Attack",
+        "amount": 85
+      },
+      {
+        "label": "Special Defense",
+        "amount": 50
+      },
+      {
+        "label": "Speed",
+        "amount": 45
+      },
+      {
+        "label": "Total",
+        "amount": 435
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Wigglytuff.png",
+    "evos": [
+      {
+        "pokeNum": "#039",
+        "name": "Jigglypuff",
+        "image": "Jigglypuff.png"
+      },
+      {
+        "pokeNum": "#040",
+        "name": "Wigglytuff",
+        "image": "Wigglytuff.png"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Zubat",
+    "description": "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "16.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Bat"
+      },
+      {
+        "label": "Abilities",
+        "info": "Inner Focus"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 40
+      },
+      {
+        "label": "Attack",
+        "amount": 45
+      },
+      {
+        "label": "Defense",
+        "amount": 35
+      },
+      {
+        "label": "Special Attack",
+        "amount": 30
+      },
+      {
+        "label": "Special Defense",
+        "amount": 40
+      },
+      {
+        "label": "Speed",
+        "amount": 55
+      },
+      {
+        "label": "Total",
+        "amount": 245
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Zubat.png",
+    "evos": [
+      {
+        "pokeNum": "#041",
+        "name": "Zubat",
+        "image": "Zubat.png"
+      },
+      {
+        "pokeNum": "#042",
+        "name": "Golbat",
+        "image": "Golbat.png"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Golbat",
+    "description": "It loves to drink other creatures’ blood. It’s said that if it finds others of its kind going hungry, it sometimes shares the blood it’s gathered.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "121.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Bat"
+      },
+      {
+        "label": "Abilities",
+        "info": "Inner Focus"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 75
+      },
+      {
+        "label": "Attack",
+        "amount": 80
+      },
+      {
+        "label": "Defense",
+        "amount": 70
+      },
+      {
+        "label": "Special Attack",
+        "amount": 65
+      },
+      {
+        "label": "Special Defense",
+        "amount": 75
+      },
+      {
+        "label": "Speed",
+        "amount": 90
+      },
+      {
+        "label": "Total",
+        "amount": 455
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Golbat.png",
+    "evos": [
+      {
+        "pokeNum": "#041",
+        "name": "Zubat",
+        "image": "Zubat.png"
+      },
+      {
+        "pokeNum": "#042",
+        "name": "Golbat",
+        "image": "Golbat.png"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Oddish",
+    "description": "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 08\""
+      },
+      {
+        "label": "Weight",
+        "info": "11.9 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Weed"
+      },
+      {
+        "label": "Abilities",
+        "info": "Chlorophyll"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 45
+      },
+      {
+        "label": "Attack",
+        "amount": 50
+      },
+      {
+        "label": "Defense",
+        "amount": 55
+      },
+      {
+        "label": "Special Attack",
+        "amount": 75
+      },
+      {
+        "label": "Special Defense",
+        "amount": 65
+      },
+      {
+        "label": "Speed",
+        "amount": 30
+      },
+      {
+        "label": "Total",
+        "amount": 320
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Oddish.png",
+    "evos": [
+      {
+        "pokeNum": "#043",
+        "name": "Oddish",
+        "image": "Oddish.png"
+      },
+      {
+        "pokeNum": "#044",
+        "name": "Gloom",
+        "image": "Gloom.png"
+      },
+      {
+        "pokeNum": "#045",
+        "name": "Vileplume",
+        "image": "Vileplume.png"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Gloom",
+    "description": "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "19.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Weed"
+      },
+      {
+        "label": "Abilities",
+        "info": "Chlorophyll"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 65
+      },
+      {
+        "label": "Defense",
+        "amount": 70
+      },
+      {
+        "label": "Special Attack",
+        "amount": 85
+      },
+      {
+        "label": "Special Defense",
+        "amount": 75
+      },
+      {
+        "label": "Speed",
+        "amount": 40
+      },
+      {
+        "label": "Total",
+        "amount": 395
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Gloom.png",
+    "evos": [
+      {
+        "pokeNum": "#043",
+        "name": "Oddish",
+        "image": "Oddish.png"
+      },
+      {
+        "pokeNum": "#044",
+        "name": "Gloom",
+        "image": "Gloom.png"
+      },
+      {
+        "pokeNum": "#045",
+        "name": "Vileplume",
+        "image": "Vileplume.png"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Vileplume",
+    "description": "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "41.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Flower"
+      },
+      {
+        "label": "Abilities",
+        "info": "Chlorophyll"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 75
+      },
+      {
+        "label": "Attack",
+        "amount": 80
+      },
+      {
+        "label": "Defense",
+        "amount": 85
+      },
+      {
+        "label": "Special Attack",
+        "amount": 110
+      },
+      {
+        "label": "Special Defense",
+        "amount": 90
+      },
+      {
+        "label": "Speed",
+        "amount": 50
+      },
+      {
+        "label": "Total",
+        "amount": 490
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Vileplume.png",
+    "evos": [
+      {
+        "pokeNum": "#043",
+        "name": "Oddish",
+        "image": "Oddish.png"
+      },
+      {
+        "pokeNum": "#044",
+        "name": "Gloom",
+        "image": "Gloom.png"
+      },
+      {
+        "pokeNum": "#045",
+        "name": "Vileplume",
+        "image": "Vileplume.png"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Paras",
+    "description": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "11.9 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Mushroom"
+      },
+      {
+        "label": "Abilities",
+        "info": "Effect Spore, Dry Skin"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Bug"
+      },
+      {
+        "label": "Grass"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Poison"
+      },
+      {
+        "label": "Rock"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 35
+      },
+      {
+        "label": "Attack",
+        "amount": 70
+      },
+      {
+        "label": "Defense",
+        "amount": 55
+      },
+      {
+        "label": "Special Attack",
+        "amount": 45
+      },
+      {
+        "label": "Special Defense",
+        "amount": 55
+      },
+      {
+        "label": "Speed",
+        "amount": 25
+      },
+      {
+        "label": "Total",
+        "amount": 285
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Paras.png",
+    "evos": [
+      {
+        "pokeNum": "#046",
+        "name": "Paras",
+        "image": "Paras.png"
+      },
+      {
+        "pokeNum": "#047",
+        "name": "Parasect",
+        "image": "Parasect.png"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Parasect",
+    "description": "The bug host is drained of energy by the mushroom on its back. The mushroom appears to do all the thinking.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "65.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Mushroom"
+      },
+      {
+        "label": "Abilities",
+        "info": "Effect Spore, Dry Skin"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Bug"
+      },
+      {
+        "label": "Grass"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Poison"
+      },
+      {
+        "label": "Rock"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 95
+      },
+      {
+        "label": "Defense",
+        "amount": 80
+      },
+      {
+        "label": "Special Attack",
+        "amount": 60
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 30
+      },
+      {
+        "label": "Total",
+        "amount": 405
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Parasect.png",
+    "evos": [
+      {
+        "pokeNum": "#046",
+        "name": "Paras",
+        "image": "Paras.png"
+      },
+      {
+        "pokeNum": "#047",
+        "name": "Parasect",
+        "image": "Parasect.png"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Venonat",
+    "description": "Its large eyes act as radar. In a bright place, you can see that they are clusters of many tiny eyes.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "66.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Insect"
+      },
+      {
+        "label": "Abilities",
+        "info": "Compound Eyes, Tinted Lens"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Bug"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 55
+      },
+      {
+        "label": "Defense",
+        "amount": 50
+      },
+      {
+        "label": "Special Attack",
+        "amount": 40
+      },
+      {
+        "label": "Special Defense",
+        "amount": 55
+      },
+      {
+        "label": "Speed",
+        "amount": 45
+      },
+      {
+        "label": "Total",
+        "amount": 305
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Venonat.png",
+    "evos": [
+      {
+        "pokeNum": "#048",
+        "name": "Venonat",
+        "image": "Venonat.png"
+      },
+      {
+        "pokeNum": "#049",
+        "name": "Venomoth",
+        "image": "Venomoth.png"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Venomoth",
+    "description": "The powdery scales on its wings are hard to remove from skin. They also contain poison that leaks out on contact.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "27.6 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Poison Moth"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shield Dust, Tinted Lens"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Bug"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 70
+      },
+      {
+        "label": "Attack",
+        "amount": 65
+      },
+      {
+        "label": "Defense",
+        "amount": 60
+      },
+      {
+        "label": "Special Attack",
+        "amount": 90
+      },
+      {
+        "label": "Special Defense",
+        "amount": 75
+      },
+      {
+        "label": "Speed",
+        "amount": 90
+      },
+      {
+        "label": "Total",
+        "amount": 450
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Venomoth.png",
+    "evos": [
+      {
+        "pokeNum": "#048",
+        "name": "Venonat",
+        "image": "Venonat.png"
+      },
+      {
+        "pokeNum": "#049",
+        "name": "Venomoth",
+        "image": "Venomoth.png"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Diglett",
+    "description": "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "0' 08\""
+      },
+      {
+        "label": "Weight",
+        "info": "1.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Mole"
+      },
+      {
+        "label": "Abilities",
+        "info": "Sand Veil, Arena Trap"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Ground"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 10
+      },
+      {
+        "label": "Attack",
+        "amount": 55
+      },
+      {
+        "label": "Defense",
+        "amount": 25
+      },
+      {
+        "label": "Special Attack",
+        "amount": 35
+      },
+      {
+        "label": "Special Defense",
+        "amount": 45
+      },
+      {
+        "label": "Speed",
+        "amount": 95
+      },
+      {
+        "label": "Total",
+        "amount": 265
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Diglett.png",
+    "evos": [
+      {
+        "pokeNum": "#050",
+        "name": "Diglett",
+        "image": "Diglett.png"
+      },
+      {
+        "pokeNum": "#051",
+        "name": "Dugtrio",
+        "image": "Dugtrio.png"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Dugtrio",
+    "description": "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "73.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Mole"
+      },
+      {
+        "label": "Abilities",
+        "info": "Sand Veil, Arena Trap"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Ground"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 35
+      },
+      {
+        "label": "Attack",
+        "amount": 80
+      },
+      {
+        "label": "Defense",
+        "amount": 50
+      },
+      {
+        "label": "Special Attack",
+        "amount": 50
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 120
+      },
+      {
+        "label": "Total",
+        "amount": 405
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Dugtrio.png",
+    "evos": [
+      {
+        "pokeNum": "#050",
+        "name": "Diglett",
+        "image": "Diglett.png"
+      },
+      {
+        "pokeNum": "#051",
+        "name": "Dugtrio",
+        "image": "Dugtrio.png"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Meowth",
+    "description": "It loves to collect shiny things. If it’s in a good mood, it might even let its Trainer have a look at its hoard of treasures.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "9.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Scratch Cat"
+      },
+      {
+        "label": "Abilities",
+        "info": "Pickup, Technician"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 40
+      },
+      {
+        "label": "Attack",
+        "amount": 45
+      },
+      {
+        "label": "Defense",
+        "amount": 35
+      },
+      {
+        "label": "Special Attack",
+        "amount": 40
+      },
+      {
+        "label": "Special Defense",
+        "amount": 40
+      },
+      {
+        "label": "Speed",
+        "amount": 90
+      },
+      {
+        "label": "Total",
+        "amount": 290
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Meowth.png",
+    "evos": [
+      {
+        "pokeNum": "#052",
+        "name": "Meowth",
+        "image": "Meowth.png"
+      },
+      {
+        "pokeNum": "#053",
+        "name": "Persian",
+        "image": "Persian.png"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Persian",
+    "description": "Getting this prideful Pokémon to warm up to you takes a lot of effort, and it will claw at you the moment it gets annoyed.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "70.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Classy Cat"
+      },
+      {
+        "label": "Abilities",
+        "info": "Technician, Limber"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 70
+      },
+      {
+        "label": "Defense",
+        "amount": 60
+      },
+      {
+        "label": "Special Attack",
+        "amount": 65
+      },
+      {
+        "label": "Special Defense",
+        "amount": 65
+      },
+      {
+        "label": "Speed",
+        "amount": 115
+      },
+      {
+        "label": "Total",
+        "amount": 440
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Persian.png",
+    "evos": [
+      {
+        "pokeNum": "#052",
+        "name": "Meowth",
+        "image": "Meowth.png"
+      },
+      {
+        "pokeNum": "#053",
+        "name": "Persian",
+        "image": "Persian.png"
+      }
+    ]
   }
 ]

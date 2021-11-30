@@ -2236,5 +2236,624 @@
         "image": "Arbok.png"
       }
     ]
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "description": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "13.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Mouse"
+      },
+      {
+        "label": "Abilities",
+        "info": "Static"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Electric"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 35
+      },
+      {
+        "label": "Attack",
+        "amount": 55
+      },
+      {
+        "label": "Defense",
+        "amount": 40
+      },
+      {
+        "label": "Special Attack",
+        "amount": 50
+      },
+      {
+        "label": "Special Defense",
+        "amount": 50
+      },
+      {
+        "label": "Speed",
+        "amount": 90
+      },
+      {
+        "label": "Total",
+        "amount": 320
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Pikachu.png",
+    "evos": [
+      {
+        "pokeNum": "#025",
+        "name": "Pikachu",
+        "image": "Pikachu.png"
+      },
+      {
+        "pokeNum": "#026",
+        "name": "Raichu",
+        "image": "Raichu.png"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "description": "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "66.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Mouse"
+      },
+      {
+        "label": "Abilities",
+        "info": "Static"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Electric"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 90
+      },
+      {
+        "label": "Defense",
+        "amount": 55
+      },
+      {
+        "label": "Special Attack",
+        "amount": 90
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 110
+      },
+      {
+        "label": "Total",
+        "amount": 485
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Raichu.png",
+    "evos": [
+      {
+        "pokeNum": "#025",
+        "name": "Pikachu",
+        "image": "Pikachu.png"
+      },
+      {
+        "pokeNum": "#026",
+        "name": "Raichu",
+        "image": "Raichu.png"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Sandshrew",
+    "description": "It loves to bathe in the grit of dry, sandy areas. By sand bathing, the Pokémon rids itself of dirt and moisture clinging to its body.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "26.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Mouse"
+      },
+      {
+        "label": "Abilities",
+        "info": "Sand Veil"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Ground"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 50
+      },
+      {
+        "label": "Attack",
+        "amount": 75
+      },
+      {
+        "label": "Defense",
+        "amount": 85
+      },
+      {
+        "label": "Special Attack",
+        "amount": 20
+      },
+      {
+        "label": "Special Defense",
+        "amount": 30
+      },
+      {
+        "label": "Speed",
+        "amount": 40
+      },
+      {
+        "label": "Total",
+        "amount": 300
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Sandshrew.png",
+    "evos": [
+      {
+        "pokeNum": "#027",
+        "name": "Sandshrew",
+        "image": "Sandshrew.png"
+      },
+      {
+        "pokeNum": "#028",
+        "name": "Sandslash",
+        "image": "Sandslash.png"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Sandslash",
+    "description": "It loves to bathe in the grit of dry, sandy areas. By sand bathing, the Pokémon rids itself of dirt and moisture clinging to its body.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "26.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Mouse"
+      },
+      {
+        "label": "Abilities",
+        "info": "Sand Veil"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Ground"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 75
+      },
+      {
+        "label": "Attack",
+        "amount": 100
+      },
+      {
+        "label": "Defense",
+        "amount": 110
+      },
+      {
+        "label": "Special Attack",
+        "amount": 45
+      },
+      {
+        "label": "Special Defense",
+        "amount": 55
+      },
+      {
+        "label": "Speed",
+        "amount": 65
+      },
+      {
+        "label": "Total",
+        "amount": 450
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Sandslash.png",
+    "evos": [
+      {
+        "pokeNum": "#027",
+        "name": "Sandshrew",
+        "image": "Sandshrew.png"
+      },
+      {
+        "pokeNum": "#028",
+        "name": "Sandslash",
+        "image": "Sandslash.png"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Nidoran",
+    "description": "Females are more sensitive to smells than males. While foraging, they’ll use their whiskers to check wind direction and stay downwind of predators.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "15.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Poison Pin"
+      },
+      {
+        "label": "Abilities",
+        "info": "Poison Point, Rivalry"
+      },
+      {
+        "label": "Gender",
+        "info": "F"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 55
+      },
+      {
+        "label": "Attack",
+        "amount": 47
+      },
+      {
+        "label": "Defense",
+        "amount": 52
+      },
+      {
+        "label": "Special Attack",
+        "amount": 40
+      },
+      {
+        "label": "Special Defense",
+        "amount": 40
+      },
+      {
+        "label": "Speed",
+        "amount": 41
+      },
+      {
+        "label": "Total",
+        "amount": 275
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "NidoranF.png",
+    "evos": [
+      {
+        "pokeNum": "#029",
+        "name": "Nidoran",
+        "image": "NidoranF.png"
+      },
+      {
+        "pokeNum": "#030",
+        "name": "Nidorina",
+        "image": "Nidorina.png"
+      },
+      {
+        "pokeNum": "#031",
+        "name": "Nidoqueen",
+        "image": "Nidoqueen.png"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "description": "The horn on its head has atrophied. It’s thought that this happens so Nidorina’s children won’t get poked while their mother is feeding them.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "44.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Poison Pin"
+      },
+      {
+        "label": "Abilities",
+        "info": "Poison Point, Rivalry"
+      },
+      {
+        "label": "Gender",
+        "info": "F"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 70
+      },
+      {
+        "label": "Attack",
+        "amount": 62
+      },
+      {
+        "label": "Defense",
+        "amount": 67
+      },
+      {
+        "label": "Special Attack",
+        "amount": 55
+      },
+      {
+        "label": "Special Defense",
+        "amount": 55
+      },
+      {
+        "label": "Speed",
+        "amount": 56
+      },
+      {
+        "label": "Total",
+        "amount": 365
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Nidorina.png",
+    "evos": [
+      {
+        "pokeNum": "#029",
+        "name": "Nidoran",
+        "image": "NidoranF.png"
+      },
+      {
+        "pokeNum": "#030",
+        "name": "Nidorina",
+        "image": "Nidorina.png"
+      },
+      {
+        "pokeNum": "#031",
+        "name": "Nidoqueen",
+        "image": "Nidoqueen.png"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "description": "Nidoqueen is better at defense than offense. With scales like armor, this Pokémon will shield its children from any kind of attack.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "132.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Drill"
+      },
+      {
+        "label": "Abilities",
+        "info": "Poison Point, Rivalry"
+      },
+      {
+        "label": "Gender",
+        "info": "F"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 90
+      },
+      {
+        "label": "Attack",
+        "amount": 92
+      },
+      {
+        "label": "Defense",
+        "amount": 87
+      },
+      {
+        "label": "Special Attack",
+        "amount": 75
+      },
+      {
+        "label": "Special Defense",
+        "amount": 85
+      },
+      {
+        "label": "Speed",
+        "amount": 76
+      },
+      {
+        "label": "Total",
+        "amount": 505
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Nidoqueen.png",
+    "evos": [
+      {
+        "pokeNum": "#029",
+        "name": "Nidoran",
+        "image": "NidoranF.png"
+      },
+      {
+        "pokeNum": "#030",
+        "name": "Nidorina",
+        "image": "Nidorina.png"
+      },
+      {
+        "pokeNum": "#031",
+        "name": "Nidoqueen",
+        "image": "Nidoqueen.png"
+      }
+    ]
   }
 ]

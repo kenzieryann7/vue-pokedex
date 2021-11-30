@@ -154,7 +154,19 @@
         <div class="modal-content">
           <div class="modal-header bg-dark text-white">
             <h4 class="modal-title fw-bold" id="exampleModalLabel">
-              {{ selectedPokemon?.name }}
+              <span
+                v-if="
+                  selectedPokemon?.image != 'NidoranF.png' ||
+                    selectedPokemon?.image != 'NidoranM.png'
+                "
+                >{{ selectedPokemon?.name }}</span
+              >
+              <span v-if="selectedPokemon?.image == 'NidoranF.png'"
+                >{{ selectedPokemon?.name }}<Female
+              /></span>
+              <span v-if="selectedPokemon?.image == 'NidoranM.png'"
+                >{{ selectedPokemon?.name }}<Male
+              /></span>
               <span class="text-muted"
                 >#{{ formatId(selectedPokemon?.id) }}</span
               >

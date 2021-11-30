@@ -68,9 +68,6 @@
               placeholder="Search..."
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
           </form>
         </div>
       </div>
@@ -78,7 +75,13 @@
   </div>
   <div class="row">
     <div class="col-3" v-for="poke in filteredList" :key="poke.id">
-      <div class="card bg-light mb-3 shadow border border-dark border-2">
+      <div
+        class="card bg-light mb-3 shadow "
+        :class="{
+          'gradient-border': poke.legendary == true,
+          'border border-dark border-2': poke.legendary == false
+        }"
+      >
         <div class="card-body">
           <img
             v-if="poke?.image"
@@ -143,177 +146,189 @@
     <div
       class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable"
     >
-      <div class="modal-content">
-        <div class="modal-header bg-dark text-white">
-          <h4 class="modal-title fw-bold" id="exampleModalLabel">
-            {{ selectedPokemon?.name }}
-            <span class="text-muted">#{{ formatId(selectedPokemon?.id) }}</span>
-          </h4>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body modal-bg">
-          <div class="row mb-3">
-            <div class="col" v-if="selectedPokemon?.image">
-              <img
-                class="img-fluid modal-img"
-                :src="require('@/assets/poke-imgs/' + selectedPokemon?.image)"
-              />
-            </div>
-            <div class="col">
-              <table
-                class="table table-sm bg-light table-striped border border-dark border-2 m-0 shadow text-start"
+      <div
+        :class="{
+          'gradient-border': selectedPokemon?.legendary == true
+        }"
+      >
+        <div class="modal-content">
+          <div class="modal-header bg-dark text-white">
+            <h4 class="modal-title fw-bold" id="exampleModalLabel">
+              {{ selectedPokemon?.name }}
+              <span class="text-muted"
+                >#{{ formatId(selectedPokemon?.id) }}</span
               >
-                <thead class="bg-dark text-white ">
-                  <tr>
-                    <th scope="col">Quick Info</th>
-                    <th scope="col"></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr v-for="info in selectedPokemon?.info" :key="info">
-                    <td>{{ info.label }}</td>
-                    <td>
-                      <span v-if="info.label != 'Gender'">{{ info.info }}</span>
-                      <span v-if="info.label == 'Gender'">
-                        <span v-if="info.info == 'M'"><Male /></span>
-                        <span v-if="info.info == 'F'"><Female /></span>
-                        <span v-if="info.info == 'MF'"><BothSexes /></span>
-                      </span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
-          <div class="row mb-3">
-            <div class="col">
-              <table
-                class="table table-sm bg-light table-striped text-start border border-dark border-2 m-0 shadow"
-              >
-                <thead class="bg-dark text-white">
-                  <tr>
-                    <th scope="col">Statistics</th>
-                    <th scope="col"></th>
-                  </tr>
-                </thead>
-                <tbody class="">
-                  <tr v-for="stats in selectedPokemon?.stats" :key="stats">
-                    <td :class="{ 'fw-bold': stats.label == 'Total' }">
-                      {{ stats.label }}
-                    </td>
-                    <td :class="{ 'fw-bold': stats.label == 'Total' }">
-                      {{ stats.amount }}
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="col text-start">
-              <div class="text-start mb-3">
-                <div class="fw-bold mb-2">Description</div>
-                {{ selectedPokemon?.description }}
+          <div class="modal-body modal-bg">
+            <div class="row mb-3">
+              <div class="col" v-if="selectedPokemon?.image">
+                <img
+                  class="img-fluid modal-img"
+                  :src="require('@/assets/poke-imgs/' + selectedPokemon?.image)"
+                />
               </div>
-              <div>
-                <div class="fw-bold mb-2">Type</div>
-                <h5>
-                  <span
-                    class="badge me-2"
-                    v-for="type in selectedPokemon?.type"
-                    :key="type"
-                    :class="{
-                      normal: type.label == 'Normal',
-                      fire: type.label == 'Fire',
-                      water: type.label == 'Water',
-                      grass: type.label == 'Grass',
-                      electric: type.label == 'Electric',
-                      ice: type.label == 'Ice',
-                      fighting: type.label == 'Fighting',
-                      poison: type.label == 'Poison',
-                      ground: type.label == 'Ground',
-                      flying: type.label == 'Flying',
-                      psychic: type.label == 'Psychic',
-                      bug: type.label == 'Bug',
-                      rock: type.label == 'Rock',
-                      ghost: type.label == 'Ghost',
-                      dragon: type.label == 'Dragon',
-                      dark: type.label == 'Dark',
-                      steel: type.label == 'Steel',
-                      fairy: type.label == 'Fairy'
-                    }"
-                    >{{ type.label }}</span
+              <div class="col">
+                <table
+                  class="table table-sm bg-light table-striped border border-dark border-2 m-0 shadow text-start"
+                >
+                  <thead class="bg-dark text-white ">
+                    <tr>
+                      <th scope="col">Quick Info</th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr v-for="info in selectedPokemon?.info" :key="info">
+                      <td>{{ info.label }}</td>
+                      <td>
+                        <span v-if="info.label != 'Gender'">{{
+                          info.info
+                        }}</span>
+                        <span v-if="info.label == 'Gender'">
+                          <span v-if="info.info == 'M'"><Male /></span>
+                          <span v-if="info.info == 'F'"><Female /></span>
+                          <span v-if="info.info == 'MF'"><BothSexes /></span>
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <table
+                  class="table table-sm bg-light table-striped text-start border border-dark border-2 m-0 shadow"
+                >
+                  <thead class="bg-dark text-white">
+                    <tr>
+                      <th scope="col">Statistics</th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody class="">
+                    <tr v-for="stats in selectedPokemon?.stats" :key="stats">
+                      <td :class="{ 'fw-bold': stats.label == 'Total' }">
+                        {{ stats.label }}
+                      </td>
+                      <td :class="{ 'fw-bold': stats.label == 'Total' }">
+                        {{ stats.amount }}
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col text-start">
+                <div class="text-start mb-3">
+                  <div class="fw-bold mb-2">Description</div>
+                  {{ selectedPokemon?.description }}
+                </div>
+                <div>
+                  <div class="fw-bold mb-2">Type</div>
+                  <h5>
+                    <span
+                      class="badge me-2"
+                      v-for="type in selectedPokemon?.type"
+                      :key="type"
+                      :class="{
+                        normal: type.label == 'Normal',
+                        fire: type.label == 'Fire',
+                        water: type.label == 'Water',
+                        grass: type.label == 'Grass',
+                        electric: type.label == 'Electric',
+                        ice: type.label == 'Ice',
+                        fighting: type.label == 'Fighting',
+                        poison: type.label == 'Poison',
+                        ground: type.label == 'Ground',
+                        flying: type.label == 'Flying',
+                        psychic: type.label == 'Psychic',
+                        bug: type.label == 'Bug',
+                        rock: type.label == 'Rock',
+                        ghost: type.label == 'Ghost',
+                        dragon: type.label == 'Dragon',
+                        dark: type.label == 'Dark',
+                        steel: type.label == 'Steel',
+                        fairy: type.label == 'Fairy'
+                      }"
+                      >{{ type.label }}</span
+                    >
+                  </h5>
+                </div>
+                <br />
+                <div>
+                  <div class="fw-bold mb-2">Weaknesses</div>
+                  <span v-if="!selectedPokemon?.weak"
+                    >No weakness recorded.</span
                   >
-                </h5>
-              </div>
-              <br />
-              <div>
-                <div class="fw-bold mb-2">Weaknesses</div>
-                <span v-if="!selectedPokemon?.weak">No weakness recorded.</span>
-                <!-- WEAKNESS 1 -->
-                <h5>
-                  <span
-                    v-for="weak in selectedPokemon?.weak"
-                    :key="weak"
-                    class="badge bg-lg m-1"
-                    :class="{
-                      normal: weak.label == 'Normal',
-                      fire: weak.label == 'Fire',
-                      water: weak.label == 'Water',
-                      grass: weak.label == 'Grass',
-                      electric: weak.label == 'Electric',
-                      ice: weak.label == 'Ice',
-                      fighting: weak.label == 'Fighting',
-                      poison: weak.label == 'Poison',
-                      ground: weak.label == 'Ground',
-                      flying: weak.label == 'Flying',
-                      psychic: weak.label == 'Psychic',
-                      bug: weak.label == 'Bug',
-                      rock: weak.label == 'Rock',
-                      ghost: weak.label == 'Ghost',
-                      dragon: weak.label == 'Dragon',
-                      dark: weak.label == 'Dark',
-                      steel: weak.label == 'Steel',
-                      fairy: weak.label == 'Fairy'
-                    }"
-                    >{{ weak.label }}</span
-                  >
-                </h5>
+                  <!-- WEAKNESS 1 -->
+                  <h5>
+                    <span
+                      v-for="weak in selectedPokemon?.weak"
+                      :key="weak"
+                      class="badge bg-lg m-1"
+                      :class="{
+                        normal: weak.label == 'Normal',
+                        fire: weak.label == 'Fire',
+                        water: weak.label == 'Water',
+                        grass: weak.label == 'Grass',
+                        electric: weak.label == 'Electric',
+                        ice: weak.label == 'Ice',
+                        fighting: weak.label == 'Fighting',
+                        poison: weak.label == 'Poison',
+                        ground: weak.label == 'Ground',
+                        flying: weak.label == 'Flying',
+                        psychic: weak.label == 'Psychic',
+                        bug: weak.label == 'Bug',
+                        rock: weak.label == 'Rock',
+                        ghost: weak.label == 'Ghost',
+                        dragon: weak.label == 'Dragon',
+                        dark: weak.label == 'Dark',
+                        steel: weak.label == 'Steel',
+                        fairy: weak.label == 'Fairy'
+                      }"
+                      >{{ weak.label }}</span
+                    >
+                  </h5>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="text-start">
-            <div class="fw-bold">Evolutions</div>
-            <span v-if="!selectedPokemon?.evos"
-              >This Pokémon does not evolve.</span
-            >
-            <div class="tooltip">
-              Hover over me
-              <span class="tooltiptext"
-                >Tooltip text<br />
-                hi</span
+            <div class="text-start">
+              <div class="fw-bold">Evolutions</div>
+              <span v-if="!selectedPokemon?.evos"
+                >This Pokémon does not evolve.</span
               >
+              <div class="tooltip">
+                Hover over me
+                <span class="tooltiptext"
+                  >Tooltip text<br />
+                  hi</span
+                >
+              </div>
+              <span v-for="(evo, index) in selectedPokemon?.evos" :key="evo">
+                <img
+                  class="img-fluid evo-img"
+                  :src="require('@/assets/poke-imgs/' + evo.image)"
+                  :title="evo.name + ' ' + evo.pokeNum"
+                />
+                <i
+                  v-if="index != selectedPokemon?.evos.length - 1"
+                  class="bi bi-arrow-right h1 ms-2 me-2"
+                ></i>
+              </span>
             </div>
-            <span v-for="(evo, index) in selectedPokemon?.evos" :key="evo">
-              <img
-                class="img-fluid evo-img"
-                :src="require('@/assets/poke-imgs/' + evo.image)"
-                :title="evo.name + ' ' + evo.pokeNum"
-              />
-              <i
-                v-if="index != selectedPokemon?.evos.length - 1"
-                class="bi bi-arrow-right h1 ms-2 me-2"
-              ></i>
-            </span>
           </div>
-        </div>
-        <div class="modal-footer bg-dark">
-          <button type="button" class="btn poke-btn2" data-bs-dismiss="modal">
-            Close
-          </button>
+          <div class="modal-footer bg-dark">
+            <button type="button" class="btn poke-btn2" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
         </div>
       </div>
     </div>

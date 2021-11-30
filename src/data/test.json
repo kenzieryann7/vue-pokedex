@@ -82,12 +82,216 @@
     "image": "Bulbasaur.png",
     "evos": [
       {
+        "pokeNum": "#001",
+        "name": "Bulbasaur",
         "image": "Bulbasaur.png"
       },
       {
+        "pokeNum": "#002",
+        "name": "Ivysaur",
         "image": "Ivysaur.png"
       },
       {
+        "pokeNum": "#003",
+        "name": "Venusaur",
+        "image": "Venusaur.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "28.7 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Seed"
+      },
+      {
+        "label": "Abilities",
+        "info": "Overgrow"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 62
+      },
+      {
+        "label": "Defense",
+        "amount": 63
+      },
+      {
+        "label": "Special Attack",
+        "amount": 80
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 60
+      },
+      {
+        "label": "Total",
+        "amount": 405
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Ivysaur.png",
+    "evos": [
+      {
+        "pokeNum": "#001",
+        "name": "Bulbasaur",
+        "image": "Bulbasaur.png"
+      },
+      {
+        "pokeNum": "#002",
+        "name": "Ivysaur",
+        "image": "Ivysaur.png"
+      },
+      {
+        "pokeNum": "#003",
+        "name": "Venusaur",
+        "image": "Venusaur.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "description": "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "6' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "220.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Seed"
+      },
+      {
+        "label": "Abilities",
+        "info": "Overgrow"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 80
+      },
+      {
+        "label": "Attack",
+        "amount": 82
+      },
+      {
+        "label": "Defense",
+        "amount": 83
+      },
+      {
+        "label": "Special Attack",
+        "amount": 100
+      },
+      {
+        "label": "Special Defense",
+        "amount": 100
+      },
+      {
+        "label": "Speed",
+        "amount": 80
+      },
+      {
+        "label": "Total",
+        "amount": 525
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Venusaur.png",
+    "evos": [
+      {
+        "pokeNum": "#001",
+        "name": "Bulbasaur",
+        "image": "Bulbasaur.png"
+      },
+      {
+        "pokeNum": "#002",
+        "name": "Ivysaur",
+        "image": "Ivysaur.png"
+      },
+      {
+        "pokeNum": "#003",
+        "name": "Venusaur",
         "image": "Venusaur.png"
       }
     ]

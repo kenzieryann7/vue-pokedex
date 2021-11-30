@@ -288,10 +288,18 @@
             <span v-if="!selectedPokemon?.evos"
               >This Pokémon does not evolve.</span
             >
+            <div class="tooltip">
+              Hover over me
+              <span class="tooltiptext"
+                >Tooltip text<br />
+                hi</span
+              >
+            </div>
             <span v-for="(evo, index) in selectedPokemon?.evos" :key="evo">
               <img
                 class="img-fluid evo-img"
                 :src="require('@/assets/poke-imgs/' + evo.image)"
+                :title="evo.name + ' ' + evo.pokeNum"
               />
               <i
                 v-if="index != selectedPokemon?.evos.length - 1"
@@ -426,5 +434,6 @@ export default {
 }
 .evo-img {
   width: 120px;
+  cursor: pointer;
 }
 </style>

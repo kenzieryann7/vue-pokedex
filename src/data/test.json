@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "15.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Seed"
+      },
+      {
+        "label": "Abilities",
+        "info": "Overgrow"
+      },
+      {
+        "label": "Height",
+        "info": "Male & Female"
+      }
+    ],
+    "type": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 45
+      },
+      {
+        "label": "Attack",
+        "amount": 49
+      },
+      {
+        "label": "Defense",
+        "amount": 49
+      },
+      {
+        "label": "Special Attack",
+        "amount": 65
+      },
+      {
+        "label": "Special Defense",
+        "amount": 65
+      },
+      {
+        "label": "Speed",
+        "amount": 45
+      },
+      {
+        "label": "Total",
+        "amount": 318
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Bulbasaur.png",
+    "evos": [
+      {
+        "image": "Bulbasaur.png"
+      },
+      {
+        "image": "Ivysaur.png"
+      },
+      {
+        "image": "Venusaur.png"
+      }
+    ]
+  }
+]

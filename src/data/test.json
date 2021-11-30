@@ -295,5 +295,287 @@
         "image": "Venusaur.png"
       }
     ]
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "description": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "18.7 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Lizard"
+      },
+      {
+        "label": "Abilities",
+        "info": "Blaze"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fire"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 39
+      },
+      {
+        "label": "Attack",
+        "amount": 52
+      },
+      {
+        "label": "Defense",
+        "amount": 43
+      },
+      {
+        "label": "Special Attack",
+        "amount": 60
+      },
+      {
+        "label": "Special Defense",
+        "amount": 50
+      },
+      {
+        "label": "Speed",
+        "amount": 65
+      },
+      {
+        "label": "Total",
+        "amount": 309
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Charmander.png",
+    "evos": [
+      {
+        "pokeNum": "#004",
+        "name": "Charmander",
+        "image": "Charmander.png"
+      },
+      {
+        "pokeNum": "#005",
+        "name": "Charmeleon",
+        "image": "Charmeleon.png"
+      },
+      {
+        "pokeNum": "#006",
+        "name": "Charizard",
+        "image": "Charizard.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "description": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "41.9 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Lizard"
+      },
+      {
+        "label": "Abilities",
+        "info": "Blaze"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fire"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 58
+      },
+      {
+        "label": "Attack",
+        "amount": 64
+      },
+      {
+        "label": "Defense",
+        "amount": 58
+      },
+      {
+        "label": "Special Attack",
+        "amount": 80
+      },
+      {
+        "label": "Special Defense",
+        "amount": 65
+      },
+      {
+        "label": "Speed",
+        "amount": 80
+      },
+      {
+        "label": "Total",
+        "amount": 405
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Charmeleon.png",
+    "evos": [
+      {
+        "pokeNum": "#004",
+        "name": "Charmander",
+        "image": "Charmander.png"
+      },
+      {
+        "pokeNum": "#005",
+        "name": "Charmeleon",
+        "image": "Charmeleon.png"
+      },
+      {
+        "pokeNum": "#006",
+        "name": "Charizard",
+        "image": "Charizard.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "description": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "199.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Lizard"
+      },
+      {
+        "label": "Abilities",
+        "info": "Blaze"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 78
+      },
+      {
+        "label": "Attack",
+        "amount": 84
+      },
+      {
+        "label": "Defense",
+        "amount": 78
+      },
+      {
+        "label": "Special Attack",
+        "amount": 109
+      },
+      {
+        "label": "Special Defense",
+        "amount": 85
+      },
+      {
+        "label": "Speed",
+        "amount": 100
+      },
+      {
+        "label": "Total",
+        "amount": 534
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Charizard.png",
+    "evos": [
+      {
+        "pokeNum": "#004",
+        "name": "Charmander",
+        "image": "Charmander.png"
+      },
+      {
+        "pokeNum": "#005",
+        "name": "Charmeleon",
+        "image": "Charmeleon.png"
+      },
+      {
+        "pokeNum": "#006",
+        "name": "Charizard",
+        "image": "Charizard.png"
+      }
+    ]
   }
 ]

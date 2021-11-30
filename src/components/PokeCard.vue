@@ -78,7 +78,7 @@
   </div>
   <div class="row">
     <div class="col-3" v-for="poke in filteredList" :key="poke.id">
-      <div class="card mb-3 shadow">
+      <div class="card bg-light mb-3 shadow border border-dark border-2">
         <div class="card-body">
           <img
             v-if="poke?.image"
@@ -140,7 +140,9 @@
     aria-labelledby="exampleModalLabel"
     aria-hidden="true"
   >
-    <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div
+      class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable"
+    >
       <div class="modal-content">
         <div class="modal-header bg-dark text-white">
           <h4 class="modal-title fw-bold" id="exampleModalLabel">
@@ -188,7 +190,7 @@
               </table>
             </div>
           </div>
-          <div class="row">
+          <div class="row mb-3">
             <div class="col">
               <table
                 class="table table-sm bg-light table-striped text-start border border-dark border-2 m-0 shadow"
@@ -427,7 +429,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .modal-img {
-  width: 200px;
+  width: 250px;
 }
 .card-img {
   height: 220px;

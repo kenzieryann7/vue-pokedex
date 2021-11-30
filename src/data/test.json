@@ -577,5 +577,1148 @@
         "image": "Charizard.png"
       }
     ]
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "description": "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 08\""
+      },
+      {
+        "label": "Weight",
+        "info": "19.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Tiny Turtle"
+      },
+      {
+        "label": "Abilities",
+        "info": "Torrent"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 44
+      },
+      {
+        "label": "Attack",
+        "amount": 48
+      },
+      {
+        "label": "Defense",
+        "amount": 65
+      },
+      {
+        "label": "Special Attack",
+        "amount": 50
+      },
+      {
+        "label": "Special Defense",
+        "amount": 64
+      },
+      {
+        "label": "Speed",
+        "amount": 43
+      },
+      {
+        "label": "Total",
+        "amount": 314
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Squirtle.png",
+    "evos": [
+      {
+        "pokeNum": "#007",
+        "name": "Squirtle",
+        "image": "Squirtle.png"
+      },
+      {
+        "pokeNum": "#008",
+        "name": "Wartortle",
+        "image": "Wartortle.png"
+      },
+      {
+        "pokeNum": "#009",
+        "name": "Blastoise",
+        "image": "Blastoise.png"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "description": "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "49.6 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Turtle"
+      },
+      {
+        "label": "Abilities",
+        "info": "Torrent"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 59
+      },
+      {
+        "label": "Attack",
+        "amount": 63
+      },
+      {
+        "label": "Defense",
+        "amount": 80
+      },
+      {
+        "label": "Special Attack",
+        "amount": 65
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 50
+      },
+      {
+        "label": "Total",
+        "amount": 405
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Wartortle.png",
+    "evos": [
+      {
+        "pokeNum": "#007",
+        "name": "Squirtle",
+        "image": "Squirtle.png"
+      },
+      {
+        "pokeNum": "#008",
+        "name": "Wartortle",
+        "image": "Wartortle.png"
+      },
+      {
+        "pokeNum": "#009",
+        "name": "Blastoise",
+        "image": "Blastoise.png"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "description": "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "188.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Shellfish"
+      },
+      {
+        "label": "Abilities",
+        "info": "Torrent"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 79
+      },
+      {
+        "label": "Attack",
+        "amount": 83
+      },
+      {
+        "label": "Defense",
+        "amount": 100
+      },
+      {
+        "label": "Special Attack",
+        "amount": 85
+      },
+      {
+        "label": "Special Defense",
+        "amount": 105
+      },
+      {
+        "label": "Speed",
+        "amount": 78
+      },
+      {
+        "label": "Total",
+        "amount": 530
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Blastoise.png",
+    "evos": [
+      {
+        "pokeNum": "#007",
+        "name": "Squirtle",
+        "image": "Squirtle.png"
+      },
+      {
+        "pokeNum": "#008",
+        "name": "Wartortle",
+        "image": "Wartortle.png"
+      },
+      {
+        "pokeNum": "#009",
+        "name": "Blastoise",
+        "image": "Blastoise.png"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "description": "For protection, it releases a horrible stench from the antenna on its head to drive away enemies.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "6.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Worm"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shield Dust"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Bug"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 45
+      },
+      {
+        "label": "Attack",
+        "amount": 30
+      },
+      {
+        "label": "Defense",
+        "amount": 35
+      },
+      {
+        "label": "Special Attack",
+        "amount": 20
+      },
+      {
+        "label": "Special Defense",
+        "amount": 20
+      },
+      {
+        "label": "Speed",
+        "amount": 45
+      },
+      {
+        "label": "Total",
+        "amount": 195
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Caterpie.png",
+    "evos": [
+      {
+        "pokeNum": "#010",
+        "name": "Caterpie",
+        "image": "Caterpie.png"
+      },
+      {
+        "pokeNum": "#011",
+        "name": "Metapod",
+        "image": "Metapod.png"
+      },
+      {
+        "pokeNum": "#012",
+        "name": "Butterfree",
+        "image": "Butterfree.png"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "description": "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "21.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Cocoon"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shed Skin"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Bug"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 50
+      },
+      {
+        "label": "Attack",
+        "amount": 20
+      },
+      {
+        "label": "Defense",
+        "amount": 55
+      },
+      {
+        "label": "Special Attack",
+        "amount": 25
+      },
+      {
+        "label": "Special Defense",
+        "amount": 25
+      },
+      {
+        "label": "Speed",
+        "amount": 30
+      },
+      {
+        "label": "Total",
+        "amount": 205
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Metapod.png",
+    "evos": [
+      {
+        "pokeNum": "#010",
+        "name": "Caterpie",
+        "image": "Caterpie.png"
+      },
+      {
+        "pokeNum": "#011",
+        "name": "Metapod",
+        "image": "Metapod.png"
+      },
+      {
+        "pokeNum": "#012",
+        "name": "Butterfree",
+        "image": "Butterfree.png"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "description": "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "70.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Butterfly"
+      },
+      {
+        "label": "Abilities",
+        "info": "Compound Eyes"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Bug"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 45
+      },
+      {
+        "label": "Defense",
+        "amount": 50
+      },
+      {
+        "label": "Special Attack",
+        "amount": 90
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 70
+      },
+      {
+        "label": "Total",
+        "amount": 395
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Butterfree.png",
+    "evos": [
+      {
+        "pokeNum": "#010",
+        "name": "Caterpie",
+        "image": "Caterpie.png"
+      },
+      {
+        "pokeNum": "#011",
+        "name": "Metapod",
+        "image": "Metapod.png"
+      },
+      {
+        "pokeNum": "#012",
+        "name": "Butterfree",
+        "image": "Butterfree.png"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "description": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "7.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Hairy Bug"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shield Dust"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Bug"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 40
+      },
+      {
+        "label": "Attack",
+        "amount": 35
+      },
+      {
+        "label": "Defense",
+        "amount": 30
+      },
+      {
+        "label": "Special Attack",
+        "amount": 20
+      },
+      {
+        "label": "Special Defense",
+        "amount": 20
+      },
+      {
+        "label": "Speed",
+        "amount": 50
+      },
+      {
+        "label": "Total",
+        "amount": 195
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Weedle.png",
+    "evos": [
+      {
+        "pokeNum": "#013",
+        "name": "Weedle",
+        "image": "Weedle.png"
+      },
+      {
+        "pokeNum": "#014",
+        "name": "Kakuna",
+        "image": "Kakuna.png"
+      },
+      {
+        "pokeNum": "#015",
+        "name": "Beedrill",
+        "image": "Beedrill.png"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "description": "Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "22.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Cocoon"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shed Skin"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Bug"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 45
+      },
+      {
+        "label": "Attack",
+        "amount": 25
+      },
+      {
+        "label": "Defense",
+        "amount": 50
+      },
+      {
+        "label": "Special Attack",
+        "amount": 25
+      },
+      {
+        "label": "Special Defense",
+        "amount": 25
+      },
+      {
+        "label": "Speed",
+        "amount": 35
+      },
+      {
+        "label": "Total",
+        "amount": 205
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Kakuna.png",
+    "evos": [
+      {
+        "pokeNum": "#013",
+        "name": "Weedle",
+        "image": "Weedle.png"
+      },
+      {
+        "pokeNum": "#014",
+        "name": "Kakuna",
+        "image": "Kakuna.png"
+      },
+      {
+        "pokeNum": "#015",
+        "name": "Beedrill",
+        "image": "Beedrill.png"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "description": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "65.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Poison Bee"
+      },
+      {
+        "label": "Abilities",
+        "info": "Swarm"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Bug"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 90
+      },
+      {
+        "label": "Defense",
+        "amount": 40
+      },
+      {
+        "label": "Special Attack",
+        "amount": 45
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 75
+      },
+      {
+        "label": "Total",
+        "amount": 395
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Beedrill.png",
+    "evos": [
+      {
+        "pokeNum": "#013",
+        "name": "Weedle",
+        "image": "Weedle.png"
+      },
+      {
+        "pokeNum": "#014",
+        "name": "Kakuna",
+        "image": "Kakuna.png"
+      },
+      {
+        "pokeNum": "#015",
+        "name": "Beedrill",
+        "image": "Beedrill.png"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "description": "Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "4.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Tiny Bird"
+      },
+      {
+        "label": "Abilities",
+        "info": "Keen Eye, Tangled Feet"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 40
+      },
+      {
+        "label": "Attack",
+        "amount": 45
+      },
+      {
+        "label": "Defense",
+        "amount": 40
+      },
+      {
+        "label": "Special Attack",
+        "amount": 35
+      },
+      {
+        "label": "Special Defense",
+        "amount": 35
+      },
+      {
+        "label": "Speed",
+        "amount": 56
+      },
+      {
+        "label": "Total",
+        "amount": 251
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Pidgey.png",
+    "evos": [
+      {
+        "pokeNum": "#016",
+        "name": "Pidgey",
+        "image": "Pidgey.png"
+      },
+      {
+        "pokeNum": "#017",
+        "name": "Pidgeotto",
+        "image": "Pidgeotto.png"
+      },
+      {
+        "pokeNum": "#018",
+        "name": "Pidgeot",
+        "image": "Pidgeot.png"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "description": "This Pokémon is full of vitality. It constantly flies around its large territory in search of prey.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "66.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Bird"
+      },
+      {
+        "label": "Abilities",
+        "info": "Keen Eye, Tangled Feet"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 63
+      },
+      {
+        "label": "Attack",
+        "amount": 60
+      },
+      {
+        "label": "Defense",
+        "amount": 55
+      },
+      {
+        "label": "Special Attack",
+        "amount": 50
+      },
+      {
+        "label": "Special Defense",
+        "amount": 50
+      },
+      {
+        "label": "Speed",
+        "amount": 71
+      },
+      {
+        "label": "Total",
+        "amount": 349
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Pidgeotto.png",
+    "evos": [
+      {
+        "pokeNum": "#016",
+        "name": "Pidgey",
+        "image": "Pidgey.png"
+      },
+      {
+        "pokeNum": "#017",
+        "name": "Pidgeotto",
+        "image": "Pidgeotto.png"
+      },
+      {
+        "pokeNum": "#018",
+        "name": "Pidgeot",
+        "image": "Pidgeot.png"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "description": "This Pokémon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "87.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Bird"
+      },
+      {
+        "label": "Abilities",
+        "info": "Keen Eye, Tangled Feet"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 83
+      },
+      {
+        "label": "Attack",
+        "amount": 80
+      },
+      {
+        "label": "Defense",
+        "amount": 75
+      },
+      {
+        "label": "Special Attack",
+        "amount": 70
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 101
+      },
+      {
+        "label": "Total",
+        "amount": 479
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Pidgeot.png",
+    "evos": [
+      {
+        "pokeNum": "#016",
+        "name": "Pidgey",
+        "image": "Pidgey.png"
+      },
+      {
+        "pokeNum": "#017",
+        "name": "Pidgeotto",
+        "image": "Pidgeotto.png"
+      },
+      {
+        "pokeNum": "#018",
+        "name": "Pidgeot",
+        "image": "Pidgeot.png"
+      }
+    ]
   }
 ]

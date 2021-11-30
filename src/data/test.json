@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Bulbasaur",
+    "description": "Bulbasaur can survive for days solely on sunlight. It likes to take a nap in the sunshine. While it sleeps, the seed on its back catches the rays and uses the energy to grow.",
     "info": [
       {
         "label": "Height",

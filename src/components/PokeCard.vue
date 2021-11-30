@@ -212,6 +212,10 @@
               </table>
             </div>
             <div class="col text-start">
+              <div class="text-start mb-3">
+                <div class="fw-bold mb-2">Description</div>
+                {{ selectedPokemon?.description }}
+              </div>
               <div>
                 <div class="fw-bold mb-2">Type</div>
                 <h5>
@@ -244,7 +248,7 @@
                 </h5>
               </div>
               <br />
-              <div class="mb-3">
+              <div>
                 <div class="fw-bold mb-2">Weaknesses</div>
                 <span v-if="!selectedPokemon?.weak">No weakness recorded.</span>
                 <!-- WEAKNESS 1 -->
@@ -277,23 +281,23 @@
                   >
                 </h5>
               </div>
-              <div>
-                <div class="fw-bold mb-2">Evolutions</div>
-                <span v-if="!selectedPokemon?.evos"
-                  >This Pokémon does not evolve.</span
-                >
-                <span v-for="(evo, index) in selectedPokemon?.evos" :key="evo">
-                  <img
-                    class="img-fluid evo-img"
-                    :src="require('@/assets/poke-imgs/' + evo.image)"
-                  />
-                  <i
-                    v-if="index != selectedPokemon?.evos.length - 1"
-                    class="bi bi-arrow-right h1 ms-2 me-2"
-                  ></i>
-                </span>
-              </div>
             </div>
+          </div>
+          <div class="text-start">
+            <div class="fw-bold">Evolutions</div>
+            <span v-if="!selectedPokemon?.evos"
+              >This Pokémon does not evolve.</span
+            >
+            <span v-for="(evo, index) in selectedPokemon?.evos" :key="evo">
+              <img
+                class="img-fluid evo-img"
+                :src="require('@/assets/poke-imgs/' + evo.image)"
+              />
+              <i
+                v-if="index != selectedPokemon?.evos.length - 1"
+                class="bi bi-arrow-right h1 ms-2 me-2"
+              ></i>
+            </span>
           </div>
         </div>
         <div class="modal-footer bg-dark">
@@ -421,6 +425,6 @@ export default {
   height: 220px;
 }
 .evo-img {
-  width: 85px;
+  width: 120px;
 }
 </style>

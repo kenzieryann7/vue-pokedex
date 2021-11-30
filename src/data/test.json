@@ -5863,15 +5863,15 @@
   {
     "id": 65,
     "name": "Alakazam",
-    "description": "This Pokémon uses its psychic powers while it sleeps. The contents of Abra’s dreams affect the powers that the Pokémon wields.",
+    "description": "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
     "info": [
       {
         "label": "Height",
-        "info": "2' 11\""
+        "info": "4' 11\""
       },
       {
         "label": "Weight",
-        "info": "43.0 lbs"
+        "info": "105.8 lbs"
       },
       {
         "label": "Category",
@@ -5950,6 +5950,582 @@
         "pokeNum": "#065",
         "name": "Alakazam",
         "image": "Alakazam.png"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Machop",
+    "description": "Its whole body is composed of muscles. Even though it’s the size of a human child, it can hurl 100 grown-ups.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "43.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Superpower"
+      },
+      {
+        "label": "Abilities",
+        "info": "Guts, No Guard"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Fairy"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 70
+      },
+      {
+        "label": "Attack",
+        "amount": 80
+      },
+      {
+        "label": "Defense",
+        "amount": 50
+      },
+      {
+        "label": "Special Attack",
+        "amount": 35
+      },
+      {
+        "label": "Special Defense",
+        "amount": 35
+      },
+      {
+        "label": "Speed",
+        "amount": 35
+      },
+      {
+        "label": "Total",
+        "amount": 305
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Machop.png",
+    "evos": [
+      {
+        "pokeNum": "#066",
+        "name": "Machop",
+        "image": "Machop.png"
+      },
+      {
+        "pokeNum": "#067",
+        "name": "Machoke",
+        "image": "Machoke.png"
+      },
+      {
+        "pokeNum": "#068",
+        "name": "Machamp",
+        "image": "Machamp.png"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Machoke",
+    "description": "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "155.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Superpower"
+      },
+      {
+        "label": "Abilities",
+        "info": "Guts, No Guard"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Fairy"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 80
+      },
+      {
+        "label": "Attack",
+        "amount": 100
+      },
+      {
+        "label": "Defense",
+        "amount": 70
+      },
+      {
+        "label": "Special Attack",
+        "amount": 50
+      },
+      {
+        "label": "Special Defense",
+        "amount": 60
+      },
+      {
+        "label": "Speed",
+        "amount": 45
+      },
+      {
+        "label": "Total",
+        "amount": 405
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Machoke.png",
+    "evos": [
+      {
+        "pokeNum": "#066",
+        "name": "Machop",
+        "image": "Machop.png"
+      },
+      {
+        "pokeNum": "#067",
+        "name": "Machoke",
+        "image": "Machoke.png"
+      },
+      {
+        "pokeNum": "#068",
+        "name": "Machamp",
+        "image": "Machamp.png"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Machamp",
+    "description": "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "286.6 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Superpower"
+      },
+      {
+        "label": "Abilities",
+        "info": "Guts, No Guard"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Fairy"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 90
+      },
+      {
+        "label": "Attack",
+        "amount": 130
+      },
+      {
+        "label": "Defense",
+        "amount": 80
+      },
+      {
+        "label": "Special Attack",
+        "amount": 65
+      },
+      {
+        "label": "Special Defense",
+        "amount": 85
+      },
+      {
+        "label": "Speed",
+        "amount": 55
+      },
+      {
+        "label": "Total",
+        "amount": 505
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Machamp.png",
+    "evos": [
+      {
+        "pokeNum": "#066",
+        "name": "Machop",
+        "image": "Machop.png"
+      },
+      {
+        "pokeNum": "#067",
+        "name": "Machoke",
+        "image": "Machoke.png"
+      },
+      {
+        "pokeNum": "#068",
+        "name": "Machamp",
+        "image": "Machamp.png"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Bellsprout",
+    "description": "Prefers hot and humid places. It ensnares tiny bugs with its vines and devours them.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "8.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Flower"
+      },
+      {
+        "label": "Abilities",
+        "info": "Chlorophyll"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      },
+      {
+        "label": "Grass"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 50
+      },
+      {
+        "label": "Attack",
+        "amount": 75
+      },
+      {
+        "label": "Defense",
+        "amount": 35
+      },
+      {
+        "label": "Special Attack",
+        "amount": 70
+      },
+      {
+        "label": "Special Defense",
+        "amount": 30
+      },
+      {
+        "label": "Speed",
+        "amount": 40
+      },
+      {
+        "label": "Total",
+        "amount": 300
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Bellsprout.png",
+    "evos": [
+      {
+        "pokeNum": "#069",
+        "name": "Bellsprout",
+        "image": "Bellsprout.png"
+      },
+      {
+        "pokeNum": "#070",
+        "name": "Weepinbell",
+        "image": "Weepinbell.png"
+      },
+      {
+        "pokeNum": "#071",
+        "name": "Victreebel",
+        "image": "Victreebel.png"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Weepinbell",
+    "description": "When hungry, it swallows anything that moves. Its hapless prey is dissolved by strong acids.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "14.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Flycatcher"
+      },
+      {
+        "label": "Abilities",
+        "info": "Chlorophyll"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      },
+      {
+        "label": "Grass"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 90
+      },
+      {
+        "label": "Defense",
+        "amount": 50
+      },
+      {
+        "label": "Special Attack",
+        "amount": 85
+      },
+      {
+        "label": "Special Defense",
+        "amount": 45
+      },
+      {
+        "label": "Speed",
+        "amount": 55
+      },
+      {
+        "label": "Total",
+        "amount": 390
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Weepinbell.png",
+    "evos": [
+      {
+        "pokeNum": "#069",
+        "name": "Bellsprout",
+        "image": "Bellsprout.png"
+      },
+      {
+        "pokeNum": "#070",
+        "name": "Weepinbell",
+        "image": "Weepinbell.png"
+      },
+      {
+        "pokeNum": "#071",
+        "name": "Victreebel",
+        "image": "Victreebel.png"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Victreebel",
+    "description": "Lures prey with the sweet aroma of honey. Swallowed whole, the prey is dissolved in a day, bones and all.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "34.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Flycatcher"
+      },
+      {
+        "label": "Abilities",
+        "info": "Chlorophyll"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      },
+      {
+        "label": "Grass"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 80
+      },
+      {
+        "label": "Attack",
+        "amount": 105
+      },
+      {
+        "label": "Defense",
+        "amount": 65
+      },
+      {
+        "label": "Special Attack",
+        "amount": 100
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 70
+      },
+      {
+        "label": "Total",
+        "amount": 490
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Victreebel.png",
+    "evos": [
+      {
+        "pokeNum": "#069",
+        "name": "Bellsprout",
+        "image": "Bellsprout.png"
+      },
+      {
+        "pokeNum": "#070",
+        "name": "Weepinbell",
+        "image": "Weepinbell.png"
+      },
+      {
+        "pokeNum": "#071",
+        "name": "Victreebel",
+        "image": "Victreebel.png"
       }
     ]
   }

@@ -1720,5 +1720,521 @@
         "image": "Pidgeot.png"
       }
     ]
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "description": "Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "7.7 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Mouse"
+      },
+      {
+        "label": "Abilities",
+        "info": "Run Away, Guts"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 30
+      },
+      {
+        "label": "Attack",
+        "amount": 56
+      },
+      {
+        "label": "Defense",
+        "amount": 35
+      },
+      {
+        "label": "Special Attack",
+        "amount": 25
+      },
+      {
+        "label": "Special Defense",
+        "amount": 35
+      },
+      {
+        "label": "Speed",
+        "amount": 72
+      },
+      {
+        "label": "Total",
+        "amount": 253
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Rattata.png",
+    "evos": [
+      {
+        "pokeNum": "#019",
+        "name": "Rattata",
+        "image": "Rattata.png"
+      },
+      {
+        "pokeNum": "#020",
+        "name": "Raticate",
+        "image": "Raticate.png"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Raticate",
+    "description": "Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "40.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Mouse"
+      },
+      {
+        "label": "Abilities",
+        "info": "Run Away, Guts"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 55
+      },
+      {
+        "label": "Attack",
+        "amount": 81
+      },
+      {
+        "label": "Defense",
+        "amount": 60
+      },
+      {
+        "label": "Special Attack",
+        "amount": 50
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 97
+      },
+      {
+        "label": "Total",
+        "amount": 413
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Raticate.png",
+    "evos": [
+      {
+        "pokeNum": "#019",
+        "name": "Rattata",
+        "image": "Rattata.png"
+      },
+      {
+        "pokeNum": "#020",
+        "name": "Raticate",
+        "image": "Raticate.png"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "description": "Inept at flying high. However, it can fly around very fast to protect its territory.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "4.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Tiny Bird"
+      },
+      {
+        "label": "Abilities",
+        "info": "Keen Eye"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 40
+      },
+      {
+        "label": "Attack",
+        "amount": 60
+      },
+      {
+        "label": "Defense",
+        "amount": 30
+      },
+      {
+        "label": "Special Attack",
+        "amount": 31
+      },
+      {
+        "label": "Special Defense",
+        "amount": 31
+      },
+      {
+        "label": "Speed",
+        "amount": 70
+      },
+      {
+        "label": "Total",
+        "amount": 262
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Spearow.png",
+    "evos": [
+      {
+        "pokeNum": "#021",
+        "name": "Spearow",
+        "image": "Spearow.png"
+      },
+      {
+        "pokeNum": "#022",
+        "name": "Fearow",
+        "image": "Fearow.png"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "description": "A Pokémon that dates back many years. If it senses danger, it flies high and away, instantly.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "83.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Beak"
+      },
+      {
+        "label": "Abilities",
+        "info": "Keen Eye"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 90
+      },
+      {
+        "label": "Defense",
+        "amount": 65
+      },
+      {
+        "label": "Special Attack",
+        "amount": 61
+      },
+      {
+        "label": "Special Defense",
+        "amount": 61
+      },
+      {
+        "label": "Speed",
+        "amount": 100
+      },
+      {
+        "label": "Total",
+        "amount": 442
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Fearow.png",
+    "evos": [
+      {
+        "pokeNum": "#021",
+        "name": "Spearow",
+        "image": "Spearow.png"
+      },
+      {
+        "pokeNum": "#022",
+        "name": "Fearow",
+        "image": "Fearow.png"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "description": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "6' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "15.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Snake"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shed Skin, Intimidate"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 35
+      },
+      {
+        "label": "Attack",
+        "amount": 60
+      },
+      {
+        "label": "Defense",
+        "amount": 44
+      },
+      {
+        "label": "Special Attack",
+        "amount": 40
+      },
+      {
+        "label": "Special Defense",
+        "amount": 54
+      },
+      {
+        "label": "Speed",
+        "amount": 55
+      },
+      {
+        "label": "Total",
+        "amount": 288
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Ekans.png",
+    "evos": [
+      {
+        "pokeNum": "#023",
+        "name": "Ekans",
+        "image": "Ekans.png"
+      },
+      {
+        "pokeNum": "#024",
+        "name": "Arbok",
+        "image": "Arbok.png"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "description": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "11' 06\""
+      },
+      {
+        "label": "Weight",
+        "info": "143.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Cobra"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shed Skin, Intimidate"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 85
+      },
+      {
+        "label": "Defense",
+        "amount": 69
+      },
+      {
+        "label": "Special Attack",
+        "amount": 65
+      },
+      {
+        "label": "Special Defense",
+        "amount": 79
+      },
+      {
+        "label": "Speed",
+        "amount": 80
+      },
+      {
+        "label": "Total",
+        "amount": 438
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Arbok.png",
+    "evos": [
+      {
+        "pokeNum": "#023",
+        "name": "Ekans",
+        "image": "Ekans.png"
+      },
+      {
+        "pokeNum": "#024",
+        "name": "Arbok",
+        "image": "Arbok.png"
+      }
+    ]
   }
 ]

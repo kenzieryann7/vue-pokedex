@@ -13108,5 +13108,444 @@
     "legendary": true,
     "image": "Moltres.png",
     "evos": []
+  },
+  {
+    "id": 147,
+    "name": "Dratini",
+    "description": "Dratini dwells near bodies of rapidly flowing water, such as the plunge pools of waterfalls. As it grows, Dratini will shed its skin many times.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "7.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Dragon"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shed Skin"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Dragon"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fairy"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Dragon"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 41
+      },
+      {
+        "label": "Attack",
+        "amount": 64
+      },
+      {
+        "label": "Defense",
+        "amount": 45
+      },
+      {
+        "label": "Special Attack",
+        "amount": 50
+      },
+      {
+        "label": "Special Defense",
+        "amount": 50
+      },
+      {
+        "label": "Speed",
+        "amount": 50
+      },
+      {
+        "label": "Total",
+        "amount": 300
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Dratini.png",
+    "evos": [
+      {
+        "pokeNum": "#147",
+        "name": "Dratini",
+        "image": "Dratini.png"
+      },
+      {
+        "pokeNum": "#148",
+        "name": "Dragonair",
+        "image": "Dragonair.png"
+      },
+      {
+        "pokeNum": "#149",
+        "name": "Dragonite",
+        "image": "Dragonite.png"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Dragonair",
+    "description": "This Pokémon lives in pristine oceans and lakes. It can control the weather, and it uses this power to fly into the sky, riding on the wind.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "13' 01\""
+      },
+      {
+        "label": "Weight",
+        "info": "36.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Dragon"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shed Skin"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Dragon"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fairy"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Dragon"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 61
+      },
+      {
+        "label": "Attack",
+        "amount": 84
+      },
+      {
+        "label": "Defense",
+        "amount": 65
+      },
+      {
+        "label": "Special Attack",
+        "amount": 70
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 70
+      },
+      {
+        "label": "Total",
+        "amount": 420
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Dragonair.png",
+    "evos": [
+      {
+        "pokeNum": "#147",
+        "name": "Dratini",
+        "image": "Dratini.png"
+      },
+      {
+        "pokeNum": "#148",
+        "name": "Dragonair",
+        "image": "Dragonair.png"
+      },
+      {
+        "pokeNum": "#149",
+        "name": "Dragonite",
+        "image": "Dragonite.png"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Dragonite",
+    "description": "It’s a kindhearted Pokémon. If it spots a drowning person or Pokémon, Dragonite simply must help them.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "7' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "463.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Dragon"
+      },
+      {
+        "label": "Abilities",
+        "info": "Inner Focus"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Dragon"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fairy"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Dragon"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 91
+      },
+      {
+        "label": "Attack",
+        "amount": 134
+      },
+      {
+        "label": "Defense",
+        "amount": 95
+      },
+      {
+        "label": "Special Attack",
+        "amount": 100
+      },
+      {
+        "label": "Special Defense",
+        "amount": 100
+      },
+      {
+        "label": "Speed",
+        "amount": 80
+      },
+      {
+        "label": "Total",
+        "amount": 600
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Dragonite.png",
+    "evos": [
+      {
+        "pokeNum": "#147",
+        "name": "Dratini",
+        "image": "Dratini.png"
+      },
+      {
+        "pokeNum": "#148",
+        "name": "Dragonair",
+        "image": "Dragonair.png"
+      },
+      {
+        "pokeNum": "#149",
+        "name": "Dragonite",
+        "image": "Dragonite.png"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Mewtwo",
+    "description": "Its DNA is almost the same as Mew’s. However, its size and disposition are vastly different.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "6' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "269.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Genetic"
+      },
+      {
+        "label": "Abilities",
+        "info": "Pressure"
+      },
+      {
+        "label": "Gender",
+        "info": "Unknown"
+      }
+    ],
+    "type": [
+      {
+        "label": "Psychic"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 106
+      },
+      {
+        "label": "Attack",
+        "amount": 110
+      },
+      {
+        "label": "Defense",
+        "amount": 90
+      },
+      {
+        "label": "Special Attack",
+        "amount": 154
+      },
+      {
+        "label": "Special Defense",
+        "amount": 90
+      },
+      {
+        "label": "Speed",
+        "amount": 130
+      },
+      {
+        "label": "Total",
+        "amount": 680
+      }
+    ],
+    "generation": 1,
+    "legendary": true,
+    "image": "Mewtwo.png",
+    "evos": []
+  },
+  {
+    "id": 151,
+    "name": "Mew",
+    "description": "When viewed through a microscope, this Pokémon’s short, fine, delicate hair can be seen.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "8.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "New Specied"
+      },
+      {
+        "label": "Abilities",
+        "info": "Synchronize"
+      },
+      {
+        "label": "Gender",
+        "info": "Unknown"
+      }
+    ],
+    "type": [
+      {
+        "label": "Psychic"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 100
+      },
+      {
+        "label": "Attack",
+        "amount": 100
+      },
+      {
+        "label": "Defense",
+        "amount": 100
+      },
+      {
+        "label": "Special Attack",
+        "amount": 100
+      },
+      {
+        "label": "Special Defense",
+        "amount": 100
+      },
+      {
+        "label": "Speed",
+        "amount": 100
+      },
+      {
+        "label": "Total",
+        "amount": 600
+      }
+    ],
+    "generation": 1,
+    "legendary": true,
+    "image": "Mew.png",
+    "evos": []
   }
 ]

@@ -6528,5 +6528,1929 @@
         "image": "Victreebel.png"
       }
     ]
+  },
+  {
+    "id": 72,
+    "name": "Tentacool",
+    "description": "Tentacool is not a particularly strong swimmer. It drifts across the surface of shallow seas as it searches for prey.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "100.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Jellyfish"
+      },
+      {
+        "label": "Abilities",
+        "info": "Clear Body, Liquid Ooze"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 40
+      },
+      {
+        "label": "Attack",
+        "amount": 40
+      },
+      {
+        "label": "Defense",
+        "amount": 35
+      },
+      {
+        "label": "Special Attack",
+        "amount": 50
+      },
+      {
+        "label": "Special Defense",
+        "amount": 100
+      },
+      {
+        "label": "Speed",
+        "amount": 70
+      },
+      {
+        "label": "Total",
+        "amount": 335
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Tentacool.png",
+    "evos": [
+      {
+        "pokeNum": "#072",
+        "name": "Tentacool",
+        "image": "Tentacool.png"
+      },
+      {
+        "pokeNum": "#073",
+        "name": "Tentacruel",
+        "image": "Tentacruel.png"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Tentacruel",
+    "description": "When the red orbs on Tentacruel’s head glow brightly, watch out. The Pokémon is about to fire off a burst of ultrasonic waves.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "121.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Jellyfish"
+      },
+      {
+        "label": "Abilities",
+        "info": "Clear Body, Liquid Ooze"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 80
+      },
+      {
+        "label": "Attack",
+        "amount": 70
+      },
+      {
+        "label": "Defense",
+        "amount": 65
+      },
+      {
+        "label": "Special Attack",
+        "amount": 80
+      },
+      {
+        "label": "Special Defense",
+        "amount": 120
+      },
+      {
+        "label": "Speed",
+        "amount": 100
+      },
+      {
+        "label": "Total",
+        "amount": 515
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Tentacruel.png",
+    "evos": [
+      {
+        "pokeNum": "#072",
+        "name": "Tentacool",
+        "image": "Tentacool.png"
+      },
+      {
+        "pokeNum": "#073",
+        "name": "Tentacruel",
+        "image": "Tentacruel.png"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Geodude",
+    "description": "Commonly found near mountain trails and the like. If you step on one by accident, it gets angry.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "44.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Rock"
+      },
+      {
+        "label": "Abilities",
+        "info": "Rock Head, Sturdy"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Rock"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 40
+      },
+      {
+        "label": "Attack",
+        "amount": 80
+      },
+      {
+        "label": "Defense",
+        "amount": 100
+      },
+      {
+        "label": "Special Attack",
+        "amount": 30
+      },
+      {
+        "label": "Special Defense",
+        "amount": 30
+      },
+      {
+        "label": "Speed",
+        "amount": 20
+      },
+      {
+        "label": "Total",
+        "amount": 300
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Geodude.png",
+    "evos": [
+      {
+        "pokeNum": "#074",
+        "name": "Geodude",
+        "image": "Geodude.png"
+      },
+      {
+        "pokeNum": "#075",
+        "name": "Graveler",
+        "image": "Graveler.png"
+      },
+      {
+        "pokeNum": "#076",
+        "name": "Golem",
+        "image": "Golem.png"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Graveler",
+    "description": "Often seen rolling down mountain trails. Obstacles are just things to roll straight over, not avoid.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "231.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Rock"
+      },
+      {
+        "label": "Abilities",
+        "info": "Rock Head, Sturdy"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Rock"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 55
+      },
+      {
+        "label": "Attack",
+        "amount": 95
+      },
+      {
+        "label": "Defense",
+        "amount": 115
+      },
+      {
+        "label": "Special Attack",
+        "amount": 45
+      },
+      {
+        "label": "Special Defense",
+        "amount": 45
+      },
+      {
+        "label": "Speed",
+        "amount": 35
+      },
+      {
+        "label": "Total",
+        "amount": 390
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Graveler.png",
+    "evos": [
+      {
+        "pokeNum": "#074",
+        "name": "Geodude",
+        "image": "Geodude.png"
+      },
+      {
+        "pokeNum": "#075",
+        "name": "Graveler",
+        "image": "Graveler.png"
+      },
+      {
+        "pokeNum": "#076",
+        "name": "Golem",
+        "image": "Golem.png"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Golem",
+    "description": "Once it sheds its skin, its body turns tender and whitish. Its hide hardens when it’s exposed to air.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "661.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Megaton"
+      },
+      {
+        "label": "Abilities",
+        "info": "Rock Head, Sturdy"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Rock"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 80
+      },
+      {
+        "label": "Attack",
+        "amount": 120
+      },
+      {
+        "label": "Defense",
+        "amount": 130
+      },
+      {
+        "label": "Special Attack",
+        "amount": 55
+      },
+      {
+        "label": "Special Defense",
+        "amount": 65
+      },
+      {
+        "label": "Speed",
+        "amount": 45
+      },
+      {
+        "label": "Total",
+        "amount": 495
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Golem.png",
+    "evos": [
+      {
+        "pokeNum": "#074",
+        "name": "Geodude",
+        "image": "Geodude.png"
+      },
+      {
+        "pokeNum": "#075",
+        "name": "Graveler",
+        "image": "Graveler.png"
+      },
+      {
+        "pokeNum": "#076",
+        "name": "Golem",
+        "image": "Golem.png"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Ponyta",
+    "description": "It can’t run properly when it’s newly born. As it races around with others of its kind, its legs grow stronger.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "66.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Fire Horse"
+      },
+      {
+        "label": "Abilities",
+        "info": "Run Away, Flash Fire"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fire"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 50
+      },
+      {
+        "label": "Attack",
+        "amount": 85
+      },
+      {
+        "label": "Defense",
+        "amount": 55
+      },
+      {
+        "label": "Special Attack",
+        "amount": 65
+      },
+      {
+        "label": "Special Defense",
+        "amount": 65
+      },
+      {
+        "label": "Speed",
+        "amount": 90
+      },
+      {
+        "label": "Total",
+        "amount": 410
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Ponyta.png",
+    "evos": [
+      {
+        "pokeNum": "#077",
+        "name": "Ponyta",
+        "image": "Ponyta.png"
+      },
+      {
+        "pokeNum": "#078",
+        "name": "Rapidash",
+        "image": "Rapidash.png"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Rapidash",
+    "description": "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "209.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Fire Horse"
+      },
+      {
+        "label": "Abilities",
+        "info": "Run Away, Flash Fire"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fire"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 100
+      },
+      {
+        "label": "Defense",
+        "amount": 70
+      },
+      {
+        "label": "Special Attack",
+        "amount": 80
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 105
+      },
+      {
+        "label": "Total",
+        "amount": 500
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Rapidash.png",
+    "evos": [
+      {
+        "pokeNum": "#077",
+        "name": "Ponyta",
+        "image": "Ponyta.png"
+      },
+      {
+        "pokeNum": "#078",
+        "name": "Rapidash",
+        "image": "Rapidash.png"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Slowpoke",
+    "description": "Slow-witted and oblivious, this Pokémon won’t feel any pain if its tail gets eaten. It won’t notice when its tail grows back, either.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "79.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Dopey"
+      },
+      {
+        "label": "Abilities",
+        "info": "Oblivious, Own Tempo"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Psychic"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 90
+      },
+      {
+        "label": "Attack",
+        "amount": 65
+      },
+      {
+        "label": "Defense",
+        "amount": 65
+      },
+      {
+        "label": "Special Attack",
+        "amount": 40
+      },
+      {
+        "label": "Special Defense",
+        "amount": 40
+      },
+      {
+        "label": "Speed",
+        "amount": 15
+      },
+      {
+        "label": "Total",
+        "amount": 315
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Slowpoke.png",
+    "evos": [
+      {
+        "pokeNum": "#079",
+        "name": "Slowpoke",
+        "image": "Slowpoke.png"
+      },
+      {
+        "pokeNum": "#080",
+        "name": "Slowbro",
+        "image": "Slowbro.png"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Slowbro",
+    "description": "Slowpoke became Slowbro when a Shellder bit on to its tail. Sweet flavors seeping from the tail make the Shellder feel as if its life is a dream.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "173.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Hermit Crab"
+      },
+      {
+        "label": "Abilities",
+        "info": "Oblivious, Own Tempo"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Psychic"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 95
+      },
+      {
+        "label": "Attack",
+        "amount": 75
+      },
+      {
+        "label": "Defense",
+        "amount": 110
+      },
+      {
+        "label": "Special Attack",
+        "amount": 100
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 30
+      },
+      {
+        "label": "Total",
+        "amount": 490
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Slowbro.png",
+    "evos": [
+      {
+        "pokeNum": "#079",
+        "name": "Slowpoke",
+        "image": "Slowpoke.png"
+      },
+      {
+        "pokeNum": "#080",
+        "name": "Slowbro",
+        "image": "Slowbro.png"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Magnemite",
+    "description": "At times, Magnemite runs out of electricity and ends up on the ground. If you give batteries to a grounded Magnemite, it’ll start moving again.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "13.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Magnet"
+      },
+      {
+        "label": "Abilities",
+        "info": "Sturdy, Magnet Pull"
+      },
+      {
+        "label": "Gender",
+        "info": "Uknown"
+      }
+    ],
+    "type": [
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Steel"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 25
+      },
+      {
+        "label": "Attack",
+        "amount": 35
+      },
+      {
+        "label": "Defense",
+        "amount": 70
+      },
+      {
+        "label": "Special Attack",
+        "amount": 95
+      },
+      {
+        "label": "Special Defense",
+        "amount": 55
+      },
+      {
+        "label": "Speed",
+        "amount": 45
+      },
+      {
+        "label": "Total",
+        "amount": 325
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Magnemite.png",
+    "evos": [
+      {
+        "pokeNum": "#081",
+        "name": "Magnemite",
+        "image": "Magnemite.png"
+      },
+      {
+        "pokeNum": "#082",
+        "name": "Magneton",
+        "image": "Magneton.png"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Magneton",
+    "description": "This Pokémon is three Magnemite that have linked together. Magneton sends out powerful radio waves to study its surroundings.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "132.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Magnet"
+      },
+      {
+        "label": "Abilities",
+        "info": "Sturdy, Magnet Pull"
+      },
+      {
+        "label": "Gender",
+        "info": "Uknown"
+      }
+    ],
+    "type": [
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Steel"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 50
+      },
+      {
+        "label": "Attack",
+        "amount": 60
+      },
+      {
+        "label": "Defense",
+        "amount": 95
+      },
+      {
+        "label": "Special Attack",
+        "amount": 120
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 70
+      },
+      {
+        "label": "Total",
+        "amount": 465
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Magneton.png",
+    "evos": [
+      {
+        "pokeNum": "#081",
+        "name": "Magnemite",
+        "image": "Magnemite.png"
+      },
+      {
+        "pokeNum": "#082",
+        "name": "Magneton",
+        "image": "Magneton.png"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Farfetch'd",
+    "description": "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "33.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Wild Duck"
+      },
+      {
+        "label": "Abilities",
+        "info": "Keen Eye, Inner Focus"
+      },
+      {
+        "label": "Gender",
+        "info": "Uknown"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 52
+      },
+      {
+        "label": "Attack",
+        "amount": 65
+      },
+      {
+        "label": "Defense",
+        "amount": 55
+      },
+      {
+        "label": "Special Attack",
+        "amount": 58
+      },
+      {
+        "label": "Special Defense",
+        "amount": 62
+      },
+      {
+        "label": "Speed",
+        "amount": 60
+      },
+      {
+        "label": "Total",
+        "amount": 352
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Farfetchd.png",
+    "evos": []
+  },
+  {
+    "id": 84,
+    "name": "Doduo",
+    "description": "Its short wings make flying difficult. Instead, this Pokémon runs at high speed on developed legs.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "86.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Twin Bird"
+      },
+      {
+        "label": "Abilities",
+        "info": "Run Away, Early Bird"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 35
+      },
+      {
+        "label": "Attack",
+        "amount": 85
+      },
+      {
+        "label": "Defense",
+        "amount": 45
+      },
+      {
+        "label": "Special Attack",
+        "amount": 35
+      },
+      {
+        "label": "Special Defense",
+        "amount": 35
+      },
+      {
+        "label": "Speed",
+        "amount": 75
+      },
+      {
+        "label": "Total",
+        "amount": 310
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Doduo.png",
+    "evos": [
+      {
+        "pokeNum": "#084",
+        "name": "Doduo",
+        "image": "Doduo.png"
+      },
+      {
+        "pokeNum": "#085",
+        "name": "Dodrio",
+        "image": "Dodrio.png"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Dodrio",
+    "description": "One of Doduo’s two heads splits to form a unique species. It runs close to 40 mph in prairies.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "187.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Triple Bird"
+      },
+      {
+        "label": "Abilities",
+        "info": "Run Away, Early Bird"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 110
+      },
+      {
+        "label": "Defense",
+        "amount": 70
+      },
+      {
+        "label": "Special Attack",
+        "amount": 60
+      },
+      {
+        "label": "Special Defense",
+        "amount": 60
+      },
+      {
+        "label": "Speed",
+        "amount": 100
+      },
+      {
+        "label": "Total",
+        "amount": 460
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Dodrio.png",
+    "evos": [
+      {
+        "pokeNum": "#084",
+        "name": "Doduo",
+        "image": "Doduo.png"
+      },
+      {
+        "pokeNum": "#085",
+        "name": "Dodrio",
+        "image": "Dodrio.png"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Seel",
+    "description": "Loves freezing-cold conditions. Relishes swimming in a frigid climate of around 14 degrees Fahrenheit.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "198.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Sea Lion"
+      },
+      {
+        "label": "Abilities",
+        "info": "Thick Fat, Hydration"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 45
+      },
+      {
+        "label": "Defense",
+        "amount": 55
+      },
+      {
+        "label": "Special Attack",
+        "amount": 45
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 45
+      },
+      {
+        "label": "Total",
+        "amount": 325
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Seel.png",
+    "evos": [
+      {
+        "pokeNum": "#086",
+        "name": "Seel",
+        "image": "Seel.png"
+      },
+      {
+        "pokeNum": "#087",
+        "name": "Dewgong",
+        "image": "Dewgong.png"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Dewgong",
+    "description": "Its entire body is a snowy white. Unharmed by even intense cold, it swims powerfully in icy waters.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "264.6 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Sea Lion"
+      },
+      {
+        "label": "Abilities",
+        "info": "Thick Fat, Hydration"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 90
+      },
+      {
+        "label": "Attack",
+        "amount": 70
+      },
+      {
+        "label": "Defense",
+        "amount": 80
+      },
+      {
+        "label": "Special Attack",
+        "amount": 70
+      },
+      {
+        "label": "Special Defense",
+        "amount": 95
+      },
+      {
+        "label": "Speed",
+        "amount": 70
+      },
+      {
+        "label": "Total",
+        "amount": 475
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Dewgong.png",
+    "evos": [
+      {
+        "pokeNum": "#086",
+        "name": "Seel",
+        "image": "Seel.png"
+      },
+      {
+        "pokeNum": "#087",
+        "name": "Dewgong",
+        "image": "Dewgong.png"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Grimer",
+    "description": "Made of congealed sludge. It smells too putrid to touch. Even weeds won’t grow in its path.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "66.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Sludge"
+      },
+      {
+        "label": "Abilities",
+        "info": "Stench, Sticky Hold"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 80
+      },
+      {
+        "label": "Attack",
+        "amount": 80
+      },
+      {
+        "label": "Defense",
+        "amount": 50
+      },
+      {
+        "label": "Special Attack",
+        "amount": 40
+      },
+      {
+        "label": "Special Defense",
+        "amount": 50
+      },
+      {
+        "label": "Speed",
+        "amount": 25
+      },
+      {
+        "label": "Total",
+        "amount": 325
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Grimer.png",
+    "evos": [
+      {
+        "pokeNum": "#088",
+        "name": "Grimer",
+        "image": "Grimer.png"
+      },
+      {
+        "pokeNum": "#089",
+        "name": "Muk",
+        "image": "Muk.png"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Muk",
+    "description": "Smells so awful, it can cause fainting. Through degeneration of its nose, it lost its sense of smell.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "66.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Sludge"
+      },
+      {
+        "label": "Abilities",
+        "info": "Stench, Sticky Hold"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 105
+      },
+      {
+        "label": "Attack",
+        "amount": 105
+      },
+      {
+        "label": "Defense",
+        "amount": 75
+      },
+      {
+        "label": "Special Attack",
+        "amount": 65
+      },
+      {
+        "label": "Special Defense",
+        "amount": 100
+      },
+      {
+        "label": "Speed",
+        "amount": 50
+      },
+      {
+        "label": "Total",
+        "amount": 500
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Muk.png",
+    "evos": [
+      {
+        "pokeNum": "#088",
+        "name": "Grimer",
+        "image": "Grimer.png"
+      },
+      {
+        "pokeNum": "#089",
+        "name": "Muk",
+        "image": "Muk.png"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Muk",
+    "description": "Smells so awful, it can cause fainting. Through degeneration of its nose, it lost its sense of smell.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "66.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Sludge"
+      },
+      {
+        "label": "Abilities",
+        "info": "Stench, Sticky Hold"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 105
+      },
+      {
+        "label": "Attack",
+        "amount": 105
+      },
+      {
+        "label": "Defense",
+        "amount": 75
+      },
+      {
+        "label": "Special Attack",
+        "amount": 65
+      },
+      {
+        "label": "Special Defense",
+        "amount": 100
+      },
+      {
+        "label": "Speed",
+        "amount": 50
+      },
+      {
+        "label": "Total",
+        "amount": 500
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Muk.png",
+    "evos": [
+      {
+        "pokeNum": "#088",
+        "name": "Grimer",
+        "image": "Grimer.png"
+      },
+      {
+        "pokeNum": "#089",
+        "name": "Muk",
+        "image": "Muk.png"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Shellder",
+    "description": "It swims facing backward by opening and closing its two-piece shell. It is surprisingly fast.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "8.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Bivalve"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shell Armor, Skill Link"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 30
+      },
+      {
+        "label": "Attack",
+        "amount": 65
+      },
+      {
+        "label": "Defense",
+        "amount": 100
+      },
+      {
+        "label": "Special Attack",
+        "amount": 45
+      },
+      {
+        "label": "Special Defense",
+        "amount": 25
+      },
+      {
+        "label": "Speed",
+        "amount": 40
+      },
+      {
+        "label": "Total",
+        "amount": 305
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Shellder.png",
+    "evos": [
+      {
+        "pokeNum": "#090",
+        "name": "Shellder",
+        "image": "Shellder.png"
+      },
+      {
+        "pokeNum": "#091",
+        "name": "Cloyster",
+        "image": "Cloyster.png"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Cloyster",
+    "description": "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "292.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Bivalve"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shell Armor, Skill Link"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 50
+      },
+      {
+        "label": "Attack",
+        "amount": 95
+      },
+      {
+        "label": "Defense",
+        "amount": 180
+      },
+      {
+        "label": "Special Attack",
+        "amount": 85
+      },
+      {
+        "label": "Special Defense",
+        "amount": 45
+      },
+      {
+        "label": "Speed",
+        "amount": 70
+      },
+      {
+        "label": "Total",
+        "amount": 525
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Cloyster.png",
+    "evos": [
+      {
+        "pokeNum": "#090",
+        "name": "Shellder",
+        "image": "Shellder.png"
+      },
+      {
+        "pokeNum": "#091",
+        "name": "Cloyster",
+        "image": "Cloyster.png"
+      }
+    ]
   }
 ]

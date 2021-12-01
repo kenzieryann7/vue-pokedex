@@ -110,7 +110,7 @@
               >
               <br />
               <!-- *** TYPE BADGE *** -->
-              <badgesize>
+              <h6>
                 <span
                   class="badge me-2"
                   v-for="type in poke.type"
@@ -137,7 +137,7 @@
                   }"
                   >{{ type.label }}</span
                 >
-              </badgesize>
+              </h6>
             </div>
             <div class="col-4 text-end align-self-center">
               <button

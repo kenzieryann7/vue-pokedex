@@ -231,6 +231,9 @@
                           <span v-if="info.info == 'M'"><Male /></span>
                           <span v-if="info.info == 'F'"><Female /></span>
                           <span v-if="info.info == 'MF'"><BothSexes /></span>
+                          <span v-if="info.info == 'Unknown'">
+                            {{ info.info }}
+                          </span>
                         </span>
                       </td>
                     </tr>

@@ -8190,91 +8190,6 @@
     ]
   },
   {
-    "id": 89,
-    "name": "Muk",
-    "description": "Smells so awful, it can cause fainting. Through degeneration of its nose, it lost its sense of smell.",
-    "info": [
-      {
-        "label": "Height",
-        "info": "3' 11\""
-      },
-      {
-        "label": "Weight",
-        "info": "66.1 lbs"
-      },
-      {
-        "label": "Category",
-        "info": "Sludge"
-      },
-      {
-        "label": "Abilities",
-        "info": "Stench, Sticky Hold"
-      },
-      {
-        "label": "Gender",
-        "info": "MF"
-      }
-    ],
-    "type": [
-      {
-        "label": "Poison"
-      }
-    ],
-    "weak": [
-      {
-        "label": "Psychic"
-      },
-      {
-        "label": "Ground"
-      }
-    ],
-    "stats": [
-      {
-        "label": "Health",
-        "amount": 105
-      },
-      {
-        "label": "Attack",
-        "amount": 105
-      },
-      {
-        "label": "Defense",
-        "amount": 75
-      },
-      {
-        "label": "Special Attack",
-        "amount": 65
-      },
-      {
-        "label": "Special Defense",
-        "amount": 100
-      },
-      {
-        "label": "Speed",
-        "amount": 50
-      },
-      {
-        "label": "Total",
-        "amount": 500
-      }
-    ],
-    "generation": 1,
-    "legendary": false,
-    "image": "Muk.png",
-    "evos": [
-      {
-        "pokeNum": "#088",
-        "name": "Grimer",
-        "image": "Grimer.png"
-      },
-      {
-        "pokeNum": "#089",
-        "name": "Muk",
-        "image": "Muk.png"
-      }
-    ]
-  },
-  {
     "id": 90,
     "name": "Shellder",
     "description": "It swims facing backward by opening and closing its two-piece shell. It is surprisingly fast.",
@@ -8450,6 +8365,1801 @@
         "pokeNum": "#091",
         "name": "Cloyster",
         "image": "Cloyster.png"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Gastly",
+    "description": "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "0.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Gas"
+      },
+      {
+        "label": "Abilities",
+        "info": "Levitate"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 30
+      },
+      {
+        "label": "Attack",
+        "amount": 35
+      },
+      {
+        "label": "Defense",
+        "amount": 30
+      },
+      {
+        "label": "Special Attack",
+        "amount": 100
+      },
+      {
+        "label": "Special Defense",
+        "amount": 35
+      },
+      {
+        "label": "Speed",
+        "amount": 80
+      },
+      {
+        "label": "Total",
+        "amount": 310
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Gastly.png",
+    "evos": [
+      {
+        "pokeNum": "#092",
+        "name": "Gastly",
+        "image": "Gastly.png"
+      },
+      {
+        "pokeNum": "#093",
+        "name": "Haunter",
+        "image": "Haunter.png"
+      },
+      {
+        "pokeNum": "#094",
+        "name": "Gengar",
+        "image": "Gengar.png"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Haunter",
+    "description": "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "0.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Gas"
+      },
+      {
+        "label": "Abilities",
+        "info": "Levitate"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 45
+      },
+      {
+        "label": "Attack",
+        "amount": 50
+      },
+      {
+        "label": "Defense",
+        "amount": 45
+      },
+      {
+        "label": "Special Attack",
+        "amount": 115
+      },
+      {
+        "label": "Special Defense",
+        "amount": 55
+      },
+      {
+        "label": "Speed",
+        "amount": 95
+      },
+      {
+        "label": "Total",
+        "amount": 405
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Haunter.png",
+    "evos": [
+      {
+        "pokeNum": "#092",
+        "name": "Gastly",
+        "image": "Gastly.png"
+      },
+      {
+        "pokeNum": "#093",
+        "name": "Haunter",
+        "image": "Haunter.png"
+      },
+      {
+        "pokeNum": "#094",
+        "name": "Gengar",
+        "image": "Gengar.png"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Gengar",
+    "description": "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar’s doing.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "89.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Shadow"
+      },
+      {
+        "label": "Abilities",
+        "info": "Cursed Body"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 65
+      },
+      {
+        "label": "Defense",
+        "amount": 60
+      },
+      {
+        "label": "Special Attack",
+        "amount": 130
+      },
+      {
+        "label": "Special Defense",
+        "amount": 75
+      },
+      {
+        "label": "Speed",
+        "amount": 110
+      },
+      {
+        "label": "Total",
+        "amount": 500
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Gengar.png",
+    "evos": [
+      {
+        "pokeNum": "#092",
+        "name": "Gastly",
+        "image": "Gastly.png"
+      },
+      {
+        "pokeNum": "#093",
+        "name": "Haunter",
+        "image": "Haunter.png"
+      },
+      {
+        "pokeNum": "#094",
+        "name": "Gengar",
+        "image": "Gengar.png"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Onix",
+    "description": "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "28' 10\""
+      },
+      {
+        "label": "Weight",
+        "info": "463.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Rock Snake"
+      },
+      {
+        "label": "Abilities",
+        "info": "Rock Head, Sturdy"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Rock"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 35
+      },
+      {
+        "label": "Attack",
+        "amount": 45
+      },
+      {
+        "label": "Defense",
+        "amount": 160
+      },
+      {
+        "label": "Special Attack",
+        "amount": 30
+      },
+      {
+        "label": "Special Defense",
+        "amount": 45
+      },
+      {
+        "label": "Speed",
+        "amount": 70
+      },
+      {
+        "label": "Total",
+        "amount": 385
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Onix.png",
+    "evos": []
+  },
+  {
+    "id": 96,
+    "name": "Drowzee",
+    "description": "If you sleep by it all the time, it will sometimes show you dreams it had eaten in the past.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "71.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Hypnosis"
+      },
+      {
+        "label": "Abilities",
+        "info": "Insomnia, Forewarn"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Pyschic"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 48
+      },
+      {
+        "label": "Defense",
+        "amount": 45
+      },
+      {
+        "label": "Special Attack",
+        "amount": 43
+      },
+      {
+        "label": "Special Defense",
+        "amount": 90
+      },
+      {
+        "label": "Speed",
+        "amount": 42
+      },
+      {
+        "label": "Total",
+        "amount": 328
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Drowzee.png",
+    "evos": [
+      {
+        "pokeNum": "#096",
+        "name": "Drowzee",
+        "image": "Drowzee.png"
+      },
+      {
+        "pokeNum": "#097",
+        "name": "Hypno",
+        "image": "Hypno.png"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Hypno",
+    "description": "Avoid eye contact if you come across one. It will try to put you to sleep by using its pendulum.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "166.7 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Hypnosis"
+      },
+      {
+        "label": "Abilities",
+        "info": "Insomnia, Forewarn"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Pyschic"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 85
+      },
+      {
+        "label": "Attack",
+        "amount": 73
+      },
+      {
+        "label": "Defense",
+        "amount": 70
+      },
+      {
+        "label": "Special Attack",
+        "amount": 73
+      },
+      {
+        "label": "Special Defense",
+        "amount": 115
+      },
+      {
+        "label": "Speed",
+        "amount": 67
+      },
+      {
+        "label": "Total",
+        "amount": 483
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Hypno.png",
+    "evos": [
+      {
+        "pokeNum": "#096",
+        "name": "Drowzee",
+        "image": "Drowzee.png"
+      },
+      {
+        "pokeNum": "#097",
+        "name": "Hypno",
+        "image": "Hypno.png"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Krabby",
+    "description": "It can be found near the sea. The large pincers grow back if they are torn out of their sockets.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "14.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "River Crab"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shell Armor, Hyper Cutter"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 30
+      },
+      {
+        "label": "Attack",
+        "amount": 105
+      },
+      {
+        "label": "Defense",
+        "amount": 90
+      },
+      {
+        "label": "Special Attack",
+        "amount": 25
+      },
+      {
+        "label": "Special Defense",
+        "amount": 25
+      },
+      {
+        "label": "Speed",
+        "amount": 50
+      },
+      {
+        "label": "Total",
+        "amount": 325
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Krabby.png",
+    "evos": [
+      {
+        "pokeNum": "#098",
+        "name": "Krabby",
+        "image": "Krabby.png"
+      },
+      {
+        "pokeNum": "#099",
+        "name": "Kingler",
+        "image": "Kingler.png"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Kingler",
+    "description": "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "132.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Pincer"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shell Armor, Hyper Cutter"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 55
+      },
+      {
+        "label": "Attack",
+        "amount": 130
+      },
+      {
+        "label": "Defense",
+        "amount": 115
+      },
+      {
+        "label": "Special Attack",
+        "amount": 50
+      },
+      {
+        "label": "Special Defense",
+        "amount": 50
+      },
+      {
+        "label": "Speed",
+        "amount": 75
+      },
+      {
+        "label": "Total",
+        "amount": 475
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Kingler.png",
+    "evos": [
+      {
+        "pokeNum": "#098",
+        "name": "Krabby",
+        "image": "Krabby.png"
+      },
+      {
+        "pokeNum": "#099",
+        "name": "Kingler",
+        "image": "Kingler.png"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Voltorb",
+    "description": "It is said to camouflage itself as a Poké Ball. It will self-destruct with very little stimulus.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 08\""
+      },
+      {
+        "label": "Weight",
+        "info": "22.9 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Ball"
+      },
+      {
+        "label": "Abilities",
+        "info": "Static, Soundproof"
+      },
+      {
+        "label": "Gender",
+        "info": "Unknown"
+      }
+    ],
+    "type": [
+      {
+        "label": "Electric"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 40
+      },
+      {
+        "label": "Attack",
+        "amount": 30
+      },
+      {
+        "label": "Defense",
+        "amount": 50
+      },
+      {
+        "label": "Special Attack",
+        "amount": 55
+      },
+      {
+        "label": "Special Defense",
+        "amount": 55
+      },
+      {
+        "label": "Speed",
+        "amount": 100
+      },
+      {
+        "label": "Total",
+        "amount": 330
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Voltorb.png",
+    "evos": [
+      {
+        "pokeNum": "#100",
+        "name": "Voltorb",
+        "image": "Voltorb.png"
+      },
+      {
+        "pokeNum": "#101",
+        "name": "Electrode",
+        "image": "Electrode.png"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Electrode",
+    "description": "Stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "146.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Ball"
+      },
+      {
+        "label": "Abilities",
+        "info": "Static, Soundproof"
+      },
+      {
+        "label": "Gender",
+        "info": "Unknown"
+      }
+    ],
+    "type": [
+      {
+        "label": "Electric"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 50
+      },
+      {
+        "label": "Defense",
+        "amount": 70
+      },
+      {
+        "label": "Special Attack",
+        "amount": 80
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 140
+      },
+      {
+        "label": "Total",
+        "amount": 480
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Electrode.png",
+    "evos": [
+      {
+        "pokeNum": "#100",
+        "name": "Voltorb",
+        "image": "Voltorb.png"
+      },
+      {
+        "pokeNum": "#101",
+        "name": "Electrode",
+        "image": "Electrode.png"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Exeggcute",
+    "description": "Though it may look like it’s just a bunch of eggs, it’s a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "5.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Egg"
+      },
+      {
+        "label": "Abilities",
+        "info": "Chlorophyll"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Psychic"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Poison"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 40
+      },
+      {
+        "label": "Defense",
+        "amount": 80
+      },
+      {
+        "label": "Special Attack",
+        "amount": 60
+      },
+      {
+        "label": "Special Defense",
+        "amount": 45
+      },
+      {
+        "label": "Speed",
+        "amount": 40
+      },
+      {
+        "label": "Total",
+        "amount": 325
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Exeggcute.png",
+    "evos": [
+      {
+        "pokeNum": "#102",
+        "name": "Exeggcute",
+        "image": "Exeggcute.png"
+      },
+      {
+        "pokeNum": "#103",
+        "name": "Exeggutor",
+        "image": "Exeggutor.png"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Exeggutor",
+    "description": "Each of Exeggutor’s three heads is thinking different thoughts. The three don’t seem to be very interested in one another.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "6' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "264.6 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Coconut"
+      },
+      {
+        "label": "Abilities",
+        "info": "Chlorophyll"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Psychic"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Poison"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 95
+      },
+      {
+        "label": "Attack",
+        "amount": 95
+      },
+      {
+        "label": "Defense",
+        "amount": 85
+      },
+      {
+        "label": "Special Attack",
+        "amount": 125
+      },
+      {
+        "label": "Special Defense",
+        "amount": 65
+      },
+      {
+        "label": "Speed",
+        "amount": 55
+      },
+      {
+        "label": "Total",
+        "amount": 520
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Exeggutor.png",
+    "evos": [
+      {
+        "pokeNum": "#102",
+        "name": "Exeggcute",
+        "image": "Exeggcute.png"
+      },
+      {
+        "pokeNum": "#103",
+        "name": "Exeggutor",
+        "image": "Exeggutor.png"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Cubone",
+    "description": "When the memory of its departed mother brings it to tears, its cries echo mournfully within the skull it wears on its head.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "14.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Lonely"
+      },
+      {
+        "label": "Abilities",
+        "info": "Rock Head, Lightning Rod"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Ground"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 50
+      },
+      {
+        "label": "Attack",
+        "amount": 50
+      },
+      {
+        "label": "Defense",
+        "amount": 95
+      },
+      {
+        "label": "Special Attack",
+        "amount": 40
+      },
+      {
+        "label": "Special Defense",
+        "amount": 50
+      },
+      {
+        "label": "Speed",
+        "amount": 35
+      },
+      {
+        "label": "Total",
+        "amount": 320
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Cubone.png",
+    "evos": [
+      {
+        "pokeNum": "#104",
+        "name": "Cubone",
+        "image": "Cubone.png"
+      },
+      {
+        "pokeNum": "#105",
+        "name": "Marowak",
+        "image": "Marowak.png"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Marowak",
+    "description": "This Pokémon overcame its sorrow to evolve a sturdy new body. Marowak faces its opponents bravely, using a bone as a weapon.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "99.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Bone Keeper"
+      },
+      {
+        "label": "Abilities",
+        "info": "Rock Head, Lightning Rod"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Ground"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 80
+      },
+      {
+        "label": "Defense",
+        "amount": 110
+      },
+      {
+        "label": "Special Attack",
+        "amount": 50
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 45
+      },
+      {
+        "label": "Total",
+        "amount": 425
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Marowak.png",
+    "evos": [
+      {
+        "pokeNum": "#104",
+        "name": "Cubone",
+        "image": "Cubone.png"
+      },
+      {
+        "pokeNum": "#105",
+        "name": "Marowak",
+        "image": "Marowak.png"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Hitmonlee",
+    "description": "This amazing Pokémon has an awesome sense of balance. It can kick in succession from any position.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "109.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Kicking"
+      },
+      {
+        "label": "Abilities",
+        "info": "Limber, Reckless"
+      },
+      {
+        "label": "Gender",
+        "info": "M"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Fairy"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 50
+      },
+      {
+        "label": "Attack",
+        "amount": 120
+      },
+      {
+        "label": "Defense",
+        "amount": 53
+      },
+      {
+        "label": "Special Attack",
+        "amount": 35
+      },
+      {
+        "label": "Special Defense",
+        "amount": 110
+      },
+      {
+        "label": "Speed",
+        "amount": 87
+      },
+      {
+        "label": "Total",
+        "amount": 455
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Hitmonlee.png",
+    "evos": [
+      {
+        "pokeNum": "#106",
+        "name": "Hitmonlee",
+        "image": "Hitmonlee.png"
+      },
+      {
+        "pokeNum": "#107",
+        "name": "Hitmonchan",
+        "image": "Hitmonchan.png"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Hitmonchan",
+    "description": "Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "110.7 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Punching"
+      },
+      {
+        "label": "Abilities",
+        "info": "Keen Eye, Iron Fist"
+      },
+      {
+        "label": "Gender",
+        "info": "M"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Fairy"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 50
+      },
+      {
+        "label": "Attack",
+        "amount": 105
+      },
+      {
+        "label": "Defense",
+        "amount": 79
+      },
+      {
+        "label": "Special Attack",
+        "amount": 35
+      },
+      {
+        "label": "Special Defense",
+        "amount": 110
+      },
+      {
+        "label": "Speed",
+        "amount": 76
+      },
+      {
+        "label": "Total",
+        "amount": 455
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Hitmonchan.png",
+    "evos": [
+      {
+        "pokeNum": "#106",
+        "name": "Hitmonlee",
+        "image": "Hitmonlee.png"
+      },
+      {
+        "pokeNum": "#107",
+        "name": "Hitmonchan",
+        "image": "Hitmonchan.png"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Lickitung",
+    "description": "If this Pokémon’s sticky saliva gets on you and you don’t clean it off, an intense itch will set in. The itch won’t go away, either.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "144.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Licking"
+      },
+      {
+        "label": "Abilities",
+        "info": "Oblivious, Own Tempo"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 90
+      },
+      {
+        "label": "Attack",
+        "amount": 55
+      },
+      {
+        "label": "Defense",
+        "amount": 75
+      },
+      {
+        "label": "Special Attack",
+        "amount": 60
+      },
+      {
+        "label": "Special Defense",
+        "amount": 75
+      },
+      {
+        "label": "Speed",
+        "amount": 30
+      },
+      {
+        "label": "Total",
+        "amount": 385
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Lickitung.png",
+    "evos": []
+  },
+  {
+    "id": 109,
+    "name": "Koffing",
+    "description": "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "2.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Poison Gas"
+      },
+      {
+        "label": "Abilities",
+        "info": "Levitate, Neutralizing Gas"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 40
+      },
+      {
+        "label": "Attack",
+        "amount": 65
+      },
+      {
+        "label": "Defense",
+        "amount": 95
+      },
+      {
+        "label": "Special Attack",
+        "amount": 60
+      },
+      {
+        "label": "Special Defense",
+        "amount": 45
+      },
+      {
+        "label": "Speed",
+        "amount": 35
+      },
+      {
+        "label": "Total",
+        "amount": 340
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Koffing.png",
+    "evos": [
+      {
+        "pokeNum": "#109",
+        "name": "Koffing",
+        "image": "Koffing.png"
+      },
+      {
+        "pokeNum": "#110",
+        "name": "Weezing",
+        "image": "Weezing.png"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Weezing",
+    "description": "It mixes gases between its two bodies. It’s said that these Pokémon were seen all over the Galar region back in the day.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "20.9 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Poison Gas"
+      },
+      {
+        "label": "Abilities",
+        "info": "Levitate, Neutralizing Gas"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Poison"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 90
+      },
+      {
+        "label": "Defense",
+        "amount": 120
+      },
+      {
+        "label": "Special Attack",
+        "amount": 85
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 60
+      },
+      {
+        "label": "Total",
+        "amount": 490
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Weezing.png",
+    "evos": [
+      {
+        "pokeNum": "#109",
+        "name": "Koffing",
+        "image": "Koffing.png"
+      },
+      {
+        "pokeNum": "#110",
+        "name": "Weezing",
+        "image": "Weezing.png"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Rhyhorn",
+    "description": "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "253.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Spikes"
+      },
+      {
+        "label": "Abilities",
+        "info": "Rock Head, Lightning Rod"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 80
+      },
+      {
+        "label": "Attack",
+        "amount": 85
+      },
+      {
+        "label": "Defense",
+        "amount": 95
+      },
+      {
+        "label": "Special Attack",
+        "amount": 30
+      },
+      {
+        "label": "Special Defense",
+        "amount": 30
+      },
+      {
+        "label": "Speed",
+        "amount": 25
+      },
+      {
+        "label": "Total",
+        "amount": 345
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Rhyhorn.png",
+    "evos": [
+      {
+        "pokeNum": "#111",
+        "name": "Rhyhorn",
+        "image": "Rhyhorn.png"
+      },
+      {
+        "pokeNum": "#112",
+        "name": "Rhydon",
+        "image": "Rhydon.png"
       }
     ]
   }

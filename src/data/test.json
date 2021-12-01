@@ -7419,7 +7419,7 @@
       },
       {
         "label": "Gender",
-        "info": "Uknown"
+        "info": "Unknown"
       }
     ],
     "type": [
@@ -7510,7 +7510,7 @@
       },
       {
         "label": "Gender",
-        "info": "Uknown"
+        "info": "Unknown"
       }
     ],
     "type": [
@@ -7601,7 +7601,7 @@
       },
       {
         "label": "Gender",
-        "info": "Uknown"
+        "info": "Unknown"
       }
     ],
     "type": [
@@ -10162,5 +10162,2951 @@
         "image": "Rhydon.png"
       }
     ]
+  },
+  {
+    "id": 112,
+    "name": "Rhydon",
+    "description": "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "6' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "264.6 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Drill"
+      },
+      {
+        "label": "Abilities",
+        "info": "Rock Head, Lightning Rod"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 105
+      },
+      {
+        "label": "Attack",
+        "amount": 130
+      },
+      {
+        "label": "Defense",
+        "amount": 120
+      },
+      {
+        "label": "Special Attack",
+        "amount": 45
+      },
+      {
+        "label": "Special Defense",
+        "amount": 45
+      },
+      {
+        "label": "Speed",
+        "amount": 40
+      },
+      {
+        "label": "Total",
+        "amount": 485
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Rhydon.png",
+    "evos": [
+      {
+        "pokeNum": "#111",
+        "name": "Rhyhorn",
+        "image": "Rhyhorn.png"
+      },
+      {
+        "pokeNum": "#112",
+        "name": "Rhydon",
+        "image": "Rhydon.png"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Chansey",
+    "description": "The egg Chansey carries is not only delicious but also packed with nutrition. It’s used as a high-class cooking ingredient.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "76.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Egg"
+      },
+      {
+        "label": "Abilities",
+        "info": "Natural Cure, Serene Grace"
+      },
+      {
+        "label": "Gender",
+        "info": "F"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 250
+      },
+      {
+        "label": "Attack",
+        "amount": 5
+      },
+      {
+        "label": "Defense",
+        "amount": 5
+      },
+      {
+        "label": "Special Attack",
+        "amount": 35
+      },
+      {
+        "label": "Special Defense",
+        "amount": 105
+      },
+      {
+        "label": "Speed",
+        "amount": 50
+      },
+      {
+        "label": "Total",
+        "amount": 450
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Chansey.png",
+    "evos": []
+  },
+  {
+    "id": 114,
+    "name": "Tangela",
+    "description": "The egg Chansey carries is not only delicious but also packed with nutrition. It’s used as a high-class cooking ingredient.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "77.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Vine"
+      },
+      {
+        "label": "Abilities",
+        "info": "Chlorophyll, Leaf Guard"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Grass"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Poison"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 55
+      },
+      {
+        "label": "Defense",
+        "amount": 115
+      },
+      {
+        "label": "Special Attack",
+        "amount": 100
+      },
+      {
+        "label": "Special Defense",
+        "amount": 40
+      },
+      {
+        "label": "Speed",
+        "amount": 60
+      },
+      {
+        "label": "Total",
+        "amount": 435
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Tangela.png",
+    "evos": []
+  },
+  {
+    "id": 115,
+    "name": "Kangaskhan",
+    "description": "Although it’s carrying its baby in a pouch on its belly, Kangaskhan is swift on its feet. It intimidates its opponents with quick jabs.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "7' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "176.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Parent"
+      },
+      {
+        "label": "Abilities",
+        "info": "Early Bird, Scrappy"
+      },
+      {
+        "label": "Gender",
+        "info": "F"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 105
+      },
+      {
+        "label": "Attack",
+        "amount": 95
+      },
+      {
+        "label": "Defense",
+        "amount": 80
+      },
+      {
+        "label": "Special Attack",
+        "amount": 40
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 90
+      },
+      {
+        "label": "Total",
+        "amount": 490
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Kangaskhan.png",
+    "evos": []
+  },
+  {
+    "id": 116,
+    "name": "Horsea",
+    "description": "Horsea makes its home in oceans with gentle currents. If this Pokémon is under attack, it spits out pitch-black ink and escapes.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "17.6 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Dragon"
+      },
+      {
+        "label": "Abilities",
+        "info": "Swift Swim, Sniper"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 30
+      },
+      {
+        "label": "Attack",
+        "amount": 40
+      },
+      {
+        "label": "Defense",
+        "amount": 70
+      },
+      {
+        "label": "Special Attack",
+        "amount": 70
+      },
+      {
+        "label": "Special Defense",
+        "amount": 25
+      },
+      {
+        "label": "Speed",
+        "amount": 60
+      },
+      {
+        "label": "Total",
+        "amount": 295
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Horsea.png",
+    "evos": [
+      {
+        "pokeNum": "#116",
+        "name": "Horsea",
+        "image": "Horsea.png"
+      },
+      {
+        "pokeNum": "#117",
+        "name": "Seadra",
+        "image": "Seadra.png"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Seadra",
+    "description": "It’s the males that raise the offspring. While Seadra are raising young, the spines on their backs secrete thicker and stronger poison.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "55.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Dragon"
+      },
+      {
+        "label": "Abilities",
+        "info": "Swift Swim, Sniper"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 55
+      },
+      {
+        "label": "Attack",
+        "amount": 65
+      },
+      {
+        "label": "Defense",
+        "amount": 95
+      },
+      {
+        "label": "Special Attack",
+        "amount": 95
+      },
+      {
+        "label": "Special Defense",
+        "amount": 45
+      },
+      {
+        "label": "Speed",
+        "amount": 85
+      },
+      {
+        "label": "Total",
+        "amount": 440
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Seadra.png",
+    "evos": [
+      {
+        "pokeNum": "#116",
+        "name": "Horsea",
+        "image": "Horsea.png"
+      },
+      {
+        "pokeNum": "#117",
+        "name": "Seadra",
+        "image": "Seadra.png"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Goldeen",
+    "description": "Its dorsal, pectoral, and tail fins wave elegantly in water. That is why it is known as the Water Dancer.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "33.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Goldfish"
+      },
+      {
+        "label": "Abilities",
+        "info": "Swift Swim, Water Veil"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 45
+      },
+      {
+        "label": "Attack",
+        "amount": 67
+      },
+      {
+        "label": "Defense",
+        "amount": 60
+      },
+      {
+        "label": "Special Attack",
+        "amount": 35
+      },
+      {
+        "label": "Special Defense",
+        "amount": 50
+      },
+      {
+        "label": "Speed",
+        "amount": 63
+      },
+      {
+        "label": "Total",
+        "amount": 320
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Goldeen.png",
+    "evos": [
+      {
+        "pokeNum": "#118",
+        "name": "Goldeen",
+        "image": "Goldeen.png"
+      },
+      {
+        "pokeNum": "#119",
+        "name": "Seaking",
+        "image": "Seaking.png"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Seaking",
+    "description": "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "86.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Goldfish"
+      },
+      {
+        "label": "Abilities",
+        "info": "Swift Swim, Water Veil"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 80
+      },
+      {
+        "label": "Attack",
+        "amount": 92
+      },
+      {
+        "label": "Defense",
+        "amount": 65
+      },
+      {
+        "label": "Special Attack",
+        "amount": 65
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 68
+      },
+      {
+        "label": "Total",
+        "amount": 450
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Seaking.png",
+    "evos": [
+      {
+        "pokeNum": "#118",
+        "name": "Goldeen",
+        "image": "Goldeen.png"
+      },
+      {
+        "pokeNum": "#119",
+        "name": "Seaking",
+        "image": "Seaking.png"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Staryu",
+    "description": "If you visit a beach at the end of summer, you’ll be able to see groups of Staryu lighting up in a steady rhythm.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "76.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Star Shape"
+      },
+      {
+        "label": "Abilities",
+        "info": "Natural Cure, Illuminate"
+      },
+      {
+        "label": "Gender",
+        "info": "Unknown"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 30
+      },
+      {
+        "label": "Attack",
+        "amount": 45
+      },
+      {
+        "label": "Defense",
+        "amount": 55
+      },
+      {
+        "label": "Special Attack",
+        "amount": 70
+      },
+      {
+        "label": "Special Defense",
+        "amount": 55
+      },
+      {
+        "label": "Speed",
+        "amount": 85
+      },
+      {
+        "label": "Total",
+        "amount": 340
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Staryu.png",
+    "evos": [
+      {
+        "pokeNum": "#120",
+        "name": "Staryu",
+        "image": "Staryu.png"
+      },
+      {
+        "pokeNum": "#121",
+        "name": "Starmie",
+        "image": "Starmie.png"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Starmie",
+    "description": "This Pokémon has an organ known as its core. The organ glows in seven colors when Starmie is unleashing its potent psychic powers.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "176.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Mysterious"
+      },
+      {
+        "label": "Abilities",
+        "info": "Natural Cure, Illuminate"
+      },
+      {
+        "label": "Gender",
+        "info": "Unknown"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Psychic"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 75
+      },
+      {
+        "label": "Defense",
+        "amount": 85
+      },
+      {
+        "label": "Special Attack",
+        "amount": 100
+      },
+      {
+        "label": "Special Defense",
+        "amount": 85
+      },
+      {
+        "label": "Speed",
+        "amount": 115
+      },
+      {
+        "label": "Total",
+        "amount": 520
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Starmie.png",
+    "evos": [
+      {
+        "pokeNum": "#120",
+        "name": "Staryu",
+        "image": "Staryu.png"
+      },
+      {
+        "pokeNum": "#121",
+        "name": "Starmie",
+        "image": "Starmie.png"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Mr. Mime",
+    "description": "The broadness of its hands may be no coincidence—many scientists believe its palms became enlarged specifically for pantomiming.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "120.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Barrier"
+      },
+      {
+        "label": "Abilities",
+        "info": "Soundproof, Filter"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Psychic"
+      },
+      {
+        "label": "Fairy"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Poison"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 40
+      },
+      {
+        "label": "Attack",
+        "amount": 45
+      },
+      {
+        "label": "Defense",
+        "amount": 65
+      },
+      {
+        "label": "Special Attack",
+        "amount": 100
+      },
+      {
+        "label": "Special Defense",
+        "amount": 120
+      },
+      {
+        "label": "Speed",
+        "amount": 90
+      },
+      {
+        "label": "Total",
+        "amount": 460
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Mr_Mime.png",
+    "evos": []
+  },
+  {
+    "id": 123,
+    "name": "Scyther",
+    "description": "As Scyther fights more and more battles, its scythes become sharper and sharper. With a single slice, Scyther can fell a massive tree.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "123.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Mantis"
+      },
+      {
+        "label": "Abilities",
+        "info": "Swarm, Technician"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Bug"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 70
+      },
+      {
+        "label": "Attack",
+        "amount": 110
+      },
+      {
+        "label": "Defense",
+        "amount": 80
+      },
+      {
+        "label": "Special Attack",
+        "amount": 55
+      },
+      {
+        "label": "Special Defense",
+        "amount": 80
+      },
+      {
+        "label": "Speed",
+        "amount": 105
+      },
+      {
+        "label": "Total",
+        "amount": 500
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Scyther.png",
+    "evos": []
+  },
+  {
+    "id": 124,
+    "name": "Jynx",
+    "description": "In certain parts of Galar, Jynx was once feared and worshiped as the Queen of Ice.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "89.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Human Shape"
+      },
+      {
+        "label": "Abilities",
+        "info": "Oblivious, Forewarn"
+      },
+      {
+        "label": "Gender",
+        "info": "F"
+      }
+    ],
+    "type": [
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Psychic"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Ghost"
+      },
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Dark"
+      },
+      {
+        "label": "Rock"
+      },
+      {
+        "label": "Bug"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 50
+      },
+      {
+        "label": "Defense",
+        "amount": 35
+      },
+      {
+        "label": "Special Attack",
+        "amount": 115
+      },
+      {
+        "label": "Special Defense",
+        "amount": 95
+      },
+      {
+        "label": "Speed",
+        "amount": 95
+      },
+      {
+        "label": "Total",
+        "amount": 455
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Jynx.png",
+    "evos": []
+  },
+  {
+    "id": 125,
+    "name": "Electabuzz",
+    "description": "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "66.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Electric"
+      },
+      {
+        "label": "Abilities",
+        "info": "Static"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Electric"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 83
+      },
+      {
+        "label": "Defense",
+        "amount": 57
+      },
+      {
+        "label": "Special Attack",
+        "amount": 95
+      },
+      {
+        "label": "Special Defense",
+        "amount": 85
+      },
+      {
+        "label": "Speed",
+        "amount": 105
+      },
+      {
+        "label": "Total",
+        "amount": 490
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Electabuzz.png",
+    "evos": []
+  },
+  {
+    "id": 126,
+    "name": "Magmar",
+    "description": "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "98.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Spitfire"
+      },
+      {
+        "label": "Abilities",
+        "info": "Flame Body"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fire"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 95
+      },
+      {
+        "label": "Defense",
+        "amount": 57
+      },
+      {
+        "label": "Special Attack",
+        "amount": 100
+      },
+      {
+        "label": "Special Defense",
+        "amount": 85
+      },
+      {
+        "label": "Speed",
+        "amount": 93
+      },
+      {
+        "label": "Total",
+        "amount": 495
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Magmar.png",
+    "evos": []
+  },
+  {
+    "id": 127,
+    "name": "Pinsir",
+    "description": "These Pokémon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "121.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Stag Beetle"
+      },
+      {
+        "label": "Abilities",
+        "info": "Hyper Cutter, Mold Breaker"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Bug"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Flying"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 125
+      },
+      {
+        "label": "Defense",
+        "amount": 100
+      },
+      {
+        "label": "Special Attack",
+        "amount": 55
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 85
+      },
+      {
+        "label": "Total",
+        "amount": 500
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Pinsir.png",
+    "evos": []
+  },
+  {
+    "id": 128,
+    "name": "Tauros",
+    "description": "When Tauros begins whipping itself with its tails, it’s a warning that the Pokémon is about to charge with astounding speed.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "194.9 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Wild Bull"
+      },
+      {
+        "label": "Abilities",
+        "info": "Intimidate, Anger Point"
+      },
+      {
+        "label": "Gender",
+        "info": "M"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 75
+      },
+      {
+        "label": "Attack",
+        "amount": 100
+      },
+      {
+        "label": "Defense",
+        "amount": 95
+      },
+      {
+        "label": "Special Attack",
+        "amount": 40
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 110
+      },
+      {
+        "label": "Total",
+        "amount": 490
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Tauros.png",
+    "evos": []
+  },
+  {
+    "id": 129,
+    "name": "Magikarp",
+    "description": "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "22.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Fish"
+      },
+      {
+        "label": "Abilities",
+        "info": "Swift Swim"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 20
+      },
+      {
+        "label": "Attack",
+        "amount": 10
+      },
+      {
+        "label": "Defense",
+        "amount": 55
+      },
+      {
+        "label": "Special Attack",
+        "amount": 15
+      },
+      {
+        "label": "Special Defense",
+        "amount": 20
+      },
+      {
+        "label": "Speed",
+        "amount": 80
+      },
+      {
+        "label": "Total",
+        "amount": 200
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Magikarp.png",
+    "evos": [
+      {
+        "pokeNum": "#129",
+        "name": "Magikarp",
+        "image": "Magikarp.png"
+      },
+      {
+        "pokeNum": "#130",
+        "name": "Gyarados",
+        "image": "Gyarados.png"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Gyarados",
+    "description": "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "21' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "518.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Atrocious"
+      },
+      {
+        "label": "Abilities",
+        "info": "Intimidate"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 95
+      },
+      {
+        "label": "Attack",
+        "amount": 125
+      },
+      {
+        "label": "Defense",
+        "amount": 79
+      },
+      {
+        "label": "Special Attack",
+        "amount": 60
+      },
+      {
+        "label": "Special Defense",
+        "amount": 100
+      },
+      {
+        "label": "Speed",
+        "amount": 81
+      },
+      {
+        "label": "Total",
+        "amount": 540
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Gyarados.png",
+    "evos": [
+      {
+        "pokeNum": "#129",
+        "name": "Magikarp",
+        "image": "Magikarp.png"
+      },
+      {
+        "pokeNum": "#130",
+        "name": "Gyarados",
+        "image": "Gyarados.png"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Lapras",
+    "description": "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "8' 02\""
+      },
+      {
+        "label": "Weight",
+        "info": "485.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Transport"
+      },
+      {
+        "label": "Abilities",
+        "info": "Water Absorb, Shell Armor"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ice"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 130
+      },
+      {
+        "label": "Attack",
+        "amount": 85
+      },
+      {
+        "label": "Defense",
+        "amount": 80
+      },
+      {
+        "label": "Special Attack",
+        "amount": 85
+      },
+      {
+        "label": "Special Defense",
+        "amount": 95
+      },
+      {
+        "label": "Speed",
+        "amount": 60
+      },
+      {
+        "label": "Total",
+        "amount": 535
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Lapras.png",
+    "evos": []
+  },
+  {
+    "id": 132,
+    "name": "Ditto",
+    "description": "It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "8.8 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Transform"
+      },
+      {
+        "label": "Abilities",
+        "info": "Limber"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 48
+      },
+      {
+        "label": "Attack",
+        "amount": 48
+      },
+      {
+        "label": "Defense",
+        "amount": 48
+      },
+      {
+        "label": "Special Attack",
+        "amount": 48
+      },
+      {
+        "label": "Special Defense",
+        "amount": 48
+      },
+      {
+        "label": "Speed",
+        "amount": 48
+      },
+      {
+        "label": "Total",
+        "amount": 288
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Ditto.png",
+    "evos": []
+  },
+  {
+    "id": 133,
+    "name": "Eevee",
+    "description": "It has the ability to alter the composition of its body to suit its surrounding environment.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 00\""
+      },
+      {
+        "label": "Weight",
+        "info": "14.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Evolution"
+      },
+      {
+        "label": "Abilities",
+        "info": "Run Away, Adaptability"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 55
+      },
+      {
+        "label": "Attack",
+        "amount": 55
+      },
+      {
+        "label": "Defense",
+        "amount": 50
+      },
+      {
+        "label": "Special Attack",
+        "amount": 45
+      },
+      {
+        "label": "Special Defense",
+        "amount": 65
+      },
+      {
+        "label": "Speed",
+        "amount": 55
+      },
+      {
+        "label": "Total",
+        "amount": 325
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Eevee.png",
+    "evos": [
+      {
+        "pokeNum": "#133",
+        "name": "Eevee",
+        "image": "Eevee.png"
+      },
+      {
+        "pokeNum": "#134",
+        "name": "Vaporeon",
+        "image": "Vaporeon.png"
+      },
+      {
+        "pokeNum": "#135",
+        "name": "Jolteon",
+        "image": "Jolteon.png"
+      },
+      {
+        "pokeNum": "#136",
+        "name": "Flareon",
+        "image": "Flareon.png"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Vaporeon",
+    "description": "When Vaporeon’s fins begin to vibrate, it is a sign that rain will come within a few hours.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "63.9 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Bubble Jet"
+      },
+      {
+        "label": "Abilities",
+        "info": "Water Absorb"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 130
+      },
+      {
+        "label": "Attack",
+        "amount": 65
+      },
+      {
+        "label": "Defense",
+        "amount": 60
+      },
+      {
+        "label": "Special Attack",
+        "amount": 110
+      },
+      {
+        "label": "Special Defense",
+        "amount": 95
+      },
+      {
+        "label": "Speed",
+        "amount": 65
+      },
+      {
+        "label": "Total",
+        "amount": 325255
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Vaporeon.png",
+    "evos": [
+      {
+        "pokeNum": "#133",
+        "name": "Eevee",
+        "image": "Eevee.png"
+      },
+      {
+        "pokeNum": "#134",
+        "name": "Vaporeon",
+        "image": "Vaporeon.png"
+      },
+      {
+        "pokeNum": "#135",
+        "name": "Jolteon",
+        "image": "Jolteon.png"
+      },
+      {
+        "pokeNum": "#136",
+        "name": "Flareon",
+        "image": "Flareon.png"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Jolteon",
+    "description": "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "54.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Lightning"
+      },
+      {
+        "label": "Abilities",
+        "info": "Volt Absorb"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Electric"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 65
+      },
+      {
+        "label": "Defense",
+        "amount": 60
+      },
+      {
+        "label": "Special Attack",
+        "amount": 110
+      },
+      {
+        "label": "Special Defense",
+        "amount": 95
+      },
+      {
+        "label": "Speed",
+        "amount": 130
+      },
+      {
+        "label": "Total",
+        "amount": 525
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Jolteon.png",
+    "evos": [
+      {
+        "pokeNum": "#133",
+        "name": "Eevee",
+        "image": "Eevee.png"
+      },
+      {
+        "pokeNum": "#134",
+        "name": "Vaporeon",
+        "image": "Vaporeon.png"
+      },
+      {
+        "pokeNum": "#135",
+        "name": "Jolteon",
+        "image": "Jolteon.png"
+      },
+      {
+        "pokeNum": "#136",
+        "name": "Flareon",
+        "image": "Flareon.png"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Flareon",
+    "description": "Once it has stored up enough heat, this Pokémon’s body temperature can reach up to 1,700 degrees Fahrenheit.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "55.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Flame"
+      },
+      {
+        "label": "Abilities",
+        "info": "Flash Fire"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fire"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Ground"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 130
+      },
+      {
+        "label": "Defense",
+        "amount": 60
+      },
+      {
+        "label": "Special Attack",
+        "amount": 95
+      },
+      {
+        "label": "Special Defense",
+        "amount": 110
+      },
+      {
+        "label": "Speed",
+        "amount": 65
+      },
+      {
+        "label": "Total",
+        "amount": 525
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Flareon.png",
+    "evos": [
+      {
+        "pokeNum": "#133",
+        "name": "Eevee",
+        "image": "Eevee.png"
+      },
+      {
+        "pokeNum": "#134",
+        "name": "Vaporeon",
+        "image": "Vaporeon.png"
+      },
+      {
+        "pokeNum": "#135",
+        "name": "Jolteon",
+        "image": "Jolteon.png"
+      },
+      {
+        "pokeNum": "#136",
+        "name": "Flareon",
+        "image": "Flareon.png"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Porygon",
+    "description": "State-of-the-art technology was used to create Porygon. It was the first artificial Pokémon to be created via computer programming.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "2' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "80.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Virtual"
+      },
+      {
+        "label": "Abilities",
+        "info": "Trace, Download"
+      },
+      {
+        "label": "Gender",
+        "info": "Unknown"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 65
+      },
+      {
+        "label": "Attack",
+        "amount": 60
+      },
+      {
+        "label": "Defense",
+        "amount": 70
+      },
+      {
+        "label": "Special Attack",
+        "amount": 85
+      },
+      {
+        "label": "Special Defense",
+        "amount": 75
+      },
+      {
+        "label": "Speed",
+        "amount": 40
+      },
+      {
+        "label": "Total",
+        "amount": 395
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Porygon.png",
+    "evos": []
+  },
+  {
+    "id": 138,
+    "name": "Omanyte",
+    "description": "Because some Omanyte manage to escape after being restored or are released into the wild by people, this species is becoming a problem.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 04\""
+      },
+      {
+        "label": "Weight",
+        "info": "16.5 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Spiral"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shell Armor, Swift Swim"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Rock"
+      },
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 35
+      },
+      {
+        "label": "Attack",
+        "amount": 40
+      },
+      {
+        "label": "Defense",
+        "amount": 100
+      },
+      {
+        "label": "Special Attack",
+        "amount": 90
+      },
+      {
+        "label": "Special Defense",
+        "amount": 55
+      },
+      {
+        "label": "Speed",
+        "amount": 35
+      },
+      {
+        "label": "Total",
+        "amount": 355
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Omanyte.png",
+    "evos": [
+      {
+        "pokeNum": "#138",
+        "name": "Omanyte",
+        "image": "Omanyte.png"
+      },
+      {
+        "pokeNum": "#139",
+        "name": "Omastar",
+        "image": "Omastar.png"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Omastar",
+    "description": "Weighed down by a large and heavy shell, Omastar couldn’t move very fast. Some say it went extinct because it was unable to catch food.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "3' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "77.2 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Spiral"
+      },
+      {
+        "label": "Abilities",
+        "info": "Shell Armor, Swift Swim"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Rock"
+      },
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 70
+      },
+      {
+        "label": "Attack",
+        "amount": 60
+      },
+      {
+        "label": "Defense",
+        "amount": 125
+      },
+      {
+        "label": "Special Attack",
+        "amount": 115
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 55
+      },
+      {
+        "label": "Total",
+        "amount": 495
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Omastar.png",
+    "evos": [
+      {
+        "pokeNum": "#138",
+        "name": "Omanyte",
+        "image": "Omanyte.png"
+      },
+      {
+        "pokeNum": "#139",
+        "name": "Omastar",
+        "image": "Omastar.png"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Kabuto",
+    "description": "This species is almost entirely extinct. Kabuto molt every three days, making their shells harder and harder.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "1' 08\""
+      },
+      {
+        "label": "Weight",
+        "info": "25.4 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Shellfish"
+      },
+      {
+        "label": "Abilities",
+        "info": "Swift Swim, Battle Armor"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Rock"
+      },
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 30
+      },
+      {
+        "label": "Attack",
+        "amount": 80
+      },
+      {
+        "label": "Defense",
+        "amount": 90
+      },
+      {
+        "label": "Special Attack",
+        "amount": 55
+      },
+      {
+        "label": "Special Defense",
+        "amount": 45
+      },
+      {
+        "label": "Speed",
+        "amount": 55
+      },
+      {
+        "label": "Total",
+        "amount": 355
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Kabuto.png",
+    "evos": [
+      {
+        "pokeNum": "#140",
+        "name": "Kabuto",
+        "image": "Kabuto.png"
+      },
+      {
+        "pokeNum": "#141",
+        "name": "Kabutops",
+        "image": "Kabutops.png"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Kabutops",
+    "description": "Kabutops slices its prey apart and sucks out the fluids. The discarded body parts become food for other Pokémon.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "4' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "89.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Shellfish"
+      },
+      {
+        "label": "Abilities",
+        "info": "Swift Swim, Battle Armor"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Rock"
+      },
+      {
+        "label": "Water"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Grass"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Fighting"
+      },
+      {
+        "label": "Ground"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 60
+      },
+      {
+        "label": "Attack",
+        "amount": 115
+      },
+      {
+        "label": "Defense",
+        "amount": 105
+      },
+      {
+        "label": "Special Attack",
+        "amount": 65
+      },
+      {
+        "label": "Special Defense",
+        "amount": 70
+      },
+      {
+        "label": "Speed",
+        "amount": 80
+      },
+      {
+        "label": "Total",
+        "amount": 495
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Kabutops.png",
+    "evos": [
+      {
+        "pokeNum": "#140",
+        "name": "Kabuto",
+        "image": "Kabuto.png"
+      },
+      {
+        "pokeNum": "#141",
+        "name": "Kabutops",
+        "image": "Kabutops.png"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Aerodactyl",
+    "description": "This is a ferocious Pokémon from ancient times. Apparently even modern technology is incapable of producing a perfectly restored specimen.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "130.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Fossil"
+      },
+      {
+        "label": "Abilities",
+        "info": "Rock Head, Pressure"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Rock"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 80
+      },
+      {
+        "label": "Attack",
+        "amount": 105
+      },
+      {
+        "label": "Defense",
+        "amount": 65
+      },
+      {
+        "label": "Special Attack",
+        "amount": 60
+      },
+      {
+        "label": "Special Defense",
+        "amount": 75
+      },
+      {
+        "label": "Speed",
+        "amount": 130
+      },
+      {
+        "label": "Total",
+        "amount": 515
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Aerodactyl.png",
+    "evos": []
+  },
+  {
+    "id": 143,
+    "name": "Snorlax",
+    "description": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "6' 11\""
+      },
+      {
+        "label": "Weight",
+        "info": "1014.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Sleeping"
+      },
+      {
+        "label": "Abilities",
+        "info": "Thick Fat, Immunity"
+      },
+      {
+        "label": "Gender",
+        "info": "MF"
+      }
+    ],
+    "type": [
+      {
+        "label": "Normal"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Fighting"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 160
+      },
+      {
+        "label": "Attack",
+        "amount": 110
+      },
+      {
+        "label": "Defense",
+        "amount": 65
+      },
+      {
+        "label": "Special Attack",
+        "amount": 65
+      },
+      {
+        "label": "Special Defense",
+        "amount": 110
+      },
+      {
+        "label": "Speed",
+        "amount": 30
+      },
+      {
+        "label": "Total",
+        "amount": 540
+      }
+    ],
+    "generation": 1,
+    "legendary": false,
+    "image": "Snorlax.png",
+    "evos": []
+  },
+  {
+    "id": 144,
+    "name": "Articuno",
+    "description": "It’s said that this Pokémon’s beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "122.1 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Freeze"
+      },
+      {
+        "label": "Abilities",
+        "info": "Pressure"
+      },
+      {
+        "label": "Gender",
+        "info": "Unknown"
+      }
+    ],
+    "type": [
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Steel"
+      },
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 90
+      },
+      {
+        "label": "Attack",
+        "amount": 85
+      },
+      {
+        "label": "Defense",
+        "amount": 100
+      },
+      {
+        "label": "Special Attack",
+        "amount": 95
+      },
+      {
+        "label": "Special Defense",
+        "amount": 125
+      },
+      {
+        "label": "Speed",
+        "amount": 85
+      },
+      {
+        "label": "Total",
+        "amount": 580
+      }
+    ],
+    "generation": 1,
+    "legendary": true,
+    "image": "Articuno.png",
+    "evos": []
+  },
+  {
+    "id": 145,
+    "name": "Zapdos",
+    "description": "This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "5' 03\""
+      },
+      {
+        "label": "Weight",
+        "info": "116.0 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Electric"
+      },
+      {
+        "label": "Abilities",
+        "info": "Pressure"
+      },
+      {
+        "label": "Gender",
+        "info": "Unknown"
+      }
+    ],
+    "type": [
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Ice"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 90
+      },
+      {
+        "label": "Attack",
+        "amount": 90
+      },
+      {
+        "label": "Defense",
+        "amount": 85
+      },
+      {
+        "label": "Special Attack",
+        "amount": 125
+      },
+      {
+        "label": "Special Defense",
+        "amount": 90
+      },
+      {
+        "label": "Speed",
+        "amount": 100
+      },
+      {
+        "label": "Total",
+        "amount": 580
+      }
+    ],
+    "generation": 1,
+    "legendary": true,
+    "image": "Zapdos.png",
+    "evos": []
+  },
+  {
+    "id": 146,
+    "name": "Moltres",
+    "description": "It’s one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
+    "info": [
+      {
+        "label": "Height",
+        "info": "6' 07\""
+      },
+      {
+        "label": "Weight",
+        "info": "132.3 lbs"
+      },
+      {
+        "label": "Category",
+        "info": "Flame"
+      },
+      {
+        "label": "Abilities",
+        "info": "Pressure"
+      },
+      {
+        "label": "Gender",
+        "info": "Unknown"
+      }
+    ],
+    "type": [
+      {
+        "label": "Fire"
+      },
+      {
+        "label": "Flying"
+      }
+    ],
+    "weak": [
+      {
+        "label": "Water"
+      },
+      {
+        "label": "Electric"
+      },
+      {
+        "label": "Rock"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Health",
+        "amount": 90
+      },
+      {
+        "label": "Attack",
+        "amount": 100
+      },
+      {
+        "label": "Defense",
+        "amount": 90
+      },
+      {
+        "label": "Special Attack",
+        "amount": 125
+      },
+      {
+        "label": "Special Defense",
+        "amount": 85
+      },
+      {
+        "label": "Speed",
+        "amount": 90
+      },
+      {
+        "label": "Total",
+        "amount": 580
+      }
+    ],
+    "generation": 1,
+    "legendary": true,
+    "image": "Moltres.png",
+    "evos": []
   }
 ]

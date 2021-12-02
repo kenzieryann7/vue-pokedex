@@ -237,6 +237,10 @@
                         </span>
                       </td>
                     </tr>
+                    <tr>
+                      <td>Generation</td>
+                      <td>{{ selectedPokemon?.generation }}</td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -340,7 +344,7 @@
             </div>
             <div class="text-start">
               <div class="fw-bold">Evolutions</div>
-              <span v-if="!selectedPokemon?.evos?.image"
+              <span v-if="!selectedPokemon?.evos"
                 >This Pokémon does not evolve.</span
               >
 

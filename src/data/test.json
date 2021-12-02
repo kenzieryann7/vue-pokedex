@@ -7655,8 +7655,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Farfetchd.png",
-    "evos": []
+    "image": "Farfetchd.png"
   },
   {
     "id": 84,
@@ -8751,8 +8750,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Onix.png",
-    "evos": []
+    "image": "Onix.png"
   },
   {
     "id": 96,
@@ -9890,8 +9888,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Lickitung.png",
-    "evos": []
+    "image": "Lickitung.png"
   },
   {
     "id": 109,
@@ -10331,8 +10328,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Chansey.png",
-    "evos": []
+    "image": "Chansey.png"
   },
   {
     "id": 114,
@@ -10414,8 +10410,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Tangela.png",
-    "evos": []
+    "image": "Tangela.png"
   },
   {
     "id": 115,
@@ -10485,8 +10480,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Kangaskhan.png",
-    "evos": []
+    "image": "Kangaskhan.png"
   },
   {
     "id": 116,
@@ -11087,8 +11081,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Mr_Mime.png",
-    "evos": []
+    "image": "Mr_Mime.png"
   },
   {
     "id": 123,
@@ -11173,8 +11166,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Scyther.png",
-    "evos": []
+    "image": "Scyther.png"
   },
   {
     "id": 124,
@@ -11262,8 +11254,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Jynx.png",
-    "evos": []
+    "image": "Jynx.png"
   },
   {
     "id": 125,
@@ -11333,8 +11324,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Electabuzz.png",
-    "evos": []
+    "image": "Electabuzz.png"
   },
   {
     "id": 126,
@@ -11410,8 +11400,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Magmar.png",
-    "evos": []
+    "image": "Magmar.png"
   },
   {
     "id": 127,
@@ -11487,8 +11476,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Pinsir.png",
-    "evos": []
+    "image": "Pinsir.png"
   },
   {
     "id": 128,
@@ -11558,8 +11546,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Tauros.png",
-    "evos": []
+    "image": "Tauros.png"
   },
   {
     "id": 129,
@@ -11814,8 +11801,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Lapras.png",
-    "evos": []
+    "image": "Lapras.png"
   },
   {
     "id": 132,
@@ -11885,8 +11871,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Ditto.png",
-    "evos": []
+    "image": "Ditto.png"
   },
   {
     "id": 133,
@@ -12333,8 +12318,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Porygon.png",
-    "evos": []
+    "image": "Porygon.png"
   },
   {
     "id": 138,
@@ -12795,8 +12779,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Aerodactyl.png",
-    "evos": []
+    "image": "Aerodactyl.png"
   },
   {
     "id": 143,
@@ -12866,8 +12849,7 @@
     ],
     "generation": 1,
     "legendary": false,
-    "image": "Snorlax.png",
-    "evos": []
+    "image": "Snorlax.png"
   },
   {
     "id": 144,
@@ -12949,8 +12931,7 @@
     ],
     "generation": 1,
     "legendary": true,
-    "image": "Articuno.png",
-    "evos": []
+    "image": "Articuno.png"
   },
   {
     "id": 145,
@@ -13026,8 +13007,7 @@
     ],
     "generation": 1,
     "legendary": true,
-    "image": "Zapdos.png",
-    "evos": []
+    "image": "Zapdos.png"
   },
   {
     "id": 146,
@@ -13106,8 +13086,7 @@
     ],
     "generation": 1,
     "legendary": true,
-    "image": "Moltres.png",
-    "evos": []
+    "image": "Moltres.png"
   },
   {
     "id": 147,
@@ -13468,8 +13447,7 @@
     ],
     "generation": 1,
     "legendary": true,
-    "image": "Mewtwo.png",
-    "evos": []
+    "image": "Mewtwo.png"
   },
   {
     "id": 151,
@@ -13545,7 +13523,6 @@
     ],
     "generation": 1,
     "legendary": true,
-    "image": "Mew.png",
-    "evos": []
+    "image": "Mew.png"
   }
 ]

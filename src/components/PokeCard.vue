@@ -486,9 +486,7 @@ export default {
 .modal-img {
   width: 250px;
 }
-.card-img {
-  height: 250px;
-}
+
 .evo-img {
   width: 120px;
 }

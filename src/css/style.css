@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #3d7dca;
+  background: cadetblue;
 }
 
 .fw3 {
@@ -32,7 +32,7 @@ body {
 }
 
 .modal-bg {
-  background-color: #003a70;
+  background-color: rgb(54, 88, 90);
   color: white;
 }
 
@@ -41,28 +41,36 @@ body {
 }
 
 .poke-btn {
-  background-color: #003a70;
-  color: white;
+  background-color: #ffcb05;
+  color: black;
+  font-weight: bold;
 }
 
 .poke-btn:hover {
   background-color: #ffcb05;
   color: black;
-  border: 1px solid #003a70;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+  transform: scale(1.1);
 }
 
-.poke-btn2 {
-  background-color: #ffcb05;
-  color: black;
+.card-bg {
+  background-color: rgb(173, 215, 216);
+}
+.footer-bg {
+  background-color: rgb(168, 168, 168);
+}
+.text-muted {
+  color: rgb(185, 185, 185) !important;
+}
+/*************** BADGE CSS ***************/
+
+/* TYPE/WEAK BADGE SIZE */
+h6 {
+  font-size: 17px;
 }
 
-.poke-btn2:hover {
-  background-color: #e4b600;
-  color: black;
-  border: 1px solid white;
-}
-
-/* TYPE COLORS */
+/* TYPE BADGE COLORS */
 .normal {
   background-color: #a8a77a;
   color: white;
@@ -134,4 +142,47 @@ body {
 .fairy {
   background-color: #d685ad;
   color: white;
+}
+
+/* LEGENDARY BORDER */
+.gradient-border {
+  --borderWidth: 6px;
+  background: #1d1f20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #9030a1,
+    #2f5bb3,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

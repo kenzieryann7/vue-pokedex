@@ -91,7 +91,7 @@
           <img
             v-if="poke?.image"
             class="img-fluid card-img"
-            :src="require('@/assets/poke-imgs/' + poke?.image)"
+            :src="require('@/assets/new-poke/' + poke?.image)"
           />
         </div>
         <div class="card-footer bg-dark text-white">
@@ -207,7 +207,7 @@
               <div class="col" v-if="selectedPokemon?.image">
                 <img
                   class="img-fluid modal-img"
-                  :src="require('@/assets/poke-imgs/' + selectedPokemon?.image)"
+                  :src="require('@/assets/new-poke/' + selectedPokemon?.image)"
                 />
               </div>
               <div class="col">
@@ -340,20 +340,14 @@
             </div>
             <div class="text-start">
               <div class="fw-bold">Evolutions</div>
-              <span v-if="!selectedPokemon?.evos"
+              <span v-if="!selectedPokemon?.evos?.image"
                 >This Pokémon does not evolve.</span
               >
-              <div class="tooltip">
-                Hover over me
-                <span class="tooltiptext"
-                  >Tooltip text<br />
-                  hi</span
-                >
-              </div>
+
               <span v-for="(evo, index) in selectedPokemon?.evos" :key="evo">
                 <img
                   class="img-fluid evo-img"
-                  :src="require('@/assets/poke-imgs/' + evo.image)"
+                  :src="require('@/assets/new-poke/' + evo.image)"
                   :title="evo.name + ' ' + evo.pokeNum"
                 />
                 <i

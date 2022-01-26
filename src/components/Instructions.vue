@@ -1,6 +1,7 @@
 <template>
   <div class="alert alert-bg shadow" role="alert">
-    This Pokédex shows Generation 1 Pokémon
+    This Pokédex shows Generation 1 Pokémon.
+    <div>Add two Pokémon to compare them.</div>
   </div>
 </template>
 

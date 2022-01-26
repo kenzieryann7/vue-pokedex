@@ -35,9 +35,20 @@ body {
   background-color: rgb(54, 88, 90);
   color: white;
 }
-
+.pokedex {
+  color: #4d4d4d !important;
+  font-size: 13px !important;
+}
 .bg-poke-light {
   background-color: #ffcb05;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-danger:hover {
+  color: #a52834 !important;
 }
 
 .poke-btn {
@@ -53,7 +64,12 @@ body {
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
   transform: scale(1.1);
 }
-
+.poke-blue {
+  background: #3d7dca !important;
+}
+.poke-yellow {
+  background: #dbb724 !important;
+}
 .card-bg {
   background-color: rgb(173, 215, 216);
 }

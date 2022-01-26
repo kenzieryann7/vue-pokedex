@@ -2,7 +2,7 @@
   <div class="card bg-dark text-white mb-2">
     <div class="card-body p-2">
       <!-- ************ FILTER NAV ************ -->
-      <div class="row">
+      <div class="row ">
         <div class="col text-start">
           <div
             class="btn-group"
@@ -80,77 +80,76 @@
   <div class="row">
     <div class="col-3" v-for="poke in filteredList" :key="poke.id">
       <div
-        class="card bg-light mb-3 shadow "
+        class="card poke-card bg-light mb-3 shadow "
         :class="{
           'gradient-border': poke.legendary == true,
           'border border-dark border-2': poke.legendary == false
         }"
       >
-        <div class="card-body card-bg">
+        <div class="card-body card-bg pb-1">
           <!-- *** POKE IMAGE *** -->
           <img
             v-if="poke?.image"
             class="img-fluid card-img"
             :src="require('@/assets/new-poke/' + poke?.image)"
           />
-        </div>
-        <div class="card-footer bg-dark text-white">
-          <div class="row">
-            <div class="col text-start fw-bold align-self-center">
-              <!-- *** NAME *** -->
-              <span class="poke-name"
-                >{{ poke.name }}
-                <span class="me-1" v-if="poke?.image == 'NidoranF.png'">
-                  <Female
-                /></span>
-                <span class="me-1" v-if="poke?.image == 'NidoranM.png'">
-                  <Male
-                /></span>
-                <span class="text-muted">#{{ formatId(poke.id) }}</span></span
-              >
-              <br />
-              <!-- *** TYPE BADGE *** -->
-              <h6>
-                <span
-                  class="badge me-2"
-                  v-for="type in poke.type"
-                  :key="type"
-                  :class="{
-                    normal: type.label == 'Normal',
-                    fire: type.label == 'Fire',
-                    water: type.label == 'Water',
-                    grass: type.label == 'Grass',
-                    electric: type.label == 'Electric',
-                    ice: type.label == 'Ice',
-                    fighting: type.label == 'Fighting',
-                    poison: type.label == 'Poison',
-                    ground: type.label == 'Ground',
-                    flying: type.label == 'Flying',
-                    psychic: type.label == 'Psychic',
-                    bug: type.label == 'Bug',
-                    rock: type.label == 'Rock',
-                    ghost: type.label == 'Ghost',
-                    dragon: type.label == 'Dragon',
-                    dark: type.label == 'Dark',
-                    steel: type.label == 'Steel',
-                    fairy: type.label == 'Fairy'
-                  }"
-                  >{{ type.label }}</span
-                >
-              </h6>
-            </div>
-            <div class="col-4 text-end align-self-center">
-              <button
-                type="button"
-                class="btn btn-sm poke-btn "
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                @click="getSelectedPokemon(poke)"
-              >
-                View
-              </button>
-            </div>
+          <!-- POKE NAME -->
+          <div class="poke-name fw-bold text-start">
+            {{ poke.name }}
+            <span class="me-1" v-if="poke?.image == 'NidoranF.png'">
+              <Female
+            /></span>
+            <span class="me-1" v-if="poke?.image == 'NidoranM.png'">
+              <Male
+            /></span>
+            <span class="pokedex">#{{ formatId(poke.id) }}</span>
           </div>
+          <div class="text-start">
+            <span
+              class="badge me-2 mb-1 border border-dark border-2 shadow-sm"
+              v-for="type in poke.type"
+              :key="type"
+              :class="{
+                normal: type.label == 'Normal',
+                fire: type.label == 'Fire',
+                water: type.label == 'Water',
+                grass: type.label == 'Grass',
+                electric: type.label == 'Electric',
+                ice: type.label == 'Ice',
+                fighting: type.label == 'Fighting',
+                poison: type.label == 'Poison',
+                ground: type.label == 'Ground',
+                flying: type.label == 'Flying',
+                psychic: type.label == 'Psychic',
+                bug: type.label == 'Bug',
+                rock: type.label == 'Rock',
+                ghost: type.label == 'Ghost',
+                dragon: type.label == 'Dragon',
+                dark: type.label == 'Dark',
+                steel: type.label == 'Steel',
+                fairy: type.label == 'Fairy'
+              }"
+              >{{ type.label }}</span
+            >
+          </div>
+        </div>
+        <div class="card-footer bg-dark text-white text-end">
+          <button
+            type="button"
+            class="btn btn-sm poke-btn m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            @click="getSelectedPokemon(poke)"
+          >
+            View <i class="bi bi-eye h5 text-end ms-1"></i>
+          </button>
+          <button
+            type="button"
+            class="btn btn-sm poke-btn fw-bold m-1"
+            @click="addToCompare(poke)"
+          >
+            Add <i class="bi bi-plus-circle-dotted h5 ms-1"></i>
+          </button>
         </div>
       </div>
     </div>
@@ -159,22 +158,22 @@
 
   <!-- ************ MODAL ************ -->
   <div
-    class="modal fade"
+    class="modal fade "
     id="exampleModal"
     tabindex="-1"
     aria-labelledby="exampleModalLabel"
     aria-hidden="true"
   >
     <div
-      class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable"
+      class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable my-5"
     >
       <div
         :class="{
           'gradient-border': selectedPokemon?.legendary == true
         }"
       >
-        <div class="modal-content">
-          <div class="modal-header bg-dark text-white">
+        <div class="modal-content my-2">
+          <div class="modal-header mt-5 bg-dark text-white">
             <h4 class="modal-title fw-bold" id="exampleModalLabel">
               {{ selectedPokemon?.name }}
               <span
@@ -390,6 +389,7 @@ export default {
     return {
       pokeData: pokeData,
       selectedPokemon: null,
+      compare2Pokemon: [],
       search: '',
       count: 0
     };
@@ -414,6 +414,9 @@ export default {
     getSelectedPokemon(poke) {
       this.selectedPokemon = poke;
       console.log('Selected Pokemon:', this.selectedPokemon);
+    },
+    addToCompare(poke) {
+      this.$emit('comparePokemon', poke);
     },
     // FILTERS
     getSortType(sort) {
@@ -495,5 +498,9 @@ export default {
 }
 .poke-name {
   font-size: 18px;
+}
+.poke-fixed {
+  position: fixed;
+  z-index: 1000;
 }
 </style>

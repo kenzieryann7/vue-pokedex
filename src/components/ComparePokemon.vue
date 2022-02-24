@@ -34,16 +34,16 @@
             <div class="fw-bold">Legend</div>
 
             <h5>
-              <span class="badge poke-blue text-white m-1">{{
+              <span class="badge bg-warning text-white m-1">{{
                 comparedPokemon[0].name
               }}</span>
-              <span class="badge bg-warning text-white m-1">{{
+              <span class="badge poke-blue text-white m-1">{{
                 comparedPokemon[1].name
               }}</span>
             </h5>
           </div>
 
-          <img src="@/assets/chart.png" class="img-fluid" />
+          <img :src="graphLink" class="img-fluid rounded" />
         </div>
       </div>
       <div>
@@ -58,10 +58,19 @@
 <script>
 //import html2canvas from 'html2canvas';
 import { save } from '@/helpers/elementCapture.js';
+
 export default {
   name: 'ComparePokemon',
   props: {
-    comparedPokemon: Array
+    graphLink: String,
+    comparedPokemon: Array,
+    pokemon1: Object,
+    pokemon2: Object
+  },
+  data: () => {
+    return {
+      //graphURL: graph
+    };
   },
   computed: {
     save
@@ -70,37 +79,10 @@ export default {
     viewPokedex() {
       this.$emit('view-pokedex', false); // false to change the compare boolean on Main.vue to show Pokedex
     }
-    // showCaptureRef() {
-    //   console.log('Capture:', this.$refs.capture);
-    // }
-    // save: function() {
-    //   new html2canvas(this.$refs.capture, {
-    //     backgroundColor: null,
-    //     scrollX: 0,
-    //     scrollY: -window.scrollY,
-    //     scale: 1,
-    //     allowTaint: true,
-    //     useCORS: true
-    //   }).then(function(canvas) {
-    //     let uri = canvas.toDataURL();
-    //     let filename = 'data-capture';
-    //     let link = document.createElement('a');
-    //     if (typeof link.download === 'string') {
-    //       link.href = uri;
-    //       link.download = filename;
-    //       //Firefox requires the link to be in the body
-    //       document.body.appendChild(link);
-    //       //simulate click
-    //       link.click();
-    //       //remove the link when done
-    //       document.body.removeChild(link);
-    //     } else {
-    //       window.open(uri);
-    //     }
-    //   });
-    // }
   },
-  mounted() {}
+  mounted() {
+    console.log(this.graphLink);
+  }
 };
 </script>
 

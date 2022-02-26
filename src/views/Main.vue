@@ -31,6 +31,8 @@ import ComparePokemon from '@/components/ComparePokemon.vue';
 let statLabels = [];
 let pokeData1 = [];
 let pokeData2 = [];
+let pokeName1 = null;
+let pokeName2 = null;
 let graphURL = null;
 export default {
   name: 'Main',
@@ -107,6 +109,8 @@ export default {
       this.comparedPokemon.splice(payload.index, 1);
     },
     getData() {
+      pokeName1 = this.comparedPokemon[0].name;
+      pokeName2 = this.comparedPokemon[1].name;
       this.pokemon1.map(e => {
         pokeData1.push(e.amount);
       });
@@ -123,6 +127,8 @@ export default {
       //const statKeys = statLabels;
       const pokeVals1 = pokeData1;
       const pokeVals2 = pokeData2;
+      const poke1 = pokeName1;
+      const poke2 = pokeName2;
 
       const template = {
         config: {
@@ -138,6 +144,7 @@ export default {
             ],
             datasets: [
               {
+                label: poke1,
                 backgroundColor: 'rgba(255, 205, 5, 0.3)',
                 borderColor: 'rgb(255, 205, 5)',
                 pointBackgroundColor: 'rgb(194, 156, 6)',
@@ -145,6 +152,7 @@ export default {
                 pointHoverRadius: 30
               },
               {
+                label: poke2,
                 backgroundColor: 'rgba(61, 124, 202, 0.5)',
                 borderColor: 'rgb(61, 124, 202)',
                 pointBackgroundColor: 'rgb(26, 78, 143)',
@@ -154,8 +162,12 @@ export default {
             ]
           },
           options: {
-            legend: { display: false },
-            title: { display: true, text: 'Pokemon Stats' },
+            legend: {
+              display: true,
+              align: 'start',
+              labels: { fontSize: 8, fontColor: 'black' }
+            },
+            title: { display: true, text: 'Pokemon Stats', fontColor: 'black' },
             scale: { ticks: { display: true } }
           }
         },

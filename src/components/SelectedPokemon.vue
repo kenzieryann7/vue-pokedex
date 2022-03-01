@@ -21,11 +21,11 @@
           </div>
           <span v-for="poke in comparedPokemon" :key="poke.id">
             <div>
-              <i
-                class="bi bi-x-square-fill me-2 text-danger pointer"
-                title="Remove Pokémon"
-                @click="removePokemon(poke)"
-              ></i
+              <span class="fw-bold" :remove-tooltip="'Remove Pokémon'">
+                <i
+                  class="bi bi-x-square-fill me-2 text-danger pointer"
+                  @click="removePokemon(poke)"
+                ></i></span
               >{{ poke.name }}
               <span class="text-muted pokedex">#{{ formatId(poke.id) }}</span>
             </div>
@@ -37,7 +37,9 @@
             />
           </span>
           <div class="text-center mt-2" v-if="comparedPokemon.length == 2">
-            <router-link :to="{ name: 'PokemonCompare' }"
+            <router-link
+              :to="{ name: 'PokemonCompare' }"
+              :select-tooltip="'Close Selected Pokémon'"
               ><button type="button" class="btn poke-btn">
                 Compare
               </button></router-link
@@ -47,21 +49,19 @@
       </div>
       <div class="col-3 text-end ">
         <button
+          :select-tooltip="'Close Selected Pokémon'"
           v-if="showSelectedPokemon == true"
           type="button"
-          class="btn close-btn poke-btn"
-          style="height: 100%;"
-          title="Click to show selected Pokémon."
+          class="btn poke-btn"
           @click="getShowSelectedPokemon(false)"
         >
           <i class="bi bi-caret-left-fill"></i>
         </button>
         <button
+          :select-tooltip="'Show Selected Pokémon'"
           v-if="showSelectedPokemon == false"
           type="button"
-          class="btn close-btn poke-btn"
-          style="height: 100%;"
-          title="Click to show selected Pokémon."
+          class="btn poke-btn"
           @click="getShowSelectedPokemon(true)"
         >
           <i class="bi bi-caret-right-fill"></i>

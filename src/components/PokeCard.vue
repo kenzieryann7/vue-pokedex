@@ -135,6 +135,7 @@
         </div>
         <div class="card-footer bg-dark text-white p-2">
           <button
+            :poke-tooltip="'View Pokémon Information'"
             type="button"
             class="btn btn-sm poke-btn m-1"
             data-bs-toggle="modal"
@@ -144,6 +145,7 @@
             View <i class="bi bi-eye h5 text-end ms-1"></i>
           </button>
           <button
+            :poke-tooltip="'Add Pokémon to Compare'"
             type="button"
             class="btn btn-sm poke-btn fw-bold m-1"
             @click="getPokemonToCompare(poke)"
@@ -151,6 +153,7 @@
             Compare <i class="bi bi-file-bar-graph h5 ms-1"></i>
           </button>
           <button
+            :poke-tooltip="'Add Pokémon to Team Roster'"
             type="button"
             class="btn btn-sm poke-btn fw-bold m-1"
             @click="addPokemonToRoster(poke)"

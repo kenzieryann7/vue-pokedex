@@ -202,3 +202,102 @@ h6 {
     background-position: 0% 50%;
   }
 }
+
+/* POKE TOOLTIPS */
+[poke-tooltip]:before {
+  /* needed - do not touch */
+
+  z-index: 999;
+  white-space: nowrap;
+  content: attr(poke-tooltip);
+  position: absolute;
+  opacity: 0;
+
+  /* customizable */
+  transition: all 0.15s ease;
+  padding: 10px;
+  color: white;
+  font-size: 12.5px;
+  border: 3px solid #ffcb05;
+  border-radius: 10px;
+}
+
+[poke-tooltip]:hover:before {
+  /* needed - do not touch */
+  opacity: 1;
+  /* customizable */
+  background: black;
+  margin-top: -55px;
+  margin-left: -120px;
+  padding: 10px;
+}
+
+[poke-tooltip]:not([poke-tooltip-persistent]):before {
+  pointer-events: none;
+}
+
+/* REMOVE TOOLTIPS */
+[remove-tooltip]:before {
+  /* needed - do not touch */
+
+  z-index: 999;
+  white-space: nowrap;
+  content: attr(remove-tooltip);
+  position: absolute;
+  opacity: 0;
+
+  /* customizable */
+  transition: all 0.15s ease;
+  padding: 10px;
+  color: white;
+  font-size: 12.5px;
+  border: 3px solid #ffcb05;
+  border-radius: 10px;
+}
+
+[remove-tooltip]:hover:before {
+  /* needed - do not touch */
+  opacity: 1;
+  /* customizable */
+  background: black;
+  margin-top: -55px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+[remove-tooltip]:not([remove-tooltip-persistent]):before {
+  pointer-events: none;
+}
+
+/* SELECT TOOLTIPS */
+[select-tooltip]:before {
+  /* needed - do not touch */
+
+  z-index: 999;
+  white-space: nowrap;
+  content: attr(select-tooltip);
+  position: absolute;
+  opacity: 0;
+
+  /* customizable */
+  transition: all 0.15s ease;
+  padding: 10px;
+  color: white;
+  font-size: 12.5px;
+  border: 3px solid #ffcb05;
+  border-radius: 10px;
+}
+
+[select-tooltip]:hover:before {
+  /* needed - do not touch */
+  opacity: 1;
+  /* customizable */
+  background: black;
+  margin-top: -60px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+[select-tooltip]:not([select-tooltip-persistent]):before {
+  pointer-events: none;
+}

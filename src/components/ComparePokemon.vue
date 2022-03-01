@@ -14,14 +14,10 @@
     Image saved at desired location.
   </div>
   <div class="text-start mb-2">
-    <button
-      type="button"
-      class="btn poke-btn"
-      title="Return to Pokédex"
-      @click="viewPokedex()"
-    >
-      <i class="bi bi-arrow-left-circle h4"></i>
-    </button>
+    <router-link :to="{ name: previousPageBeforeCompare }"
+      ><button type="button" class="btn poke-btn" title="Return to Pokédex">
+        <i class="bi bi-arrow-left-circle h4"></i></button
+    ></router-link>
   </div>
   <div class="row">
     <div class="col-3">
@@ -76,15 +72,11 @@
 <script>
 //import html2canvas from 'html2canvas';
 import { save } from '@/helpers/elementCapture.js';
+import { mapGetters } from 'vuex';
 let graph_url = null;
 export default {
   name: 'ComparePokemon',
-  props: {
-    graphLink: String,
-    comparedPokemon: Array,
-    pokemon1: Object,
-    pokemon2: Object
-  },
+  props: {},
   data: () => {
     return {
       //graphURL: graph
@@ -93,6 +85,11 @@ export default {
     };
   },
   computed: {
+    ...mapGetters({
+      graphLink: 'getGraphURL',
+      comparedPokemon: 'getComparedPokemon',
+      previousPageBeforeCompare: 'getPreviousPageBeforeCompare'
+    }),
     save
   },
   methods: {

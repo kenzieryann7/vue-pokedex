@@ -78,7 +78,7 @@
 
   <!-- ************ POKECARD ************ -->
   <div class="row">
-    <div class="col-3" v-for="poke in filteredList" :key="poke.id">
+    <div class="col-3" v-for="poke in filteredPokeData" :key="poke.id">
       <div
         class="card poke-card bg-light mb-3 shadow "
         :class="{
@@ -133,7 +133,7 @@
             >
           </div>
         </div>
-        <div class="card-footer bg-dark text-white text-end">
+        <div class="card-footer bg-dark text-white p-2">
           <button
             type="button"
             class="btn btn-sm poke-btn m-1"
@@ -146,7 +146,14 @@
           <button
             type="button"
             class="btn btn-sm poke-btn fw-bold m-1"
-            @click="addToCompare(poke)"
+            @click="getPokemonToCompare(poke)"
+          >
+            Compare <i class="bi bi-file-bar-graph h5 ms-1"></i>
+          </button>
+          <button
+            type="button"
+            class="btn btn-sm poke-btn fw-bold m-1"
+            @click="addPokemonToRoster(poke)"
           >
             Add <i class="bi bi-plus-circle-dotted h5 ms-1"></i>
           </button>
@@ -377,6 +384,7 @@ import Male from '@/components/MaleSVG.vue';
 import Female from '@/components/FemaleSVG.vue';
 import BothSexes from '@/components/BothMFSVG.vue';
 import pokeData from '@/data/test.json';
+import { mapActions, mapGetters } from 'vuex';
 export default {
   name: 'PokeCard',
   props: {},
@@ -395,6 +403,9 @@ export default {
     };
   },
   computed: {
+    ...mapGetters({
+      filteredPokeData: 'getFilteredPokeData'
+    }),
     filteredList() {
       return this.pokeData.filter(poke => {
         return poke.name.toLowerCase().includes(this.search.toLowerCase());
@@ -402,6 +413,12 @@ export default {
     }
   },
   methods: {
+    ...mapActions({
+      getPokemonToCompare: 'getPokemonToCompare',
+      getFilteredPokeData: 'getFilteredPokeData',
+      getSortType: 'getSortType',
+      addPokemonToRoster: 'addPokemonToRoster'
+    }),
     formatId(id) {
       if (id < 10) {
         return '00' + id;
@@ -413,71 +430,10 @@ export default {
     },
     getSelectedPokemon(poke) {
       this.selectedPokemon = poke;
-      console.log('Selected Pokemon:', this.selectedPokemon);
-    },
-    addToCompare(poke) {
-      this.$emit('comparePokemon', poke);
-    },
-    // FILTERS
-    getSortType(sort) {
-      let poke = this.pokeData;
-      // ascending by name
-      if (sort == 'ascName') {
-        return poke.sort((a, b) => {
-          let fa = a.name,
-            fb = b.name;
-          if (fa < fb) {
-            return -1;
-          }
-          if (fa > fb) {
-            return 1;
-          }
-          return 0;
-        });
-      }
-      // descending by name
-      if (sort == 'descName') {
-        return poke.sort((a, b) => {
-          let fa = a.name,
-            fb = b.name;
-          if (fa < fb) {
-            return 1;
-          }
-          if (fa > fb) {
-            return -1;
-          }
-          return 0;
-        });
-      }
-      // ascending by ID
-      if (sort == 'ascID') {
-        return poke.sort((a, b) => {
-          let fa = a.id,
-            fb = b.id;
-          if (fa < fb) {
-            return -1;
-          }
-          if (fa > fb) {
-            return 1;
-          }
-          return 0;
-        });
-      }
-      // descending by ID
-      if (sort == 'descID') {
-        return poke.sort((a, b) => {
-          let fa = a.id,
-            fb = b.id;
-          if (fa > fb) {
-            return -1;
-          }
-          if (fa < fb) {
-            return 1;
-          }
-          return 0;
-        });
-      }
     }
+  },
+  mounted() {
+    this.getFilteredPokeData('getFilteredPokeData');
   }
 };
 </script>

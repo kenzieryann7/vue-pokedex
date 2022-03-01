@@ -1,7 +1,10 @@
 <template>
   <div class="alert alert-bg shadow" role="alert">
     This Pokédex shows Generation 1 Pokémon.
-    <div>Add two Pokémon to compare them.</div>
+    <div>
+      Click Compare to add two Pokémon to your selected list to then compare
+      battle stats.
+    </div>
   </div>
 </template>
 

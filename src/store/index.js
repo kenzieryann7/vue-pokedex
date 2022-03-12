@@ -154,7 +154,7 @@ export default createStore({
       }
     },
     setLastPage(state, page) {
-      state.getPreviousPageBeforeCompare = page;
+      state.previousPageBeforeCompare = page;
     }
   },
   actions: {
@@ -265,7 +265,6 @@ export default createStore({
     getPokemonRoster: state => state.pokemonRoster,
     getComparedPokemon: state => state.comparedPokemon,
     getShowSelectedPokemon: state => state.showSelectedPokemon,
-    getGraphURL: state => state.graphURL,
-    getPreviousPageBeforeCompare: state => state.getPreviousPageBeforeCompare
+    getGraphURL: state => state.graphURL
   }
 });

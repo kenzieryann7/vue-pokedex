@@ -72,7 +72,7 @@
 <script>
 //import html2canvas from 'html2canvas';
 import { save } from '@/helpers/elementCapture.js';
-import { mapActions, mapGetters } from 'vuex';
+import { mapActions, mapGetters, mapState } from 'vuex';
 let graph_url = null;
 export default {
   name: 'ComparePokemon',
@@ -85,11 +85,11 @@ export default {
     };
   },
   computed: {
+    ...mapState(['previousPageBeforeCompare']),
     ...mapGetters({
       graphLink: 'getGraphURL',
       comparedPokemon: 'getComparedPokemon',
-      pokemonRoster: 'getPokemonRoster',
-      previousPageBeforeCompare: 'getPreviousPageBeforeCompare'
+      pokemonRoster: 'getPokemonRoster'
     }),
     save
   },

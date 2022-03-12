@@ -23,7 +23,6 @@ export default {
   data: () => {
     return {
       graphLink: '',
-      //comparedPokemon: [],
       pokemon1: null,
       pokemon2: null,
       compare: false,

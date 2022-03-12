@@ -78,7 +78,7 @@
 
   <!-- ************ POKECARD ************ -->
   <div class="row">
-    <div class="col-3" v-for="poke in filteredPokeData" :key="poke.id">
+    <div class="col-3" v-for="poke in filteredList" :key="poke.id">
       <div
         class="card poke-card bg-light mb-3 shadow "
         :class="{
@@ -410,7 +410,7 @@ export default {
       filteredPokeData: 'getFilteredPokeData'
     }),
     filteredList() {
-      return this.pokeData.filter(poke => {
+      return this.filteredPokeData.filter(poke => {
         return poke.name.toLowerCase().includes(this.search.toLowerCase());
       });
     }

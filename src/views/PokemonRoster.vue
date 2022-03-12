@@ -146,7 +146,8 @@ export default {
       }
       return id;
     }
-  }
+  },
+  mounted() {}
 };
 </script>
 

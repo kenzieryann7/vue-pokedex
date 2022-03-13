@@ -14,59 +14,55 @@
     Image saved at desired location.
   </div>
   <div class="text-start mb-2">
-    <button
-      type="button"
-      class="btn poke-btn"
-      title="Return to Pokédex"
-      @click="viewPokedex()"
-    >
-      <i class="bi bi-arrow-left-circle h4"></i>
-    </button>
+    <router-link :to="{ name: previousPageBeforeCompare }"
+      ><button type="button" class="btn poke-btn" title="Return to Pokédex">
+        <i class="bi bi-arrow-left-circle h4"></i></button
+    ></router-link>
   </div>
   <div class="row">
-    <div class="col-3">
+    <div class="col-5">
       <div class="card text-white bg-dark mb-3 shadow">
-        <div class="card-header fw-bold">Selected Pokémon</div>
+        <div class="card-header fw-bold h4">Selected Pokémon</div>
         <div class="card-body">
-          <div v-for="poke in comparedPokemon" :key="poke.id">
-            <div class="fw-bold">{{ poke.name }}</div>
-            <img
-              v-if="poke?.image"
-              class="img-fluid card-img"
-              style="width: 8rem;"
-              :src="require('@/assets/new-poke/' + poke?.image)"
-            />
+          <div class="row">
+            <div class="col" v-for="poke in comparedPokemon" :key="poke.id">
+              <div class="fw-bold h5">{{ poke.name }}</div>
+              <img
+                v-if="poke?.image"
+                class="img-fluid card-img"
+                style="width: 12rem;"
+                :src="require('@/assets/new-poke/' + poke?.image)"
+              />
+              <div class="text-muted" v-if="pokemonRoster.includes(poke)">
+                In Roster
+              </div>
+              <button
+                v-if="!pokemonRoster.includes(poke)"
+                type="button"
+                class="btn btn-sm poke-btn fw-bold m-1"
+                @click="addPokemonToRoster(poke)"
+              >
+                Add <i class="bi bi-plus-circle-dotted h5 ms-1"></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="col">
       <div id="capture" class="card text-white bg-dark mb-3 shadow">
-        <div class="card-header fw-bold">Compared Data</div>
-        <div class="card-body pb-2">
-          <div class="text-start mb-3">
-            <div class="fw-bold">Legend</div>
-
-            <h5>
-              <span class="badge bg-warning text-white m-1">{{
-                comparedPokemon[0].name
-              }}</span>
-              <span class="badge poke-blue text-white m-1">{{
-                comparedPokemon[1].name
-              }}</span>
-            </h5>
-          </div>
-
+        <div class="card-header fw-bold h4">Compared Data</div>
+        <div class="card-body py-2">
           <img :src="graphLink" class="img-fluid rounded" />
         </div>
       </div>
       <div>
         <button
           type="button"
-          class="btn btn-primary btn-lg"
-          @click="showAlert(), savePokeChart()"
+          class="btn btn-lg poke-btn fw-bold"
+          @click="showSaveAlert(), savePokemon()"
         >
-          Download Data
+          Download Data <i class="bi bi-download h4 ms-1"></i>
         </button>
       </div>
     </div>
@@ -76,15 +72,11 @@
 <script>
 //import html2canvas from 'html2canvas';
 import { save } from '@/helpers/elementCapture.js';
+import { mapActions, mapGetters, mapState } from 'vuex';
 let graph_url = null;
 export default {
   name: 'ComparePokemon',
-  props: {
-    graphLink: String,
-    comparedPokemon: Array,
-    pokemon1: Object,
-    pokemon2: Object
-  },
+  props: {},
   data: () => {
     return {
       //graphURL: graph
@@ -93,13 +85,20 @@ export default {
     };
   },
   computed: {
+    ...mapState(['previousPageBeforeCompare']),
+    ...mapGetters({
+      graphLink: 'getGraphURL',
+      comparedPokemon: 'getComparedPokemon',
+      pokemonRoster: 'getPokemonRoster'
+    }),
     save
   },
   methods: {
-    viewPokedex() {
-      this.$emit('view-pokedex', false); // false to change the compare boolean on Main.vue to show Pokedex
-    },
-    showAlert() {
+    ...mapActions({
+      addPokemonToRoster: 'addPokemonToRoster',
+      savePokemon: 'savePokemon'
+    }),
+    showSaveAlert() {
       this.showSaving = true;
       setTimeout(() => {
         this.showSaving = false;
@@ -108,32 +107,7 @@ export default {
           this.showSaved = false;
         }, 4000);
       }, 2000);
-    },
-    // my microservice
-    savePokeChart: async () => {
-      const url = graph_url;
-      const savePath = '/Users/kenzie/Documents/pokeStats.png';
-
-      let sendImgData = {
-        url,
-        savePath
-      };
-
-      const path = 'http://localhost:8095/savePokeChart';
-      await fetch(path, {
-        method: 'POST',
-        body: JSON.stringify(sendImgData),
-        headers: {
-          Accept: 'application/json',
-          'Content-Type': 'application/json'
-        }
-      });
     }
-  },
-  mounted() {
-    graph_url = this.graphLink;
-    //console.log(graph_url);
-    //console.log(window.document.getElementById('capture'));
   }
 };
 </script>

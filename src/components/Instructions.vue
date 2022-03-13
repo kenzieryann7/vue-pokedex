@@ -1,7 +1,10 @@
 <template>
-  <div class="alert alert-bg shadow" role="alert">
+  <div class="alert alert-bg shadow fw-bold" role="alert">
     This Pokédex shows Generation 1 Pokémon.
-    <div>Add two Pokémon to compare them.</div>
+    <div>
+      Click Compare to add two Pokémon to your selected list to then compare
+      battle stats.
+    </div>
   </div>
 </template>
 
@@ -24,7 +27,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .alert-bg {
-  background-color: #ffcb05;
-  color: black;
+  background-color: #3d7dca;
+  color: white;
 }
 </style>

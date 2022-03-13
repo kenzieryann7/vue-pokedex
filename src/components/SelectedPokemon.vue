@@ -2,7 +2,7 @@
   <div class="text-start info-fixed" v-if="selectInfo">
     <span class="ms-2 badge bg-primary shadow"
       ><i class="bi bi-arrow-down h5 align-middle me-1"></i> Click here to see
-      the Pokémon you have selected.</span
+      the Pokémon you have selected to compare.</span
     >
   </div>
   <div
@@ -21,11 +21,11 @@
           </div>
           <span v-for="poke in comparedPokemon" :key="poke.id">
             <div>
-              <i
-                class="bi bi-x-square-fill me-2 text-danger pointer"
-                title="Remove Pokémon"
-                @click="removePokemon(poke)"
-              ></i
+              <span class="fw-bold" :remove-tooltip="'Remove Pokémon'">
+                <i
+                  class="bi bi-x-square-fill me-2 text-danger pointer"
+                  @click="removePokemon(poke)"
+                ></i></span
               >{{ poke.name }}
               <span class="text-muted pokedex">#{{ formatId(poke.id) }}</span>
             </div>
@@ -37,31 +37,34 @@
             />
           </span>
           <div class="text-center mt-2" v-if="comparedPokemon.length == 2">
-            <button
-              type="button"
-              class="btn poke-btn"
-              @click="comparingPokemon()"
+            <router-link
+              :to="{ name: 'PokemonCompare' }"
+              :select-tooltip="'Close Selected Pokémon'"
+              ><button type="button" class="btn poke-btn">
+                Compare
+              </button></router-link
             >
-              Compare
-            </button>
           </div>
         </span>
       </div>
       <div class="col-3 text-end ">
         <button
+          :select-tooltip="'Close Selected Pokémon'"
+          v-if="showSelectedPokemon == true"
           type="button"
-          class="btn close-btn poke-btn"
-          style="height: 100%;"
-          title="Click to show selected Pokémon."
-          @click="showAlert((show = !show))"
+          class="btn poke-btn"
+          @click="getShowSelectedPokemon(false)"
         >
-          <i
-            class="bi"
-            :class="{
-              'bi-caret-right-fill': !showSelectedPokemon,
-              'bi-caret-left-fill': showSelectedPokemon
-            }"
-          ></i>
+          <i class="bi bi-caret-left-fill"></i>
+        </button>
+        <button
+          :select-tooltip="'Show Selected Pokémon'"
+          v-if="showSelectedPokemon == false"
+          type="button"
+          class="btn poke-btn"
+          @click="getShowSelectedPokemon(true)"
+        >
+          <i class="bi bi-caret-right-fill"></i>
         </button>
       </div>
     </div>
@@ -69,24 +72,29 @@
 </template>
 
 <script>
+import { mapActions, mapGetters } from 'vuex';
 export default {
   name: 'SelectedPokemon',
-  props: {
-    comparedPokemon: Array,
-    showSelectedPokemon: Boolean
-  },
+  props: {},
   data: () => {
     return {
-      show: false,
       selectInfo: true
     };
   },
+  computed: {
+    ...mapGetters({
+      showSelectedPokemon: 'getShowSelectedPokemon',
+      comparedPokemon: 'getComparedPokemon'
+    })
+  },
   methods: {
+    ...mapActions({
+      getShowSelectedPokemon: 'getShowSelectedPokemon',
+      getFormatId: 'getFormatId',
+      getRemovedSelectedPokemon: 'getRemovedSelectedPokemon'
+    }),
     comparingPokemon() {
       this.$emit('comparingPokemon', true);
-    },
-    showAlert(bool) {
-      this.$emit('show-selected', bool);
     },
     formatId(id) {
       if (id < 10) {
@@ -98,12 +106,8 @@ export default {
       return id;
     },
     removePokemon(poke) {
-      //let idx = this.comparedPokemon.indexOf(poke);
-      let payload = {
-        pokeObj: poke,
-        index: this.comparedPokemon.indexOf(poke)
-      };
-      this.$emit('remove-pokemon', payload);
+      let idx = this.comparedPokemon.indexOf(poke);
+      this.getRemovedSelectedPokemon(idx);
     }
   },
   mounted() {

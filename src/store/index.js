@@ -22,7 +22,8 @@ export default createStore({
     pokeData1: [],
     pokeData2: [],
     pokemonSelected: false,
-    previousPageBeforeCompare: 'Main'
+    previousPageBeforeCompare: 'Main',
+    rosterURL: null
   },
   mutations: {
     setFilteredPokeData(state) {
@@ -155,6 +156,10 @@ export default createStore({
     },
     setLastPage(state, page) {
       state.previousPageBeforeCompare = page;
+    },
+    setRosterURL(state, url) {
+      state.graphURL = url;
+      console.log("roster url", state.graphURL)
     }
   },
   actions: {
@@ -192,6 +197,10 @@ export default createStore({
       context.commit('setLastPage', page);
       console.log(page);
     },
+    getRosterURL(context, url) {
+      context.commit('setRosterURL', url);
+    },
+    // Teammates Microservice
     generateGraph: async rootState => {
       //const statKeys = statLabels;
       const pokeVals1 = rootState.state.pokeData1;
@@ -257,6 +266,26 @@ export default createStore({
       rootState.state.graphURL = await val.graph_url;
       console.log(rootState.state.graphURL);
       return val.graph_url;
+    },
+    // My Microservice
+    savePokemon: async rootState => {
+      const url = rootState.state.graphURL;
+      const savePath = '/Users/kenzie/Documents/pokeData.png';
+
+      let sendImgData = {
+        url,
+        savePath
+      };
+
+      const path = 'http://localhost:8095/savePokeChart';
+      await fetch(path, {
+        method: 'POST',
+        body: JSON.stringify(sendImgData),
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json'
+        }
+      });
     }
   },
   getters: {

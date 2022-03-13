@@ -60,7 +60,7 @@
         <button
           type="button"
           class="btn btn-lg poke-btn fw-bold"
-          @click="showAlert(), savePokeChart()"
+          @click="showSaveAlert(), savePokemon()"
         >
           Download Data <i class="bi bi-download h4 ms-1"></i>
         </button>
@@ -95,12 +95,10 @@ export default {
   },
   methods: {
     ...mapActions({
-      addPokemonToRoster: 'addPokemonToRoster'
+      addPokemonToRoster: 'addPokemonToRoster',
+      savePokemon: 'savePokemon'
     }),
-    viewPokedex() {
-      this.$emit('view-pokedex', false); // false to change the compare boolean on Main.vue to show Pokedex
-    },
-    showAlert() {
+    showSaveAlert() {
       this.showSaving = true;
       setTimeout(() => {
         this.showSaving = false;
@@ -109,32 +107,7 @@ export default {
           this.showSaved = false;
         }, 4000);
       }, 2000);
-    },
-    // my microservice
-    savePokeChart: async () => {
-      const url = graph_url;
-      const savePath = '/Users/kenzie/Documents/pokeStats.png';
-
-      let sendImgData = {
-        url,
-        savePath
-      };
-
-      const path = 'http://localhost:8095/savePokeChart';
-      await fetch(path, {
-        method: 'POST',
-        body: JSON.stringify(sendImgData),
-        headers: {
-          Accept: 'application/json',
-          'Content-Type': 'application/json'
-        }
-      });
     }
-  },
-  mounted() {
-    graph_url = this.graphLink;
-    //console.log(graph_url);
-    //console.log(window.document.getElementById('capture'));
   }
 };
 </script>

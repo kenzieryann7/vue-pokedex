@@ -1,6 +1,6 @@
 <template>
   <SelectedPokemon />
-  <div class="container">
+  <div class="container" id="capture">
     <div
       v-if="pokemonRoster.length == 0"
       class="alert alert-bg shadow"
@@ -16,8 +16,8 @@
         <div class="col text-end">
           <button
             type="button"
-            class="btn btn-lg poke-btn fw-bold"
-            @click="showAlert(), savePokeChart()"
+            class="btn poke-btn fw-bold"
+            @click="formatElementToImage()"
           >
             Download Roster <i class="bi bi-download h4 ms-1"></i>
           </button>
@@ -118,6 +118,7 @@
 </template>
 
 <script>
+import html2canvas from 'html2canvas';
 import SelectedPokemon from '@/components/SelectedPokemon.vue';
 import { mapActions, mapGetters } from 'vuex';
 export default {
@@ -135,7 +136,9 @@ export default {
   },
   methods: {
     ...mapActions({
-      getPokemonToCompare: 'getPokemonToCompare'
+      getPokemonToCompare: 'getPokemonToCompare',
+      savePokemon: 'savePokemon',
+      getRosterURL: 'getRosterURL'
     }),
     formatId(id) {
       if (id < 10) {
@@ -145,6 +148,28 @@ export default {
         return '0' + id;
       }
       return id;
+    },
+    formatElementToImage() {
+      let ref = this;
+      html2canvas(document.getElementById('capture')).then(function(canvas) {
+        let uri = canvas.toDataURL();
+        let filename = 'pokeRoster';
+        let link = document.createElement('a');
+        if (typeof link.download === 'string') {
+          link.href = uri;
+          link.download = filename;
+          //Firefox requires the link to be in the body
+          document.body.appendChild(link);
+          ref.getRosterURL(link);
+          ref.savePokemon();
+          //simulate click
+          link.click();
+          //remove the link when done
+          document.body.removeChild(link);
+        } else {
+          window.open(uri);
+        }
+      });
     }
   },
   mounted() {}
